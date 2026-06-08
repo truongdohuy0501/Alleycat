@@ -2,11 +2,14 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta charset="UTF-8">
-  
- <link rel="stylesheet" href="style.css" type="text/css" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="src/touch-controls.css" type="text/css" />
 	
 
 		<p  style="font-family: Awesome ;visibility: hidden; position: absolute"> Dit is een testtttttttttttttttt!</p>
@@ -124,8 +127,8 @@
 
 	
 	<script src="src/scenes/Rat.js"></script>
-	
-	
+	<script src="src/touch-controls.js"></script>
+
 	<script type="module" src="src/main.js"></script>
 
 	<style>
@@ -133,6 +136,12 @@
 			background: #2f2f2f;
 			margin: 0;
 			padding: 0;
+			overscroll-behavior: none;
+		}
+
+		canvas {
+			display: block;
+			margin: 0 auto;
 		}
 	</style>
 

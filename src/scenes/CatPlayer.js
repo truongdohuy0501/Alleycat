@@ -98,12 +98,15 @@ this.scene.add.existing(this.Bubble);
 
 	/* START-USER-CODE */
 
-	Jump(){
+	isLeftDown() {
+		return this.Cursors.left.isDown || (window.TouchInput?.enabled && window.TouchInput.left);
+	}
 
-		
+	isRightDown() {
+		return this.Cursors.right.isDown || (window.TouchInput?.enabled && window.TouchInput.right);
+	}
 
-	this.scene.input.keyboard.on('keydown-UP', () =>{
-
+	onJumpPress() {
 		if(this.CatFinishStage==false){
 		if(this.disableCatStunned==false){
 this.JumpVerticalPaint=true;
@@ -143,11 +146,7 @@ this.jumptheme.play();
 
 			}
 
-//this.body.setOffset(90,-200);
 		}
-//this.time.addEvent({ delay: 1000, callback:() => {
-//this.body.setOffset(90,-20);
-//}, callbackScope: this,repeat:0 });
 
 		if(this.TouchGround){
 			if(!this.UnderWater==true){
@@ -159,67 +158,29 @@ this.body.setGravityY(2200);
 
 
 			}else{
-		//	this.PlayJumpOnce=true;
 
 				this.body.setGravityY(120);
 				this.body.setVelocityY(-130);
-				//this.setTexture('__black_cat_jump_010');
 
 			}
-		//	this.body.setOffset(90,-20);
-		}else{
-//this.setTexture('__black_cat_jump_010');
-		//this.body.setGravityY(10000);
 		}
 		}else{
 				this.setTexture('__black_cat_sit_tranistion_to_004');
 		}
+	}
 
-});
-
-	//	this.scene.events.on('postupdate', () => {  
-     //  var dx = this.body.position.x - this.body.prev.x
-     //   var dy = this.body.position.y - this.body.prev.y
-      //  console.log(`X: ${dx}\nY: ${dy}`);
-  //  });
-
-		this.scene.input.keyboard.on('keyup-UP', () =>{
-
-		//if(this.scene.overlap==false){
-
-
-
-
-
+	onJumpRelease() {
 			if(!this.UnderWater==true){
-			//	this.scene.time.addEvent({ delay: 300, callback:() => {
 					this.stick=true;
-			//}, callbackScope: this,repeat:0 });
 				this.body.setGravityY(3000);
 			}else{
 			this.body.setGravityY(120);
 			this.TouchGround=true;
 					this.PlayJumpOnce=true;
 			}
+	}
 
-
-
-
-});
-		
-
-	};
-GoLeft(){
-
-	this.scene.input.keyboard.on('keydown-LEFT', () =>{
-
-
-});
-
-
-
-							this.scene.input.keyboard.on('keyup-LEFT', () =>{
-							//	this.stop('CatWalk');
+	onLeftRelease() {
 								this.WalkLeft=false;
 								if(this.TouchGround && this.PlayOnceAnimIdle && this.stick){
 								this.play('CatIdle');
@@ -227,55 +188,64 @@ GoLeft(){
 									this.PlayOnceAnimIdle=false;
 								}
 
-							//	console.log('going ight');
-//this.stop('CatWalk');
 								this.body.setVelocityX(0);
 								this.PlayOnceAnimWalk=true;
-			//	 this.gameObject.body.setVelocityX(0);
-			//this.HooverHeliRight=false;
+	}
 
-});
-
-}
-
-
-
-GoRight(){
-
-
-		this.scene.input.keyboard.on('keydown-RIGHT', () =>{
-
-
-});
-
-this.scene.input.keyboard.on('keyup-RIGHT', () =>{
-
-
+	onRightRelease() {
 this.WalkRight=false;
-	//	console.log('going ight');
-		//this.stop('CatWalk');
 
 		if(this.TouchGround){
 
 
 			if(this.stick){
 			this.play('CatIdle');
-			}else{
-
 			}
 
-			//this.body.setOffset(90,-20);
 			};
 		this.body.setVelocityX(0);
 		this.PlayOnceAnimWalk=true;
+	}
 
-			//	 this.gameObject.body.setVelocityX(0);
-			//this.HooverHeliRight=false;
-});
+	handleTouchInput() {
+		if (!window.TouchInput?.enabled) {
+			return;
+		}
 
+		if (window.TouchInput.up && !this._prevTouchUp) {
+			this.onJumpPress();
+		}
 
+		if (!window.TouchInput.up && this._prevTouchUp) {
+			this.onJumpRelease();
+		}
 
+		if (!window.TouchInput.left && this._prevTouchLeft) {
+			this.onLeftRelease();
+		}
 
+		if (!window.TouchInput.right && this._prevTouchRight) {
+			this.onRightRelease();
+		}
+
+		this._prevTouchUp = window.TouchInput.up;
+		this._prevTouchLeft = window.TouchInput.left;
+		this._prevTouchRight = window.TouchInput.right;
+	}
+
+	Jump(){
+	this.scene.input.keyboard.on('keydown-UP', () => this.onJumpPress());
+	this.scene.input.keyboard.on('keyup-UP', () => this.onJumpRelease());
+	};
+
+GoLeft(){
+	this.scene.input.keyboard.on('keydown-LEFT', () =>{});
+	this.scene.input.keyboard.on('keyup-LEFT', () => this.onLeftRelease());
+}
+
+GoRight(){
+	this.scene.input.keyboard.on('keydown-RIGHT', () =>{});
+	this.scene.input.keyboard.on('keyup-RIGHT', () => this.onRightRelease());
 };
 
 		create(){
@@ -284,6 +254,7 @@ this.WalkRight=false;
 		};
 
 	update(){
+	this.handleTouchInput();
 
 if(this.CatFinishStage==false){
 	//console.log('cat y'+ this.y);
@@ -320,7 +291,7 @@ if(this.CatFinishStage==false){
 }
 
 
-		if(this.Cursors.right.isDown && this.CatFinishStage==false){
+		if(this.isRightDown() && this.CatFinishStage==false){
 
 		this.WalkRight=true;
 			this.Offbla=true;
@@ -349,7 +320,7 @@ if(this.CatFinishStage==false){
 				}
 			//	};
 
-		}else if(this.Cursors.left.isDown && this.CatFinishStage==false){
+		}else if(this.isLeftDown() && this.CatFinishStage==false){
 
 		this.WalkLeft=true;
 		this.flipX=false;

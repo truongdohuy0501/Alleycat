@@ -8,31 +8,37 @@ window.addEventListener('load', function () {
 
 
 	var game = new Phaser.Game({
-
-
+		type: Phaser.AUTO,
 		width: 1031,
 		height: 580,
-		fixedTimestep:true,
-		type: Phaser.AUTO,
-			antialias: true,
-			roundPixels: true,
-			// pixelArt: true,
-	
-		 physics: {
-        default: 'arcade', 
-        arcade: {
-            gravity: { y: 0 },
-            debug: false,
-			// fps: 30,
-        }
-		 },
-        backgroundColor: "#242424",
+		fixedTimestep: true,
+		antialias: true,
+		roundPixels: true,
+		backgroundColor: "#242424",
+		physics: {
+			default: 'arcade',
+			arcade: {
+				gravity: { y: 0 },
+				debug: false,
+			}
+		},
 		scale: {
 			mode: Phaser.Scale.FIT,
-			autoCenter: Phaser.Scale.CENTER_BOTH
+			autoCenter: Phaser.Scale.CENTER_BOTH,
 		},
-	
+		input: {
+			activePointers: 3,
+		},
+		audio: {
+			disableWebAudio: false,
+		},
 	});
+
+	window.game = game;
+
+	if (window.initTouchControls) {
+		window.initTouchControls(game);
+	}
 
 		game.scene.add("BaseScene", BaseScene);
 
