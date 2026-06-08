@@ -110,8 +110,9 @@ window.addEventListener('load', function () {
 class Boot extends Phaser.Scene {
 
 	preload() {
-		if (window.MobileConfig?.isMobile) {
-			this.load.maxParallelDownloads = 2;
+		const mobile = window.MobileConfig;
+		if (mobile?.isMobile) {
+			this.load.maxParallelDownloads = mobile.parallelDownloads || 3;
 		}
 
 		this.load.pack("pack", "assets/preload-asset-pack.json");

@@ -91,11 +91,13 @@ window.MobileAssetLoader = {
 	},
 
 	loadFullGameAssets(scene, onProgress, onComplete) {
+		const mobile = window.MobileConfig || {};
+
 		return this.fetchPackFiles("assets/asset-pack.json")
 			.then((files) =>
 				this.loadFilesInBatches(scene, files, {
-					batchSize: window.MobileConfig?.isPhone ? 25 : 40,
-					maxParallelDownloads: 2,
+					batchSize: mobile.assetBatchSize || 50,
+					maxParallelDownloads: mobile.parallelDownloads || 3,
 					onProgress,
 				})
 			)

@@ -98,12 +98,28 @@ this.scene.add.existing(this.Bubble);
 
 	/* START-USER-CODE */
 
+	getHorizontalInput() {
+		if (this.Cursors.right.isDown) {
+			return 1;
+		}
+
+		if (this.Cursors.left.isDown) {
+			return -1;
+		}
+
+		if (window.TouchInput?.enabled) {
+			return window.TouchInput.moveX || 0;
+		}
+
+		return 0;
+	}
+
 	isLeftDown() {
-		return this.Cursors.left.isDown || (window.TouchInput?.enabled && window.TouchInput.left);
+		return this.getHorizontalInput() < -0.15;
 	}
 
 	isRightDown() {
-		return this.Cursors.right.isDown || (window.TouchInput?.enabled && window.TouchInput.right);
+		return this.getHorizontalInput() > 0.15;
 	}
 
 	onJumpPress() {
@@ -212,25 +228,28 @@ this.WalkRight=false;
 			return;
 		}
 
-		if (window.TouchInput.up && !this._prevTouchUp) {
+		if (window.TouchInput.jump && !this._prevTouchJump) {
 			this.onJumpPress();
 		}
 
-		if (!window.TouchInput.up && this._prevTouchUp) {
+		if (!window.TouchInput.jump && this._prevTouchJump) {
 			this.onJumpRelease();
 		}
 
-		if (!window.TouchInput.left && this._prevTouchLeft) {
-			this.onLeftRelease();
+		const moveX = window.TouchInput.moveX || 0;
+		const wasMoving = Math.abs(this._prevMoveX || 0) > 0.15;
+		const isMoving = Math.abs(moveX) > 0.15;
+
+		if (wasMoving && !isMoving) {
+			if (this._prevMoveX > 0) {
+				this.onRightRelease();
+			} else {
+				this.onLeftRelease();
+			}
 		}
 
-		if (!window.TouchInput.right && this._prevTouchRight) {
-			this.onRightRelease();
-		}
-
-		this._prevTouchUp = window.TouchInput.up;
-		this._prevTouchLeft = window.TouchInput.left;
-		this._prevTouchRight = window.TouchInput.right;
+		this._prevTouchJump = window.TouchInput.jump;
+		this._prevMoveX = moveX;
 	}
 
 	Jump(){
@@ -291,52 +310,40 @@ if(this.CatFinishStage==false){
 }
 
 
-		if(this.isRightDown() && this.CatFinishStage==false){
+		const moveX = this.getHorizontalInput();
+
+		if(moveX > 0.15 && this.CatFinishStage==false){
 
 		this.WalkRight=true;
 			this.Offbla=true;
-			//console.log('going Right');
 			this.flipX=true;
 			if(this.PlayOnceAnimWalk==true && this.TouchGround){
 				this.PlayOnceAnimWalk=false;
 
 				if(this.stick){
 				this.play('CatWalk');
-				}else{
-			//	this.setTexture('__black_cat_scratch_005');
 				}
 
 			}
 
-
-
-		//	if(this.stick){
 				if(!this.UnderWater==true){
 					if(this.stick){
-				this.body.setVelocityX(400);
+				this.body.setVelocityX(400 * moveX);
 					}
 				}else{
-				this.body.setVelocityX(180);
+				this.body.setVelocityX(180 * moveX);
 				}
-			//	};
 
-		}else if(this.isLeftDown() && this.CatFinishStage==false){
+		}else if(moveX < -0.15 && this.CatFinishStage==false){
 
 		this.WalkLeft=true;
 		this.flipX=false;
 
-
-			//console.log('hearts :'+ CatHearts);
-
-
 			if(this.PlayOnceAnimWalk==true && this.TouchGround && this.stick){
 				this.angle=0;
-				//this.body.setAngularVelocity(0);
 
 				if(this.stick){
 				this.play('CatWalk');
-				}else{
-				//this.setTexture('__black_cat_scratch_005');
 				}
 
 				this.PlayOnceAnimIdle=true;
@@ -345,9 +352,9 @@ if(this.CatFinishStage==false){
 
 			if(this.stick){
 			if(!this.UnderWater==true){
-			this.body.setVelocityX(-400);
+			this.body.setVelocityX(400 * moveX);
 			}else{
-			this.body.setVelocityX(-180);
+			this.body.setVelocityX(180 * moveX);
 				}
 
 			}

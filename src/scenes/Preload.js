@@ -194,7 +194,7 @@ class Preload extends Phaser.Scene {
 		const mobile = window.MobileConfig;
 
 		if (mobile?.useLightLoading) {
-			this.load.maxParallelDownloads = 2;
+			this.load.maxParallelDownloads = mobile.parallelDownloads || 3;
 			this.editorCreate();
 			this.load.pack("menu-extra", "assets/menu-asset-pack.json");
 			this.load.on(Phaser.Loader.Events.COMPLETE, () => {
@@ -202,6 +202,10 @@ class Preload extends Phaser.Scene {
 				this.scene.start("StartMenuScreen");
 			});
 			return;
+		}
+
+		if (mobile?.isTablet) {
+			this.load.maxParallelDownloads = mobile.parallelDownloads || 10;
 		}
 
 		this.load.plugin(
