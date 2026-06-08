@@ -1,0 +1,298 @@
+{
+    "id": "04331fb6-ed91-4d74-b6e9-4bfe0fcfb457",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [
+            "starter-template-basic-typescript/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload"
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "845d4ca6-7417-44fc-97e3-a3bb2fbbdd03",
+            "label": "progressBar",
+            "x": 348,
+            "y": 315,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "fillColor": "#e0e0e0",
+            "width": 256,
+            "height": 20,
+            "list": [
+                {
+                    "prefabId": "ca949479-ab4d-45d5-b856-2cbecbd8d127",
+                    "id": "250eaa8f-b143-4e41-9ddf-052dfd99672c",
+                    "label": "preloadUpdater"
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "10e175a4-81b6-449e-9561-6d8ba54d3812",
+            "label": "progressBarBg",
+            "x": 348,
+            "y": 315,
+            "originX": 0,
+            "originY": 0,
+            "fillColor": "#e0e0e0",
+            "isStroked": true,
+            "width": 256,
+            "height": 20
+        },
+        {
+            "type": "Container",
+            "id": "6fe82670-696a-4ada-8fa6-099e82a6f5df",
+            "label": "container_1",
+            "x": 400,
+            "y": 257,
+            "scaleX": 0.4211971372410941,
+            "scaleY": 0.4211971372410941,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "7b1233ca-a20f-494d-8aa9-cbb79de4610f",
+                    "label": "ellipse_1",
+                    "x": 37,
+                    "y": 44,
+                    "scaleX": 0.3906250000000003,
+                    "scaleY": 0.453125,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "9ffa838a-9a4a-42be-aa81-707eb04a4966",
+                    "label": "ellipse",
+                    "x": 74,
+                    "y": 27,
+                    "scaleX": 0.16796874999999978,
+                    "scaleY": 0.18750000000000008,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "4868a284-a46e-4997-b972-d71f55d3df06",
+                    "label": "ellipse_2",
+                    "x": 52,
+                    "y": 1,
+                    "scaleX": 0.15234374999999986,
+                    "scaleY": 0.22656250000000025,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "786c3668-519f-4fd4-b3c6-f4a6c857e53f",
+                    "label": "ellipse_3",
+                    "x": 23,
+                    "scaleX": 0.15234374999999986,
+                    "scaleY": 0.22656250000000025,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "e37e5a79-a63c-4253-a73c-93a8f036111a",
+                    "label": "ellipse_4",
+                    "y": 23,
+                    "scaleX": 0.16796874999999978,
+                    "scaleY": 0.18750000000000008,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "1abd14cf-e576-4e35-9c95-05d7f08c176d",
+            "label": "text_1",
+            "x": 438,
+            "y": 345,
+            "scaleX": 0.4108083190570566,
+            "scaleY": 0.4108083190570566,
+            "text": "Loading",
+            "fontFamily": "Goofy",
+            "fontSize": "70px"
+        },
+        {
+            "type": "Container",
+            "id": "b7a5405d-5533-4bab-b22e-cf9b0b5d2d53",
+            "label": "container",
+            "x": 482,
+            "y": 227,
+            "scaleX": 0.4211971372410941,
+            "scaleY": 0.4211971372410941,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "15f47dd3-d47e-4160-8614-5935fae86c54",
+                    "label": "ellipse_5",
+                    "x": 37,
+                    "y": 44,
+                    "scaleX": 0.3906250000000003,
+                    "scaleY": 0.453125,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "1453caf5-b0b0-4c98-ade0-68be55c8c2e8",
+                    "label": "ellipse_6",
+                    "x": 74,
+                    "y": 27,
+                    "scaleX": 0.16796874999999978,
+                    "scaleY": 0.18750000000000008,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "5f5b3d85-4af2-4ab6-8ba3-efed464e3388",
+                    "label": "ellipse_7",
+                    "x": 52,
+                    "y": 1,
+                    "scaleX": 0.15234374999999986,
+                    "scaleY": 0.22656250000000025,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "c7f95eb1-8142-4b66-bc43-91ba5bb6a417",
+                    "label": "ellipse_8",
+                    "x": 23,
+                    "scaleX": 0.15234374999999986,
+                    "scaleY": 0.22656250000000025,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "9de4ab76-5778-43a3-9c8a-e5aec26046e9",
+                    "label": "ellipse_9",
+                    "y": 23,
+                    "scaleX": 0.16796874999999978,
+                    "scaleY": 0.18750000000000008,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "dd3280c2-b752-4ae6-bd97-f6a06cd00053",
+            "label": "container_2",
+            "x": 1337,
+            "y": 457,
+            "scaleX": 0.7321875889227893,
+            "scaleY": 0.7321875889227893,
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "d9b4fac6-ee4c-44fc-9a7b-4dddf08ef370",
+                    "label": "ellipse_10",
+                    "x": 37,
+                    "y": 45,
+                    "scaleX": 0.3906250000000003,
+                    "scaleY": 0.453125,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "56117a2f-1c15-4f8e-81dd-fcde0057e01c",
+                    "label": "ellipse_11",
+                    "x": 74,
+                    "y": 28,
+                    "scaleX": 0.16796874999999978,
+                    "scaleY": 0.18750000000000008,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "1b9b9cd9-b577-466b-a403-04ce61f91d87",
+                    "label": "ellipse_12",
+                    "x": 52,
+                    "y": 2,
+                    "scaleX": 0.15234374999999986,
+                    "scaleY": 0.22656250000000025,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "abbd7da7-c4bd-44bb-a9bd-a8b1961bb69b",
+                    "label": "ellipse_13",
+                    "x": 23,
+                    "y": 1,
+                    "scaleX": 0.15234374999999986,
+                    "scaleY": 0.22656250000000025,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "5e4f0bb1-6dba-4f03-b27a-e49e4a7918cb",
+                    "label": "ellipse_14",
+                    "y": 24,
+                    "scaleX": 0.16796874999999978,
+                    "scaleY": 0.18750000000000008,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "ac32dbb5-9369-427c-aa0d-b08d795080c1",
+            "label": "text",
+            "x": 393,
+            "y": 238,
+            "scaleX": 0.8371755262981057,
+            "scaleY": 0.8371755262981057,
+            "text": "AlleyQuest",
+            "fontFamily": "Goofy",
+            "fontSize": "70px"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

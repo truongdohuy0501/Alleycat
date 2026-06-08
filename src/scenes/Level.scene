@@ -1,0 +1,5971 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 1,
+        "snapHeight": 1,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "658735df-12f6-4b07-b076-eca9482bc3cb",
+            "label": "sky",
+            "texture": {
+                "key": "sky"
+            },
+            "x": 3944,
+            "y": -1412,
+            "scaleX": 1.7678584776486805,
+            "scaleY": 5.190614000243224,
+            "tintTopLeft": "#b5d3f6",
+            "tintTopRight": "#9cd3ee",
+            "tintBottomLeft": "#addde5",
+            "tintBottomRight": "#bee9e8",
+            "width": 8000,
+            "height": 983,
+            "tileScaleX": 1.1
+        },
+        {
+            "type": "TileSprite",
+            "id": "b1b90e02-43d6-471d-9b7e-93f0de000988",
+            "label": "backcity",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "far_buildings_layer"
+            },
+            "x": 2999,
+            "y": 47,
+            "scaleX": 2.0142628888019276,
+            "scaleY": 2.0142628888019276,
+            "tintTopLeft": "#a4d7e3",
+            "tintTopRight": "#9adcdc",
+            "width": 5000,
+            "height": 722
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3f9c8640-2553-4125-a3d1-2aac5670c6f6",
+            "label": "cloud3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "cloud_02"
+            },
+            "x": 3676,
+            "y": -1516,
+            "scaleX": 1.321491092920317,
+            "scaleY": 1.321491092920317,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.1,
+            "alphaBottomRight": 0.1,
+            "body.velocity.x": 30,
+            "body.width": 481,
+            "body.height": 383
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "85dd6cd2-ec8d-4055-90de-767b6dfbc3ff",
+            "label": "cloudsmall",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "cloud_05"
+            },
+            "x": 1943,
+            "y": -1261,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.1,
+            "alphaBottomRight": 0.1,
+            "body.velocity.x": 25,
+            "body.width": 372,
+            "body.height": 98
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c1455198-0f76-45a2-953a-29aa90531a3c",
+            "label": "cloud4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "cloud_03"
+            },
+            "x": 5421,
+            "y": -1974,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.1,
+            "alphaBottomRight": 0.1,
+            "body.velocity.x": 37,
+            "body.width": 600,
+            "body.height": 308
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a919684e-bcde-4f76-a380-c4e5ed9d14ae",
+            "label": "cloud5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "cloud_02"
+            },
+            "x": -417,
+            "y": -1026,
+            "scaleX": 1.321491092920317,
+            "scaleY": 1.321491092920317,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.1,
+            "alphaBottomRight": 0.1,
+            "body.velocity.x": 38,
+            "body.width": 481,
+            "body.height": 383
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "7f39c1fd-9d7f-4438-8914-9b3923184d4d",
+            "label": "cloudsmall2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "cloud_05"
+            },
+            "x": 7163,
+            "y": -2493,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.1,
+            "alphaBottomRight": 0.1,
+            "body.velocity.x": 25,
+            "body.width": 372,
+            "body.height": 98
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0cd53c8f-ab7e-4294-8c3e-4146c24db159",
+            "label": "cloudbig3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "cloud_01"
+            },
+            "x": 870,
+            "y": -1665,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.1,
+            "alphaBottomRight": 0.1,
+            "body.velocity.x": 38,
+            "body.width": 886,
+            "body.height": 264
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "42626440-9de9-45f3-8e38-94844ba5f9af",
+            "label": "cloudbig",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "cloud_04"
+            },
+            "x": 1683,
+            "y": -2252,
+            "scaleX": 1.3333139781884875,
+            "scaleY": 1.3333139781884875,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.1,
+            "alphaBottomRight": 0.1,
+            "body.velocity.x": 42,
+            "body.width": 452,
+            "body.height": 219
+        },
+        {
+            "type": "Image",
+            "id": "ad654cb4-302d-4bd0-87cb-48d17438d622",
+            "label": "fire_escape_steps_up_side_2",
+            "texture": {
+                "key": "fire_escape_steps_up_side_1"
+            },
+            "x": 6900,
+            "y": -883,
+            "scaleX": 0.5716332192788011,
+            "scaleY": 0.5716332192788011,
+            "flipX": true
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0e549b9d-ad68-49c2-afa0-4407bb40c207",
+            "label": "brown_block_6",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_block"
+            },
+            "x": 2245,
+            "y": -733,
+            "scaleX": 0.3702241448740421,
+            "scaleY": 0.8031575088710714,
+            "tintTopLeft": "#d6cccc",
+            "tintTopRight": "#cab9b9",
+            "tintBottomLeft": "#c6adad",
+            "tintBottomRight": "#cfbfbf",
+            "body.width": 665,
+            "body.height": 344
+        },
+        {
+            "type": "TileSprite",
+            "id": "d9c99337-f5c3-4135-af73-a73dbb3f783b",
+            "label": "Cityfor",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "near_buildings_layer"
+            },
+            "x": 3130,
+            "y": 202,
+            "scaleX": 1.1535038324086966,
+            "scaleY": 1.1535038324086966,
+            "width": 12000,
+            "height": 840
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "fed0c237-7861-47e4-b488-cd5dcfea9360",
+            "label": "redsocks",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_04"
+            },
+            "x": 3345,
+            "y": -452,
+            "scaleX": 0.626395200377292,
+            "scaleY": 0.626395200377292,
+            "body.width": 60,
+            "body.height": 100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "45aa7d2f-101e-4464-aa41-9c31dbc5cb0b",
+            "label": "washingl1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_07"
+            },
+            "x": 5113,
+            "y": 318,
+            "scaleX": 0.8328197354869031,
+            "scaleY": 0.8328197354869031,
+            "angle": 9,
+            "body.width": 59,
+            "body.height": 68
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a1e92b0a-eed7-425d-81e7-7cc7bbdc0118",
+            "label": "washingl7",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_06"
+            },
+            "x": 5530,
+            "y": 321,
+            "scaleX": 0.6468325780301887,
+            "scaleY": 0.6468325780301887,
+            "body.width": 68,
+            "body.height": 106
+        },
+        {
+            "type": "Image",
+            "id": "287ac793-cf15-49b0-bc06-d88bcd51ecbc",
+            "label": "purple_block_4",
+            "texture": {
+                "key": "purple_block"
+            },
+            "x": 5924,
+            "y": -1291,
+            "scaleX": 0.7248803174164451,
+            "scaleY": 0.9346683522370929
+        },
+        {
+            "type": "Rectangle",
+            "id": "07940784-8840-4a2f-8809-28840592b16e",
+            "label": "washcordbend",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 7350,
+            "y": -62,
+            "scaleX": 15,
+            "scaleY": 0.012276733793308809,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 69,
+            "height": 128
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "19eaaf0e-bf5c-4bf5-81c0-6bbe90b4ad82",
+            "label": "washing6",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_06"
+            },
+            "x": 1820,
+            "y": -230,
+            "scaleX": 0.5950098051115054,
+            "scaleY": 0.5950098051115054,
+            "body.width": 68,
+            "body.height": 80,
+            "body.offset.y": 30
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6b2ad782-92c5-4919-abdb-6a9fc49d9ca7",
+            "label": "brown_block_14",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "yellow_block"
+            },
+            "x": 4402,
+            "y": -1136,
+            "scaleX": 0.3702241448740421,
+            "scaleY": 0.8031575088710714,
+            "tintTopLeft": "#d6cccc",
+            "tintTopRight": "#cab9b9",
+            "tintBottomLeft": "#c6adad",
+            "tintBottomRight": "#cfbfbf",
+            "body.width": 665,
+            "body.height": 344
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4194cdd3-1aba-488e-91dd-151979c9044f",
+            "label": "yellowshirt",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_06"
+            },
+            "x": 3233,
+            "y": 240,
+            "scaleX": 0.6468325780301887,
+            "scaleY": 0.6468325780301887,
+            "body.width": 68,
+            "body.height": 106
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c9ea8f07-bf9e-4203-8f1f-1ac86c8cbe4b",
+            "label": "clothunderpants",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_02"
+            },
+            "x": 3005,
+            "y": -449,
+            "scaleX": 0.6501472038009779,
+            "scaleY": 0.6501472038009779,
+            "body.width": 88,
+            "body.height": 76
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bedafefa-c651-43ec-9baf-e2c018164ec8",
+            "label": "clothsec",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_07"
+            },
+            "x": 2890,
+            "y": 235,
+            "scaleX": 0.8328197354869031,
+            "scaleY": 0.8328197354869031,
+            "angle": 9,
+            "body.width": 59,
+            "body.height": 68
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "66ca55b8-f7f8-45a7-8f10-2f12bd4b1d05",
+            "label": "brown_block_7",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_block"
+            },
+            "x": 2245,
+            "y": -615,
+            "scaleX": 0.3702241448740421,
+            "scaleY": 0.8031575088710714,
+            "tintTopLeft": "#d6cccc",
+            "tintTopRight": "#cab9b9",
+            "tintBottomLeft": "#c6adad",
+            "tintBottomRight": "#cfbfbf",
+            "body.width": 665,
+            "body.height": 344
+        },
+        {
+            "type": "Image",
+            "id": "e3e3fac7-2940-4a07-b2a8-b91b44b8c73f",
+            "label": "autumn_tree_01",
+            "texture": {
+                "key": "autumn_tree_01"
+            },
+            "x": 3102,
+            "y": 436,
+            "scaleX": 0.2967733299469609,
+            "scaleY": 0.2967733299469609
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bb80ba56-6743-468f-a90d-40b72729a9ed",
+            "label": "greenpants",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_07"
+            },
+            "x": 1490,
+            "y": -231,
+            "scaleX": 0.8829947434045329,
+            "scaleY": 0.8829947434045329,
+            "angle": 5,
+            "body.width": 59,
+            "body.height": 80,
+            "body.offset.y": 30
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "e31cbb5b-8dd0-47c9-af95-9885562dfc1d",
+            "label": "whitecloth",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_01"
+            },
+            "x": 1300,
+            "y": 162,
+            "scaleX": 0.6755035877161384,
+            "scaleY": 0.6755035877161384,
+            "body.width": 73,
+            "body.height": 80,
+            "body.offset.y": 30
+        },
+        {
+            "type": "Image",
+            "id": "d0963e4a-12dc-4d7c-afd9-d3d41bc6c184",
+            "label": "chimney",
+            "texture": {
+                "key": "chimney"
+            },
+            "x": 1089,
+            "y": -468,
+            "scaleX": 0.9335480540358387,
+            "scaleY": 0.9335480540358387
+        },
+        {
+            "type": "Rectangle",
+            "id": "0bf35abf-e121-4323-a403-b88bef433e3b",
+            "label": "washcordbendlast5",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 5148,
+            "y": 298,
+            "scaleX": 14,
+            "scaleY": 0.012276733793308809,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 69,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "547b9a7c-a340-43b8-8c50-7e9b97b6e2c1",
+            "label": "washcordb6",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 3202,
+            "y": 214,
+            "scaleX": 9,
+            "scaleY": 0.01,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 65,
+            "height": 150
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "ee7851c1-ab5b-458d-be10-e0e5f13d7112",
+            "label": "brown_block_13",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "blue_block"
+            },
+            "x": 2348,
+            "y": -286,
+            "scaleX": 0.4508922656320875,
+            "scaleY": 0.6170706040734204,
+            "tint": "#c3cddf",
+            "width": 2415,
+            "height": 344,
+            "leftWidth": 545,
+            "rightWidth": 594
+        },
+        {
+            "type": "TileSprite",
+            "id": "c7191e42-c945-4b03-a621-8312807f7f76",
+            "label": "blue_side_srone_left_4",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 6139,
+            "y": -1261,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 0.5,
+            "flipX": true,
+            "width": 100,
+            "height": 800,
+            "tileScaleY": 0.9
+        },
+        {
+            "type": "TileSprite",
+            "id": "01e83bd6-0240-4477-9f2d-af191da48395",
+            "label": "blue_side_srone_left_5",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 5706,
+            "y": -1254,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 0.5,
+            "width": 100,
+            "height": 800,
+            "tileScaleY": 0.9
+        },
+        {
+            "type": "Rectangle",
+            "id": "c5f27a31-b726-47b7-8168-8ad7e4c020f9",
+            "label": "washcord3",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 1502,
+            "y": -254,
+            "scaleX": 11,
+            "scaleY": 0.01,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 55,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "397b7188-bead-4bf7-a16d-acebd850ae02",
+            "label": "autumn_tree",
+            "texture": {
+                "key": "autumn_tree_01"
+            },
+            "x": 1726,
+            "y": 436,
+            "scaleX": 0.33708870628589815,
+            "scaleY": 0.33708870628589815
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "88d366b7-7bf3-4e84-a07d-0c7bcaca5ec9",
+            "label": "bluepants",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_05"
+            },
+            "x": 1603,
+            "y": 171,
+            "scaleX": 0.6915617482806937,
+            "scaleY": 0.6915617482806937,
+            "body.width": 64,
+            "body.height": 80,
+            "body.offset.y": 30
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "6474e220-8689-4c49-bb1e-2fd7885b55b8",
+            "label": "brown_block_10",
+            "scope": "PUBLIC",
+            "blendMode": 26,
+            "texture": {
+                "key": "blue_block"
+            },
+            "x": 2352,
+            "y": 317,
+            "scaleX": 0.4508922656320875,
+            "scaleY": 0.6497790878072315,
+            "tint": "#c3cddf",
+            "width": 2415,
+            "height": 344,
+            "leftWidth": 545,
+            "rightWidth": 594
+        },
+        {
+            "type": "Image",
+            "id": "8182fff9-2269-44a4-b494-af8410d9621b",
+            "label": "green_tree_2",
+            "texture": {
+                "key": "green_tree_01"
+            },
+            "x": 4432,
+            "y": 416,
+            "scaleX": 0.38197692390044247,
+            "scaleY": 0.38197692390044247
+        },
+        {
+            "type": "Image",
+            "id": "4347d4b4-c179-4f9f-9452-e0fa8c43e528",
+            "label": "green_tree",
+            "texture": {
+                "key": "green_tree_01"
+            },
+            "x": 1276,
+            "y": 442,
+            "scaleX": 0.38197692390044247,
+            "scaleY": 0.38197692390044247
+        },
+        {
+            "type": "Image",
+            "id": "73ec9611-8fa9-4807-979a-bbfa99578619",
+            "label": "green_tree_01",
+            "texture": {
+                "key": "green_tree_01"
+            },
+            "x": 125,
+            "y": 451,
+            "scaleX": 0.4017364511406707,
+            "scaleY": 0.4017364511406707
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "856af59c-5c0e-4a56-ad85-3dc1062f21aa",
+            "label": "topblokb2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "blue_block"
+            },
+            "x": 2357,
+            "y": -497,
+            "scaleX": 0.4508922656320875,
+            "scaleY": 0.6323546943082627,
+            "tint": "#c3cddf",
+            "width": 2415,
+            "height": 344,
+            "leftWidth": 545,
+            "rightWidth": 594
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "ecdc3be4-a4f1-4f59-b1b4-0b497e6ad7ff",
+            "label": "brown_block_2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_block"
+            },
+            "x": 719,
+            "y": -324,
+            "scaleX": 0.45252828721617,
+            "scaleY": 0.6256458272845141,
+            "width": 2201,
+            "height": 344,
+            "leftWidth": 576,
+            "rightWidth": 585
+        },
+        {
+            "type": "Rectangle",
+            "id": "7b4ddc7e-e7e7-4d53-87af-92b3f0f1aa61",
+            "label": "washcord7",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 3198,
+            "y": -469,
+            "scaleX": 8.3,
+            "scaleY": 0.01,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 70,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "17a002e4-ca05-4092-a03a-7754dae81194",
+            "label": "green_tree_1",
+            "texture": {
+                "key": "green_tree_01"
+            },
+            "x": 2080,
+            "y": 598,
+            "scaleX": 0.38197692390044247,
+            "scaleY": 0.38197692390044247
+        },
+        {
+            "type": "TileSprite",
+            "id": "3aeb526e-3f83-4c3c-be26-b7e6a1d05be2",
+            "label": "road_1",
+            "texture": {
+                "key": "road"
+            },
+            "x": 1952,
+            "y": 689,
+            "scaleX": 1.148547694379572,
+            "scaleY": 0.10511863502966043,
+            "width": 9500,
+            "height": 649
+        },
+        {
+            "type": "TileSprite",
+            "id": "3b0221f4-44ed-4132-98eb-ffd1019a18d5",
+            "label": "fence1",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.y": 100,
+            "hitArea.width": 1200,
+            "hitArea.height": 188,
+            "texture": {
+                "key": "dark_wood_fence"
+            },
+            "x": 4007,
+            "y": 558,
+            "scaleX": 1.25,
+            "tintTopLeft": "#d2bcbc",
+            "tintTopRight": "#f0e0e0",
+            "tintBottomLeft": "#b4a0a0",
+            "tintBottomRight": "#c8dcdb",
+            "width": 9000,
+            "height": 188,
+            "tileScaleX": 0.5
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "d1513f86-b087-48a1-8b04-068360dd031c",
+            "label": "brown_block_8",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "blue_block"
+            },
+            "x": 2350,
+            "y": 523,
+            "scaleX": 0.4508922656320875,
+            "scaleY": 0.5945075822897468,
+            "visible": false,
+            "width": 2435,
+            "height": 344,
+            "leftWidth": 545,
+            "rightWidth": 594
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "a2ab4773-e8b6-4518-9072-c270c27ada91",
+            "label": "brown_block_9",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "blue_block"
+            },
+            "x": 2360,
+            "y": 509,
+            "scaleX": 0.4508922656320875,
+            "scaleY": 0.6485301022732397,
+            "tint": "#c3cddf",
+            "width": 2415,
+            "height": 344,
+            "leftWidth": 545,
+            "rightWidth": 594
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "6094c4c1-6698-4ddd-9fa9-bb3a6eee798e",
+            "label": "brown_block_12",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "blue_block"
+            },
+            "x": 2353,
+            "y": -78,
+            "scaleX": 0.4508922656320875,
+            "scaleY": 0.5945075822897468,
+            "tint": "#c3cddf",
+            "width": 2415,
+            "height": 344,
+            "leftWidth": 545,
+            "rightWidth": 594
+        },
+        {
+            "type": "NineSlice",
+            "id": "48437fc9-5c00-4a09-8c4b-2801ce69001b",
+            "label": "purple_block_2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "purple_block"
+            },
+            "x": 6243,
+            "y": -845,
+            "leftWidth": 501,
+            "rightWidth": 199,
+            "topHeight": 0,
+            "bottomHeight": 7,
+            "width": 1258,
+            "height": 600
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "59461427-9e7b-43d4-b8b6-e91b3eebdc68",
+            "label": "brown_block_11",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "blue_block"
+            },
+            "x": 2353,
+            "y": 120,
+            "scaleX": -0.4584940846379918,
+            "scaleY": -0.5672313587720204,
+            "tint": "#c3cddf",
+            "width": 2415,
+            "height": 344,
+            "leftWidth": 545,
+            "rightWidth": 594
+        },
+        {
+            "type": "TileSprite",
+            "id": "a44ddfec-7ba4-41a6-9e58-a6d7defc54f9",
+            "label": "greybuildingright2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "grey_side_srone_left"
+            },
+            "x": 2879,
+            "y": 121,
+            "scaleX": 0.6044296120188143,
+            "scaleY": 0.7,
+            "flipX": true,
+            "alpha": 0.95,
+            "alphaTopLeft": 0.95,
+            "alphaTopRight": 0.95,
+            "alphaBottomLeft": 0.95,
+            "alphaBottomRight": 0.95,
+            "width": 100,
+            "height": 2100,
+            "tileScaleY": 0.8
+        },
+        {
+            "type": "TileSprite",
+            "id": "27106063-f5c3-4ee8-a792-fd8031b47581",
+            "label": "wallbuilding2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "grey_side_srone_left"
+            },
+            "x": 1824,
+            "y": 122,
+            "scaleX": 0.6044296120188143,
+            "scaleY": 0.7,
+            "alpha": 0.95,
+            "alphaTopLeft": 0.95,
+            "alphaTopRight": 0.95,
+            "alphaBottomLeft": 0.95,
+            "alphaBottomRight": 0.95,
+            "width": 100,
+            "height": 2100,
+            "tileScaleY": 0.8
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "1227203d-0d53-46e5-81ec-8de624d7ec15",
+            "label": "brown_block_5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_block"
+            },
+            "x": 720,
+            "y": 519,
+            "scaleX": 0.4508922656320875,
+            "scaleY": 0.5945075822897468,
+            "width": 2201,
+            "height": 344,
+            "leftWidth": 545,
+            "rightWidth": 594
+        },
+        {
+            "type": "Image",
+            "id": "e840a4e6-bf4b-4ebb-860c-b5234a60c86f",
+            "label": "shutter_2",
+            "texture": {
+                "key": "shutter"
+            },
+            "x": 861,
+            "y": 519,
+            "scaleX": 0.6128155047864006,
+            "scaleY": 0.6128155047864006,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "bfe28be9-bfb9-49f1-bd45-4b3e3fb0bd36",
+            "label": "pipe_1",
+            "texture": {
+                "key": "pipe"
+            },
+            "x": 1132,
+            "y": 278,
+            "scaleX": 0.7225184241090002,
+            "scaleY": 0.7225184241090002,
+            "angle": 89,
+            "flipY": true
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "bbbb2509-1b67-4b89-abfc-3751261f9653",
+            "label": "brown_block_3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_block"
+            },
+            "x": 719,
+            "y": 312,
+            "scaleX": 0.4518009364895714,
+            "scaleY": 0.6256458272845137,
+            "width": 2201,
+            "height": 344,
+            "leftWidth": 545,
+            "rightWidth": 594
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "b2addbc1-dc64-4de1-9c4b-a9f27c64f4c6",
+            "label": "brown_block",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_block"
+            },
+            "x": 719,
+            "y": -109,
+            "scaleX": 0.45252828721617,
+            "scaleY": 0.6256458272845131,
+            "width": 2201,
+            "height": 344,
+            "leftWidth": 576,
+            "rightWidth": 570
+        },
+        {
+            "type": "NineSlice",
+            "id": "9680fa0d-3390-45b5-96dd-066ff416b8e7",
+            "label": "purple_block",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "purple_block"
+            },
+            "x": 6245,
+            "y": 325,
+            "leftWidth": 345,
+            "rightWidth": 567,
+            "topHeight": 0,
+            "bottomHeight": 7,
+            "width": 1258,
+            "height": 600
+        },
+        {
+            "type": "NineSlice",
+            "id": "cc9dae87-5cf6-4262-88cd-bd6a0b0d900f",
+            "label": "purple_block_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "purple_block"
+            },
+            "x": 6247,
+            "y": -251,
+            "leftWidth": 476,
+            "rightWidth": 449,
+            "topHeight": 0,
+            "bottomHeight": 7,
+            "width": 1258,
+            "height": 600
+        },
+        {
+            "type": "TileSprite",
+            "id": "80118839-5fed-4607-94db-da60372e07f2",
+            "label": "blockwallmid_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 12546,
+            "y": -1777,
+            "scaleY": 0.6352806194156675,
+            "flipX": true,
+            "flipY": true,
+            "width": 1250,
+            "height": 29
+        },
+        {
+            "type": "Image",
+            "id": "c7c9826b-8e55-462c-b2ca-610b742a2eb3",
+            "label": "grey_block_4",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 8899,
+            "y": 441,
+            "scaleX": 1.2915975141972877,
+            "scaleY": 1.2915975141972877,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "85cc0cd5-e5b4-40e4-96d8-f5d081aeb22d",
+            "label": "grey_block_7",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 12309,
+            "y": -2011,
+            "scaleX": 1.2915975141972877,
+            "scaleY": 1.2915975141972877,
+            "tintTopLeft": "#c7c0c0"
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "50828830-d985-45a2-957b-cfac608614e1",
+            "label": "brown_block_4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_block"
+            },
+            "x": 719,
+            "y": 97,
+            "scaleX": 0.45252828721617,
+            "scaleY": 0.6256458272845137,
+            "tint": "",
+            "width": 2201,
+            "height": 344,
+            "leftWidth": 576,
+            "rightWidth": 570
+        },
+        {
+            "type": "TileSprite",
+            "id": "d0feb434-508a-4fa9-8932-84cc2e0f04ce",
+            "label": "blue_side_srone_left_1",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 6845,
+            "y": -263,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 2.2,
+            "flipX": true,
+            "width": 100,
+            "height": 800,
+            "tileScaleY": 0.25
+        },
+        {
+            "type": "Image",
+            "id": "4064c5a1-c6b2-4c63-b5bc-81a82a570510",
+            "label": "grey_block",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 8398,
+            "y": 373,
+            "scaleX": 1.6985617549169114,
+            "scaleY": 1.414701952658029
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "96e3b9e7-7de5-4be3-a5a5-f438a708f495",
+            "label": "yellow_block",
+            "texture": {
+                "key": "yellow_block"
+            },
+            "x": 4084,
+            "y": 381,
+            "scaleX": 0.7650615438830866,
+            "scaleY": 1.4141700669225457,
+            "width": 1554,
+            "height": 344,
+            "leftWidth": 459,
+            "rightWidth": 461
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "b13d353f-fec6-4ccf-802f-4770534227d1",
+            "label": "yellow_block_3",
+            "texture": {
+                "key": "yellow_block"
+            },
+            "x": 4076,
+            "y": -838,
+            "scaleX": 0.7612362660932944,
+            "scaleY": 1.031221542202296,
+            "width": 1554,
+            "height": 344,
+            "leftWidth": 459,
+            "rightWidth": 461
+        },
+        {
+            "type": "Image",
+            "id": "aba843bc-0721-45f3-b251-edf17478e1d4",
+            "label": "fire_escape_steps_up_side_4",
+            "texture": {
+                "key": "fire_escape_steps_up_side_1"
+            },
+            "x": 9006,
+            "y": -46,
+            "scaleX": 0.5716332192788011,
+            "scaleY": 0.5716332192788011,
+            "flipX": true
+        },
+        {
+            "type": "NineSlice",
+            "id": "7bc41524-7791-46a2-8fdc-4a752ec76106",
+            "label": "grey_block_3",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 8394,
+            "y": -1058,
+            "scaleX": 1.5918762373015758,
+            "scaleY": 1.414701952658029,
+            "leftWidth": 108,
+            "rightWidth": 448,
+            "topHeight": -21,
+            "bottomHeight": 8,
+            "width": 697,
+            "height": 344
+        },
+        {
+            "type": "Image",
+            "id": "58e14313-185c-447a-b81d-3a736d9fccec",
+            "label": "fire_escape_steps_up_side_5",
+            "texture": {
+                "key": "fire_escape_steps_up_side_1"
+            },
+            "x": 7800,
+            "y": -682,
+            "scaleX": 0.5716332192788011,
+            "scaleY": 0.5716332192788011
+        },
+        {
+            "type": "Image",
+            "id": "02c18547-6a03-47de-8790-61597c0b2136",
+            "label": "grey_block_9",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 7914,
+            "y": 447,
+            "scaleX": 1.2915975141972877,
+            "scaleY": 1.2915975141972877,
+            "visible": false
+        },
+        {
+            "type": "TileSprite",
+            "id": "38ffc648-b809-4231-852e-bbadfe6889e1",
+            "label": "grey_side_srone_left_3",
+            "texture": {
+                "key": "brown_side_srone_left"
+            },
+            "x": 255,
+            "y": 93,
+            "scaleX": 0.6411049750035593,
+            "scaleY": 0.49783235701010103,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "width": 100,
+            "height": 2100
+        },
+        {
+            "type": "TileSprite",
+            "id": "9faad8a7-a09f-43f3-b09b-393a29f7c897",
+            "label": "yellow_side_srone_left",
+            "texture": {
+                "key": "yellow_side_srone_left"
+            },
+            "x": 3513,
+            "y": 387,
+            "scaleX": 0.5725532826302885,
+            "scaleY": 0.5725532826302885,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "width": 100,
+            "height": 800
+        },
+        {
+            "type": "Image",
+            "id": "944dfd60-22f5-4e90-b2f7-c06028e617ed",
+            "label": "grey_block_8",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 8391,
+            "y": -576,
+            "scaleX": 1.6985617549169114,
+            "scaleY": 1.414701952658029
+        },
+        {
+            "type": "Image",
+            "id": "fc0c952b-621f-4517-af3b-50013ae561ab",
+            "label": "grey_block_2",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 8394,
+            "y": -103,
+            "scaleX": 1.6985617549169114,
+            "scaleY": 1.414701952658029
+        },
+        {
+            "type": "TileSprite",
+            "id": "b6e73af7-ccc4-4f73-abc7-dffcad8f999c",
+            "label": "blue_side_srone_left_6",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 8937,
+            "y": -338,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 2.2,
+            "flipX": true,
+            "width": 100,
+            "height": 900,
+            "tileScaleY": 0.25
+        },
+        {
+            "type": "TileSprite",
+            "id": "fa329c98-c84f-4f68-9722-e3abab089b7f",
+            "label": "blue_side_srone_left_7",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 7852,
+            "y": -357,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 2.2,
+            "width": 100,
+            "height": 880,
+            "tileScaleY": 0.25
+        },
+        {
+            "type": "TileSprite",
+            "id": "a43266f6-7c55-49ac-951f-f2e2191add92",
+            "label": "yellow_side_srone_left_1",
+            "texture": {
+                "key": "yellow_side_srone_left"
+            },
+            "x": 4647.2591550262205,
+            "y": 391,
+            "scaleX": 0.5700988858502513,
+            "scaleY": 0.5700988858502513,
+            "flipX": true,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "width": 100,
+            "height": 800
+        },
+        {
+            "type": "TileSprite",
+            "id": "1966c87c-e630-4700-99ea-f244c953b0bc",
+            "label": "buildingwall1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_side_srone_left"
+            },
+            "x": 1187,
+            "y": 103,
+            "scaleX": 0.6411049750035593,
+            "scaleY": 0.49783235701010103,
+            "flipX": true,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "width": 100,
+            "height": 2100
+        },
+        {
+            "type": "TileSprite",
+            "id": "36e3ba98-ace6-458e-907a-aa1c07fdbfc8",
+            "label": "pavement_narrow_repeating",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "pavement_narrow_repeating"
+            },
+            "x": 4700,
+            "y": 683,
+            "scaleX": 0.8040230531283681,
+            "scaleY": 1.204664296353928,
+            "flipY": true,
+            "width": 13000,
+            "height": 146
+        },
+        {
+            "type": "TileSprite",
+            "id": "eec01d43-28d8-4cd4-9a23-44420872cc2c",
+            "label": "road",
+            "texture": {
+                "key": "road"
+            },
+            "x": 4000,
+            "y": 687,
+            "scaleX": 4,
+            "scaleY": 0.09725308467247876,
+            "width": 4000,
+            "height": 649
+        },
+        {
+            "type": "TileSprite",
+            "id": "c52eac91-8267-4536-8c20-f865ff1db064",
+            "label": "pavement_narrow_repeating_1",
+            "texture": {
+                "key": "pavement_narrow_repeating"
+            },
+            "x": 4000,
+            "y": 831,
+            "scaleX": 1.5,
+            "scaleY": 2.045987515308889,
+            "flipY": true,
+            "width": 9000,
+            "height": 146
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "d4244491-7ceb-457c-85b5-018365e57697",
+            "label": "brown_block_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_block"
+            },
+            "x": 851,
+            "y": -566,
+            "scaleX": 0.41436632793472816,
+            "scaleY": 0.8031575088710714,
+            "tintTopLeft": "#d6cccc",
+            "tintTopRight": "#cab9b9",
+            "tintBottomLeft": "#c6adad",
+            "tintBottomRight": "#cfbfbf",
+            "body.width": 665,
+            "body.height": 344
+        },
+        {
+            "type": "TileSprite",
+            "id": "a1b1d22f-19e9-4db3-a83a-7a9c3606fbc9",
+            "label": "wall_repeating",
+            "texture": {
+                "key": "wall_repeating"
+            },
+            "x": 2076,
+            "y": 583,
+            "scaleX": 0.5758339120031017,
+            "scaleY": 0.5758339120031017,
+            "visible": false,
+            "width": 2500,
+            "height": 259
+        },
+        {
+            "type": "Image",
+            "id": "fd158396-5ef5-4601-8591-b041d8c971fc",
+            "label": "water_tower",
+            "texture": {
+                "key": "water_tower"
+            },
+            "x": 2692,
+            "y": -671,
+            "scaleX": 0.6859962776574015,
+            "scaleY": 0.6859962776574015
+        },
+        {
+            "type": "Image",
+            "id": "0f60d0e0-c489-4fc0-b3d8-ad814f2ca47d",
+            "label": "large_shop_window",
+            "texture": {
+                "key": "large_shop_window"
+            },
+            "x": 3871,
+            "y": 316,
+            "scaleX": 0.42830093332415986,
+            "scaleY": 0.42830093332415986,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8
+        },
+        {
+            "type": "TileSprite",
+            "id": "7eb812ca-629b-4638-a151-dbf7bd0765ae",
+            "label": "platformtwo",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 3191,
+            "y": 487,
+            "scaleX": 0.5,
+            "scaleY": 0.5243546465936467,
+            "visible": false,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "tintTopLeft": "#cfc1b0",
+            "tintTopRight": "#d2c8b3",
+            "tintBottomLeft": "#c7c29b",
+            "tintBottomRight": "#b9b283",
+            "width": 1100,
+            "height": 29
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "5fca1b88-a04a-4f45-bce0-093fb41bb076",
+            "label": "fence2",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.y": 100,
+            "hitArea.width": 2500,
+            "hitArea.height": 20,
+            "texture": {
+                "key": "dark_wood_fence"
+            },
+            "x": 4300,
+            "y": 689,
+            "scaleX": 50,
+            "scaleY": 0.44266200779710085,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 244,
+            "body.height": 192
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "52e63788-e718-436f-9c18-59b2989b39c7",
+            "label": "fencecol",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.y": 100,
+            "hitArea.width": 244,
+            "hitArea.height": 192,
+            "texture": {
+                "key": "dark_wood_fence"
+            },
+            "x": 1505,
+            "y": 416,
+            "scaleX": 2.4326575667510464,
+            "scaleY": -0.7907060752750409,
+            "flipY": true,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 244,
+            "body.height": 192
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "2b772621-e6cf-4af0-92fe-4dd5d6660cde",
+            "label": "fencecol2",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.y": 100,
+            "hitArea.width": 244,
+            "hitArea.height": 192,
+            "texture": {
+                "key": "dark_wood_fence"
+            },
+            "x": 108,
+            "y": 440,
+            "scaleX": 0.979409630641223,
+            "scaleY": -0.5377901460393111,
+            "flipY": true,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 244,
+            "body.height": 192
+        },
+        {
+            "type": "Rectangle",
+            "id": "6eb34762-4184-4046-83a9-5c34ff4635da",
+            "label": "washcord",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 714,
+            "y": 337,
+            "scaleX": 10.24994191504008,
+            "scaleY": 0.029559026472868864,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 96,
+            "height": 128
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b9e81107-bda2-463f-a14c-2b4b3127075b",
+            "label": "firescape4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "fire_escape_platform_1"
+            },
+            "x": 6861,
+            "y": -837,
+            "scaleX": 0.8726904200702011,
+            "scaleY": 0.8726904200702011,
+            "body.width": 219,
+            "body.height": 115,
+            "body.offset.y": 100
+        },
+        {
+            "type": "Image",
+            "id": "0d8838a2-220e-4260-a312-b9f7853eca08",
+            "label": "antenna",
+            "texture": {
+                "key": "antenna"
+            },
+            "x": 335,
+            "y": -486,
+            "scaleX": 0.8776013659821876,
+            "scaleY": 0.8776013659821876
+        },
+        {
+            "type": "Image",
+            "id": "f89e0d75-cc5b-45db-bf45-0b1e51c2237e",
+            "label": "shutter",
+            "texture": {
+                "key": "shutter"
+            },
+            "x": 789,
+            "y": 605,
+            "scaleX": 0.5939709280128067,
+            "scaleY": 0.5939709280128067,
+            "visible": false
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "36f7b0ca-3c12-4822-9178-2798ce9f9f01",
+            "label": "trashcan",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "trash_can_no_lid"
+            },
+            "x": 1087,
+            "y": 586,
+            "scaleX": 0.3782578033495354,
+            "scaleY": 0.3782578033495354,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 200,
+            "body.height": 350,
+            "body.offset.y": 10
+        },
+        {
+            "type": "Rectangle",
+            "id": "b367e406-6b87-441e-9a65-adb1876be8fc",
+            "label": "washcordbyel1",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 5148,
+            "y": -595,
+            "scaleX": 12,
+            "scaleY": 0.012276733793308809,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 80,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "069a2d43-31a8-4ccc-a826-be327fa2839f",
+            "label": "windowlove3",
+            "displayName": " ",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "window_01"
+            },
+            "x": 4400,
+            "y": -1146,
+            "scaleX": 0.7767224245044714,
+            "scaleY": 0.7767224245044714
+        },
+        {
+            "type": "Image",
+            "id": "41a66786-e89b-4c41-b574-461b28d7051b",
+            "label": "_0_percent_2",
+            "texture": {
+                "key": "0-percent"
+            },
+            "x": 4399,
+            "y": -1132,
+            "scaleX": 0.11712998958064078,
+            "scaleY": 0.11712998958064078
+        },
+        {
+            "type": "TileSprite",
+            "id": "0040b0e6-81bc-47a8-a3b5-99d89418f7f2",
+            "label": "platformbuilding",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 4401,
+            "y": -1275,
+            "scaleX": 0.37,
+            "scaleY": 0.6645643148142695,
+            "width": 749,
+            "height": 29,
+            "tileScaleX": 1.54
+        },
+        {
+            "type": "Image",
+            "id": "74b99ff8-9290-4e6d-9750-2bee882734af",
+            "label": "openwindowlove3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "window_01_open"
+            },
+            "x": 4399,
+            "y": -1145,
+            "scaleX": 0.7767224245044714,
+            "scaleY": 0.7767224245044714,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "106d7ef3-ba0b-476a-be25-18e2286507bd",
+            "label": "heart3loveroom",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "100-percent"
+            },
+            "x": 4399,
+            "y": -1131,
+            "scaleX": 0.1344739131946201,
+            "scaleY": 0.1344739131946201,
+            "visible": false,
+            "body.width": 256,
+            "body.height": 256
+        },
+        {
+            "type": "Image",
+            "id": "03b1fded-a6d7-45ce-8a13-518def79965d",
+            "label": "arial",
+            "texture": {
+                "key": "arial"
+            },
+            "x": 1871,
+            "y": -645,
+            "scaleX": 0.8119789289891599,
+            "scaleY": 0.8119789289891599
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "249956a8-6b37-46d3-b144-2dab887b652b",
+            "label": "dumpster",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "dumpster"
+            },
+            "x": 434,
+            "y": 571,
+            "scaleX": 0.45502024159753196,
+            "scaleY": 0.45502024159753196,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 300,
+            "body.height": 200,
+            "body.offset.x": 30,
+            "body.offset.y": 30
+        },
+        {
+            "type": "Image",
+            "id": "22a8f3f7-809f-4b9e-ae8d-09ad0d8946dc",
+            "label": "fire_escape_steps_up_side",
+            "texture": {
+                "key": "fire_escape_steps_up_side_1"
+            },
+            "x": 3460,
+            "y": -255,
+            "scaleX": 0.6044008910907528,
+            "scaleY": 0.6044008910907528
+        },
+        {
+            "type": "Image",
+            "id": "2715a544-a241-4423-80ef-83b26c8c6e06",
+            "label": "man_hole_cover",
+            "texture": {
+                "key": "man_hole_cover"
+            },
+            "x": 566,
+            "y": 679,
+            "scaleX": 0.7226786985726019,
+            "scaleY": 0.39089405572629204
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "a44897a1-700f-402c-8d1f-13e9ab12d2d5",
+            "label": "blockroof",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 2351,
+            "y": -605,
+            "scaleX": 1.02,
+            "scaleY": -0.39755278005913663,
+            "width": 1115,
+            "height": 40,
+            "leftWidth": 205,
+            "rightWidth": 194
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b02c692a-ffd5-4e37-b03c-dd515823ddae",
+            "label": "step",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 435,
+            "y": 209,
+            "scaleX": 0.3994816244253585,
+            "scaleY": 0.3994816244253585,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8f7b5a0c-4a1f-47d3-bd24-fa2cf4df1a47",
+            "label": "step1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 529,
+            "y": -172,
+            "scaleX": 0.3994816244253585,
+            "scaleY": 0.3994816244253585,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6296440f-95f7-4773-9077-3cfd9112eac5",
+            "label": "step3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 723,
+            "y": 208,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "Rectangle",
+            "id": "a494489d-1ea8-4553-9ee4-38c7fde9f56d",
+            "label": "washcord2",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 120,
+            "hitArea.height": 128,
+            "x": 720,
+            "y": -24,
+            "scaleX": 10.12325003218265,
+            "scaleY": 0.030139694308405476,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 97,
+            "height": 128
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c1b0b3c1-8872-4190-a440-1ad0d95019da",
+            "label": "step4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 1003,
+            "y": 209,
+            "scaleX": 0.3994816244253585,
+            "scaleY": 0.3994816244253585,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bb38ff95-6cc8-4495-8067-94f9f3a20045",
+            "label": "step6",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 853,
+            "y": -168,
+            "scaleX": 0.3994816244253585,
+            "scaleY": 0.3994816244253585,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "69531193-3ce8-4128-bb7e-9dc858fef813",
+            "label": "yellow_block_2",
+            "texture": {
+                "key": "yellow_block"
+            },
+            "x": 4079,
+            "y": -491,
+            "scaleX": 0.7650615438830866,
+            "scaleY": 1.031221542202296,
+            "width": 1554,
+            "height": 344,
+            "leftWidth": 459,
+            "rightWidth": 461
+        },
+        {
+            "type": "Image",
+            "id": "c4868940-3530-4a50-be91-16e49153d5ff",
+            "label": "arial_1",
+            "texture": {
+                "key": "arial"
+            },
+            "x": 6587,
+            "y": -1555
+        },
+        {
+            "type": "Image",
+            "id": "f98933a6-5961-4bcf-98e7-25d45a133332",
+            "label": "chimney_2",
+            "texture": {
+                "key": "chimney"
+            },
+            "x": 7879,
+            "y": -1403,
+            "scaleX": 0.8979682984570669,
+            "scaleY": 0.8979682984570669
+        },
+        {
+            "type": "Rectangle",
+            "id": "fc3ee210-61a6-4207-8b41-332c87171c40",
+            "label": "washcordb",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 5143,
+            "y": -121,
+            "scaleX": 12,
+            "scaleY": 0.012276733793308809,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 80,
+            "height": 128
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "ac61799e-932f-4129-9fe6-9ab0070b9c60",
+            "label": "yellow_block_1",
+            "texture": {
+                "key": "yellow_block"
+            },
+            "x": 4083,
+            "y": -111,
+            "scaleX": 0.7650615438830866,
+            "scaleY": 1.4727357742757772,
+            "width": 1554,
+            "height": 344,
+            "leftWidth": 459,
+            "rightWidth": 461
+        },
+        {
+            "type": "TileSprite",
+            "id": "45bdb5d9-d7be-4378-9418-de5a0d43d13c",
+            "label": "yellowbuilding3left",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "yellow_side_srone_left"
+            },
+            "x": 3509,
+            "y": -439,
+            "scaleX": 0.47528198637465846,
+            "scaleY": 1.3427459046641612,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "width": 100,
+            "height": 850,
+            "tileScaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "8ffdc9c5-35ca-4040-b599-69143af5d699",
+            "label": "fire_escape_steps_up_side_3",
+            "texture": {
+                "key": "fire_escape_steps_up_side_1"
+            },
+            "x": 5593,
+            "y": -330,
+            "scaleX": 0.5716332192788011,
+            "scaleY": 0.5716332192788011
+        },
+        {
+            "type": "Image",
+            "id": "f7300123-c034-4cc6-b6b7-23663a643ded",
+            "label": "chimney_3",
+            "texture": {
+                "key": "chimney"
+            },
+            "x": 4082,
+            "y": -1068,
+            "scaleX": 0.7816996236394784,
+            "scaleY": 0.7816996236394784
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "4f6eded2-913a-45ee-a3f8-7f3c865c02ca",
+            "label": "trashcan2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "trash_can_no_lid"
+            },
+            "x": 4447,
+            "y": 588,
+            "scaleX": 0.3914461683284906,
+            "scaleY": 0.3914461683284906,
+            "flipX": true,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 200,
+            "body.height": 350,
+            "body.offset.y": 10
+        },
+        {
+            "type": "TileSprite",
+            "id": "d2a83f4a-44ae-42bd-bc6b-531201b85114",
+            "label": "rooftop_2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 719,
+            "y": 337,
+            "scaleX": 0.6291493278068844,
+            "scaleY": -0.47778951634254746,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "tintTopLeft": "#cfc1b0",
+            "tintTopRight": "#d2c8b3",
+            "tintBottomLeft": "#c7c29b",
+            "tintBottomRight": "#b9b283",
+            "width": 1570,
+            "height": 29
+        },
+        {
+            "type": "Image",
+            "id": "da5e6f7e-e912-4ee1-8abf-a1b1148f139f",
+            "label": "aircon",
+            "texture": {
+                "key": "aircon"
+            },
+            "x": 3653,
+            "y": -1042,
+            "scaleX": 0.8789425185637108,
+            "scaleY": 0.8789425185637108
+        },
+        {
+            "type": "Image",
+            "id": "21b50760-61b8-4469-933f-470ef8b098e2",
+            "label": "small_shop_window",
+            "texture": {
+                "key": "small_shop_window"
+            },
+            "x": 3875,
+            "y": 332,
+            "scaleX": 0.39809844876855455,
+            "scaleY": 0.39809844876855455,
+            "visible": false,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8
+        },
+        {
+            "type": "TileSprite",
+            "id": "cd9a3d72-6a48-4328-ac01-6fcd0b72c487",
+            "label": "blue_side_srone_left",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 5646,
+            "y": -259,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 2.2,
+            "width": 100,
+            "height": 800,
+            "tileScaleY": 0.25
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "70cb05a5-5c98-453e-bc72-e8c2ba0067a6",
+            "label": "dumpster2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "dumpster"
+            },
+            "x": 4198,
+            "y": 568,
+            "scaleX": 0.4934932962574923,
+            "scaleY": 0.4934932962574923,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 300,
+            "body.height": 200,
+            "body.offset.x": 30,
+            "body.offset.y": 30
+        },
+        {
+            "type": "TileSprite",
+            "id": "c4b99d44-9383-4f87-a415-1912fca18cf2",
+            "label": "blocklasttop2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 13156,
+            "y": -1769,
+            "scaleX": 0.95,
+            "scaleY": 0.40053425802346326,
+            "width": 1950,
+            "height": 29
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "2b8d6667-d3e6-48eb-91cb-b87db4c82058",
+            "label": "fencecolyel1",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.y": 100,
+            "hitArea.width": 244,
+            "hitArea.height": 192,
+            "texture": {
+                "key": "dark_wood_fence"
+            },
+            "x": 7350,
+            "y": 419,
+            "scaleX": 3.956014288399349,
+            "scaleY": -0.5678481360117457,
+            "flipY": true,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 244,
+            "body.height": 192
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b61643a1-8e0f-4738-9899-887a466bf5ea",
+            "label": "stepb21",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 2007,
+            "y": 128,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "86b8c1ac-f1a4-44a4-9941-ecee08008682",
+            "label": "stepb23",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 2702,
+            "y": 135,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "02ef8844-0b50-4d24-830b-bb22eb2bce9d",
+            "label": "stepb24",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 2346,
+            "y": 131,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3627c18e-66db-43ca-91b4-a7d3d5173b3d",
+            "label": "stepb25",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 1999,
+            "y": -293,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "1b61d5f9-3d44-4a75-b6e9-d171074da683",
+            "label": "stepb26",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 2683,
+            "y": -307,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "Image",
+            "id": "3cda3ec6-4daf-439f-a2e1-187c657f76dc",
+            "label": "poster",
+            "texture": {
+                "key": "poster_01"
+            },
+            "x": 4427,
+            "y": 370,
+            "scaleX": 0.4014906416516424,
+            "scaleY": 0.4014906416516424,
+            "angle": 23
+        },
+        {
+            "type": "Image",
+            "id": "a3db156f-b022-4891-a8c8-041a56be285c",
+            "label": "hydrant",
+            "texture": {
+                "key": "hydrant"
+            },
+            "x": 12306,
+            "y": -2672,
+            "scaleX": 0.37475403556643977,
+            "scaleY": 0.37475403556643977,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "c164ce49-454c-4518-8914-6cf41c2671c0",
+            "label": "washing_4",
+            "texture": {
+                "key": "washing_07"
+            },
+            "x": 5354,
+            "y": -96,
+            "scaleX": 0.8328197354869031,
+            "scaleY": 0.8328197354869031,
+            "angle": 9
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "9fa39cf6-4b9c-4d9d-b298-524a781e3826",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "Window34",
+            "scope": "PUBLIC",
+            "x": 3876,
+            "y": -135
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "52e0d475-d277-4bff-9972-a0d898fd8f7d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "Window35",
+            "scope": "PUBLIC",
+            "x": 4277,
+            "y": -135
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c4bd84a7-46e3-47ec-9001-36d643b8013d",
+            "label": "step33",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 3876,
+            "y": 363,
+            "scaleX": 1.1320589653854007,
+            "scaleY": 0.33618341401535023,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "01f2bec2-afb0-494b-b9e7-6e93e4e40b2b",
+            "label": "step32",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 4278,
+            "y": -78,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "TileSprite",
+            "id": "b64d6f60-2807-408c-99a7-ff76c3b13516",
+            "label": "rooftop_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 719,
+            "y": -25,
+            "scaleX": 0.6291493278068844,
+            "scaleY": -0.47778951634254746,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "tintTopLeft": "#cfc1b0",
+            "tintTopRight": "#d2c8b3",
+            "tintBottomLeft": "#c7c29b",
+            "tintBottomRight": "#b9b283",
+            "width": 1580,
+            "height": 29
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "e55a8156-b72e-4bf3-9044-ac582451c069",
+            "label": "step31",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 3875,
+            "y": -79,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "c3f59479-591b-4033-93ea-9369105ac7ef",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "Window32",
+            "scope": "PUBLIC",
+            "x": 4097,
+            "y": -648
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "db35dc6f-7709-4555-8506-42f098ba09a3",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "Window33",
+            "scope": "PUBLIC",
+            "x": 4401,
+            "y": -648,
+            "scaleX": 1,
+            "scaleY": 1
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "e4a53319-550e-4790-897b-53298bc9d400",
+            "label": "step34",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 4098,
+            "y": -592,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "756b32de-6d57-485a-a272-6c40bfc9fde1",
+            "label": "step35",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 4399,
+            "y": -590,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "Image",
+            "id": "a3f0093d-e798-4449-a7c1-685c30993a87",
+            "label": "window_21",
+            "texture": {
+                "key": "window_01"
+            },
+            "x": 12941,
+            "y": -2150,
+            "scaleX": 0.7889227673016052,
+            "scaleY": 0.7889227673016052
+        },
+        {
+            "type": "Image",
+            "id": "9d7cc2d3-8fd0-45f8-91c5-8d260e59a039",
+            "label": "window_22",
+            "texture": {
+                "key": "window_01"
+            },
+            "x": 13133,
+            "y": -2146,
+            "scaleX": 0.7889227673016052,
+            "scaleY": 0.7889227673016052
+        },
+        {
+            "type": "Image",
+            "id": "6f690243-f4d8-4cba-aa7e-3390ec3aecad",
+            "label": "window_23",
+            "texture": {
+                "key": "window_01"
+            },
+            "x": 13318,
+            "y": -2146,
+            "scaleX": 0.7889227673016052,
+            "scaleY": 0.7889227673016052
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "3bc6b907-b07e-4671-bed3-61ef0324e4ee",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "windowL13",
+            "scope": "PUBLIC",
+            "x": 1005,
+            "y": 150
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "10fb8683-9f0a-4c69-8322-949ef7e9f1c1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "windowL12",
+            "scope": "PUBLIC",
+            "x": 726,
+            "y": 150
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "c557ec50-5bd7-4332-9491-e8a94838aa64",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "windowL14",
+            "scope": "PUBLIC",
+            "x": 429,
+            "y": 150
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "08a16d69-8528-45a1-817d-f1990ec08e55",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "windowL11",
+            "scope": "PUBLIC",
+            "x": 529,
+            "y": -227
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "446f9dce-6c7e-4b97-94b0-e7ae3c2a69f2",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "windowL15",
+            "scope": "PUBLIC",
+            "x": 856,
+            "y": -227
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "b4664e11-0fb3-44da-99e5-c23db6cfbaf5",
+            "unlock": [
+                "x",
+                "y",
+                "alpha"
+            ],
+            "label": "WindowL24",
+            "scope": "PUBLIC",
+            "x": 1994,
+            "y": -352,
+            "alpha": 0.9
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "f8e0f421-3a4d-42fa-9a72-bb7636ad913f",
+            "unlock": [
+                "x",
+                "y",
+                "alpha"
+            ],
+            "label": "WindowL25",
+            "scope": "PUBLIC",
+            "x": 2686,
+            "y": -362,
+            "alpha": 0.9
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "1fe21bf0-194e-4d41-8a4d-4f96e5b7e774",
+            "label": "blocksep",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 720,
+            "y": -427,
+            "scaleX": 0.8876310528642842,
+            "scaleY": 0.5236340513568921,
+            "visible": false,
+            "width": 1136,
+            "height": 40,
+            "leftWidth": 269,
+            "rightWidth": 184
+        },
+        {
+            "type": "Image",
+            "id": "55f5213e-f5af-4faf-a0df-7fe7844144bb",
+            "label": "windowlove2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "window_01"
+            },
+            "x": 2243,
+            "y": -743,
+            "scaleX": 0.7767224245044714,
+            "scaleY": 0.7767224245044714
+        },
+        {
+            "type": "Image",
+            "id": "68cce8f5-e20d-4a08-8c89-85efa9be0452",
+            "label": "_0_percent_1",
+            "texture": {
+                "key": "0-percent"
+            },
+            "x": 2242,
+            "y": -729,
+            "scaleX": 0.11712998958064078,
+            "scaleY": 0.11712998958064078
+        },
+        {
+            "type": "TileSprite",
+            "id": "fae07593-c9e0-43ca-b460-32fa3af49157",
+            "label": "topwallL1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 720,
+            "y": -425,
+            "scaleX": 1.3446708834650134,
+            "scaleY": 0.6645643148142695,
+            "width": 749,
+            "height": 29,
+            "tileScaleX": 0.735
+        },
+        {
+            "type": "Image",
+            "id": "638a52a5-2a82-4a88-80d9-b4c60ec0526a",
+            "label": "window_01",
+            "texture": {
+                "key": "window_01"
+            },
+            "x": 844,
+            "y": -593.7767224245046,
+            "scaleX": 0.7767224245044714,
+            "scaleY": 0.7767224245044714
+        },
+        {
+            "type": "Image",
+            "id": "46b78e43-dd4b-4b8a-a793-7a3c525f9bb4",
+            "label": "openwindowlove",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "window_01_open"
+            },
+            "x": 844,
+            "y": -594,
+            "scaleX": 0.7767224245044714,
+            "scaleY": 0.7767224245044714,
+            "visible": false
+        },
+        {
+            "type": "TileSprite",
+            "id": "eb3e6d2d-87a0-45f9-b471-cc1f3936b40a",
+            "label": "loveplat",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 852,
+            "y": -706,
+            "scaleX": 0.4,
+            "scaleY": 0.6645643148142695,
+            "width": 749,
+            "height": 29,
+            "tileScaleX": 1.54
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ae60598b-c328-4a47-a670-26bc6454e30d",
+            "label": "fishitem",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__female_gambusia_swim_000"
+            },
+            "x": 856,
+            "y": -211,
+            "scaleX": 0.10286225103379901,
+            "scaleY": 0.10286225103379901,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 550,
+            "body.height": 240
+        },
+        {
+            "type": "NineSlice",
+            "id": "da499a8a-7950-42f2-9a43-4a27b7eab8ba",
+            "label": "purple_block_3",
+            "texture": {
+                "key": "purple_block"
+            },
+            "x": 6579,
+            "y": -1419,
+            "scaleX": 0.45505728634514986,
+            "scaleY": 1.1428565838907123,
+            "leftWidth": 0,
+            "rightWidth": 3,
+            "topHeight": 139,
+            "bottomHeight": 178,
+            "width": 665,
+            "height": 484
+        },
+        {
+            "type": "TileSprite",
+            "id": "acfa5df6-e8ef-416c-bf51-b6d74158d47a",
+            "label": "platformbuilding2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 2244,
+            "y": -872,
+            "scaleX": 0.37,
+            "scaleY": 0.6645643148142695,
+            "width": 749,
+            "height": 29,
+            "tileScaleX": 1.54
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6e2be2db-f53e-45b3-9be6-725a8f4b6b25",
+            "label": "ItemSpider",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__brown_spider_idle_008"
+            },
+            "x": 1004,
+            "y": 159,
+            "scaleX": 0.07761133935997001,
+            "scaleY": 0.07761133935997001,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 591,
+            "body.height": 661
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6f109d64-85b6-4ded-b34c-6fd3abd804ff",
+            "label": "mouseitem",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_mouse_walk_000"
+            },
+            "x": 424,
+            "y": 161,
+            "scaleX": 0.13345414075092935,
+            "scaleY": 0.13345414075092935,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 442,
+            "body.height": 292
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "758c2dee-749f-4278-9a59-8d36809fbc4a",
+            "label": "birdcageitem",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "gold_bird_cage_closed_no_back_bars"
+            },
+            "x": 726,
+            "y": 164,
+            "scaleX": 0.08090658792800536,
+            "scaleY": 0.08090658792800536,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 413,
+            "body.height": 500
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "624d05f3-6e76-4400-84b3-9f07c08a30e9",
+            "label": "ratitem",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_yellow_eyes_idle_standing_000"
+            },
+            "x": 525,
+            "y": -211,
+            "scaleX": 0.12937473066256244,
+            "scaleY": 0.12937473066256244,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 536,
+            "body.height": 268
+        },
+        {
+            "type": "Image",
+            "id": "1e30d24a-2829-4ba5-9f17-573969a0ba00",
+            "label": "checkmouse",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 429,
+            "y": 166,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "4b8a5216-a97e-49ba-b47a-eee7b57ef1c4",
+            "label": "birdagecheck",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 724,
+            "y": 166,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "2db2ebb4-3959-491b-83a7-c1d18ae6b765",
+            "label": "spidercheck",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 1004,
+            "y": 166,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ec5baefa-f7d8-4b3c-a0a0-ac95f1c572f6",
+            "label": "fishcheck",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 855,
+            "y": -209,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "5430ca5c-cfa0-4eb4-a569-d177ba498ed8",
+            "unlock": [
+                "x",
+                "y",
+                "alpha"
+            ],
+            "label": "WindowL23",
+            "scope": "PUBLIC",
+            "x": 2701,
+            "y": 78,
+            "alpha": 0.9
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "1cddd6cd-0745-451e-84de-b7cf2b5dad04",
+            "unlock": [
+                "x",
+                "y",
+                "alpha"
+            ],
+            "label": "WindowL21",
+            "scope": "PUBLIC",
+            "x": 2350,
+            "y": 75,
+            "alpha": 0.9
+        },
+        {
+            "prefabId": "f97944df-b631-4ec8-b3b9-6f9735b38ee4",
+            "id": "306bdc11-9ef0-412f-839e-98f96f770245",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "enable",
+                "body.offset.x",
+                "body.offset.y",
+                "radius",
+                "body.width",
+                "body.height",
+                "collideWorldBounds",
+                "flipX",
+                "flipY"
+            ],
+            "label": "catPlayer",
+            "scope": "PUBLIC",
+            "x": 175,
+            "y": 427,
+            "scaleX": 0.15201730813506723,
+            "scaleY": 0.15201730813506723,
+            "flipX": true,
+            "flipY": false,
+            "enable": true,
+            "collideWorldBounds": true,
+            "radius": 64,
+            "body.width": 340,
+            "body.height": 460,
+            "body.offset.x": 130,
+            "body.offset.y": 50
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "3cbc4389-e375-4ea2-b10a-a3e3475f68da",
+            "unlock": [
+                "x",
+                "y",
+                "alpha"
+            ],
+            "label": "WindowL22",
+            "scope": "PUBLIC",
+            "x": 2006,
+            "y": 74,
+            "alpha": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "ed93f74d-5bf7-4ff0-b960-00c4c90d1ff9",
+            "label": "ratcheck",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 526,
+            "y": -209,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "b62bfdd5-de05-4d00-9d20-5b12c83d5338",
+            "label": "_0_percent",
+            "texture": {
+                "key": "0-percent"
+            },
+            "x": 843,
+            "y": -580,
+            "scaleX": 0.11712998958064078,
+            "scaleY": 0.11712998958064078
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "fde42060-861c-4bb2-8a67-4cf59a0ddbf5",
+            "label": "LoveIntrance",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "100-percent"
+            },
+            "x": 845,
+            "y": -576,
+            "scaleX": 0.1344739131946201,
+            "scaleY": 0.1344739131946201,
+            "visible": false,
+            "body.width": 256,
+            "body.height": 256
+        },
+        {
+            "type": "Image",
+            "id": "9ca81dcc-bbe5-4a04-8d82-72ea5c72c4d2",
+            "label": "window_broken_01",
+            "texture": {
+                "key": "window_broken_01"
+            },
+            "x": 2334,
+            "y": -356,
+            "scaleX": 0.8117861674108046,
+            "scaleY": 0.8117861674108046
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "40a44452-8e54-4ccb-a4c9-7ecafbe89957",
+            "label": "trashcanb2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "trash_can_lid"
+            },
+            "x": 3721,
+            "y": 577,
+            "scaleX": 0.19225678948774275,
+            "scaleY": 0.19225678948774275,
+            "body.width": 442,
+            "body.height": 561,
+            "body.offset.y": 60
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bb498038-0aae-4acb-bb6a-a1503d1bac6c",
+            "label": "tramstop",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "tram_stop"
+            },
+            "x": 2536,
+            "y": 551,
+            "scaleX": 0.2628966669299176,
+            "scaleY": 0.2628966669299176,
+            "alpha": 0.85,
+            "alphaTopLeft": 0.85,
+            "alphaTopRight": 0.85,
+            "alphaBottomLeft": 0.85,
+            "alphaBottomRight": 0.85,
+            "body.width": 792,
+            "body.height": 660,
+            "body.offset.y": 20,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "604f6912-cddc-4d48-b093-7e2121decc23",
+                    "label": "shadowFx_2",
+                    "power": 0.2,
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f5b1b936-d3a2-4e6d-9e01-29433fe24398",
+            "label": "stepbblock2dis",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 2315,
+            "y": -299,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "e1a5fd21-0699-49fd-84d9-90b5ac1f7dc1",
+            "label": "trashside",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "trash_can_group"
+            },
+            "x": 4020,
+            "y": 595,
+            "scaleX": 0.1721663411708699,
+            "scaleY": 0.1721663411708699,
+            "body.width": 420,
+            "body.height": 364,
+            "body.offset.y": 100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c1161213-6a49-48ee-a726-3d32b5ef823e",
+            "label": "arrow1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 428,
+            "y": 228,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3626cd2e-5888-47e8-89bf-14085810d34f",
+            "label": "shop",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "small_shop_grey"
+            },
+            "x": 2092,
+            "y": 517,
+            "scaleX": 0.5532537947633331,
+            "scaleY": 0.5532537947633331,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "body.width": 462,
+            "body.height": 352,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "3c6bf71c-fe08-42aa-9d7b-6f246c4dd16a",
+                    "label": "shadowFx_1",
+                    "x": 0.1,
+                    "y": 0.5,
+                    "power": 0.5,
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "25e44f4d-f896-4aa6-bd2f-c21f76867b5e",
+            "label": "arrow2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 729,
+            "y": 228,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "cecd0a62-0913-4d6a-a964-6e32c0316815",
+            "label": "arrow3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 1004,
+            "y": 229,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c7da08a0-44eb-414e-acd7-56c60768bf9e",
+            "label": "arrow4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 857,
+            "y": -142.63855220833304,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "TileSprite",
+            "id": "c1c893c0-40a2-4f9b-82fc-0220757d5a77",
+            "label": "blockwallmid2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 6244,
+            "y": -507,
+            "scaleX": 1.008,
+            "scaleY": 0.35,
+            "width": 1250,
+            "height": 29,
+            "tileScaleX": 0.8
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "1fcc893f-73e6-4c1c-b864-973996a763bb",
+            "label": "arrow5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 526.8883933236493,
+            "y": -142.63855220833304,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "Image",
+            "id": "9283f535-f711-4b06-988e-ae1c300a3130",
+            "label": "awning_blue_large",
+            "texture": {
+                "key": "awning_blue_large"
+            },
+            "x": 2091,
+            "y": 434,
+            "scaleX": 0.5618130864171722,
+            "scaleY": 0.2899067615150892,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "TileSprite",
+            "id": "6719db90-1084-4959-8ef5-24e5d8bca074",
+            "label": "rooftop",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 2353,
+            "y": -159,
+            "scaleX": 0.71,
+            "scaleY": -0.47778951634254746,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "tintTopLeft": "#cfc1b0",
+            "tintTopRight": "#d2c8b3",
+            "tintBottomLeft": "#c7c29b",
+            "tintBottomRight": "#b9b283",
+            "width": 1570,
+            "height": 29,
+            "tileScaleX": 0.8
+        },
+        {
+            "type": "Image",
+            "id": "aa58506c-0d20-4860-929b-8c24305166f9",
+            "label": "poster_01",
+            "texture": {
+                "key": "poster_01"
+            },
+            "x": 3626,
+            "y": -847,
+            "scaleX": 0.36801346215395325,
+            "scaleY": 0.36801346215395325,
+            "angle": 7,
+            "alpha": 0.6,
+            "alphaTopLeft": 0.6,
+            "alphaTopRight": 0.6,
+            "alphaBottomLeft": 0.6,
+            "alphaBottomRight": 0.6
+        },
+        {
+            "type": "Image",
+            "id": "3ca1db08-adb0-4fda-977b-939310bb6f46",
+            "label": "street_light",
+            "texture": {
+                "key": "street_light"
+            },
+            "x": 2305,
+            "y": 481,
+            "scaleX": 0.424035755843557,
+            "scaleY": 0.424035755843557,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "65faf636-ecb5-4fe8-bd55-bfa5d373908f",
+            "label": "bussign",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "bus_stop_sign"
+            },
+            "x": 2778,
+            "y": 549,
+            "scaleX": 0.345525617125278,
+            "scaleY": 0.345525617125278,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9,
+            "body.width": 165,
+            "body.height": 446
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8c131682-d34c-49fa-9d77-96335a15a352",
+            "label": "billboard",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "small_bill_board"
+            },
+            "x": 2537,
+            "y": 322,
+            "scaleX": 0.8773718462211781,
+            "scaleY": 0.8773718462211781,
+            "alpha": 0.6,
+            "alphaTopLeft": 0.6,
+            "alphaTopRight": 0.6,
+            "alphaBottomLeft": 0.6,
+            "alphaBottomRight": 0.6,
+            "tintTopLeft": "#a2adc6",
+            "tintTopRight": "#bfc6d8",
+            "tintBottomLeft": "#446aa4",
+            "tintBottomRight": "#4d85bc",
+            "body.width": 277,
+            "body.height": 103,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "d9b56211-a0c9-4534-9986-b44873b61d81",
+                    "label": "shadowFx",
+                    "y": -1,
+                    "samples": 3,
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "9dbcf93d-ed59-4254-a6a3-d3a070091696",
+            "label": "text1",
+            "scope": "PUBLIC",
+            "x": 2507,
+            "y": 306,
+            "scaleX": 1.007530320222008,
+            "scaleY": 1.007530320222008,
+            "text": "BUS",
+            "align": "center",
+            "fontSize": "35px",
+            "fontStyle": "bold",
+            "color": "#0a0909ff",
+            "shadow.stroke": true
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "e7ba76dd-b67e-44e4-82c3-7da6c31ec6b6",
+            "label": "mouseitem2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_mouse_walk_000"
+            },
+            "x": 2349,
+            "y": 91,
+            "scaleX": 0.13345414075092935,
+            "scaleY": 0.13345414075092935,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 442,
+            "body.height": 292
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a4ce1b7d-5b75-4c00-9f5d-9f37a8ad8441",
+            "label": "Birdcageitem2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "gold_bird_cage_closed_no_back_bars"
+            },
+            "x": 2702,
+            "y": 93,
+            "scaleX": 0.08090658792800536,
+            "scaleY": 0.08090658792800536,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 413,
+            "body.height": 500
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bbc626e7-535e-4247-b09c-11e06e840857",
+            "label": "ItemSpider2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__brown_spider_idle_008"
+            },
+            "x": 2009,
+            "y": 90,
+            "scaleX": 0.07761133935997001,
+            "scaleY": 0.07761133935997001,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 591,
+            "body.height": 661
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0c6ae582-5520-4af8-b291-b980beb15331",
+            "label": "ratitem2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_yellow_eyes_idle_standing_000"
+            },
+            "x": 1997,
+            "y": -332,
+            "scaleX": 0.12937473066256244,
+            "scaleY": 0.12937473066256244,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 536,
+            "body.height": 268
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "dae10657-0ab2-43e1-824d-0cf4f6e323c2",
+            "label": "fishitem2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__female_gambusia_swim_000"
+            },
+            "x": 2687,
+            "y": -338,
+            "scaleX": 0.10286225103379901,
+            "scaleY": 0.10286225103379901,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 550,
+            "body.height": 240
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "ec6ddd22-431d-45fa-971d-8db3c82a594b",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "Window31",
+            "scope": "PUBLIC",
+            "x": 3757,
+            "y": -648
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "5e001943-8fb0-4d6a-b9c0-a6a9226e5f22",
+            "label": "arrow8",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 2000,
+            "y": 173,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3db2487e-ec41-4c48-9dbe-9f67dacc9b1f",
+            "label": "arrow9",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 2348,
+            "y": 171,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "65828afb-ba18-41ad-b0fb-550db657b4e8",
+            "label": "arrow10",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 2706,
+            "y": 174,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "2f62b04f-159f-4fd2-984f-6a0d95697dc4",
+            "label": "arrow7",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 2691,
+            "y": -263,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "768a3911-1735-4dc5-8bd6-1111e8275af8",
+            "label": "arrow6",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 1993,
+            "y": -257,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "Image",
+            "id": "d2000a96-254a-4ade-8a27-afb071ebcf90",
+            "label": "Ratcheck2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 1999,
+            "y": -331,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "visible": false,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "14805f4c-cb1a-4562-b505-f75019d8d7e8",
+            "label": "fire_escape_steps_up_side_1",
+            "texture": {
+                "key": "fire_escape_steps_up_side_1"
+            },
+            "x": 4699,
+            "y": -797,
+            "scaleX": 0.5716332192788011,
+            "scaleY": 0.5716332192788011,
+            "flipX": true
+        },
+        {
+            "type": "TileSprite",
+            "id": "bb59b1cb-2344-445c-9ba0-1708561a2913",
+            "label": "yellow_side_srone_left_2",
+            "texture": {
+                "key": "yellow_side_srone_left"
+            },
+            "x": 4652,
+            "y": -439,
+            "scaleX": 0.47528198637465846,
+            "scaleY": 1.3427459046641574,
+            "flipX": true,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "width": 100,
+            "height": 850,
+            "tileScaleY": 0.5
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "c4591a26-1037-43ba-8f77-9babfb0b7f17",
+            "label": "blocksep1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 4079,
+            "y": -1008,
+            "scaleX": 0.9169478607878823,
+            "scaleY": 0.385783340536251,
+            "width": 1338,
+            "height": 40,
+            "leftWidth": 269,
+            "rightWidth": 184
+        },
+        {
+            "type": "NineSlice",
+            "id": "cb3214f0-b023-448d-85bd-2c1f5e432933",
+            "label": "blocktop2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_top"
+            },
+            "x": 4078,
+            "y": 159,
+            "scaleX": 0.7833153949713022,
+            "scaleY": 0.30056698304053675,
+            "leftWidth": 414,
+            "rightWidth": 374,
+            "topHeight": -2,
+            "bottomHeight": -25,
+            "width": 1611,
+            "height": 173
+        },
+        {
+            "type": "Image",
+            "id": "25742314-c990-4114-ad7b-6508a0ad7459",
+            "label": "Fishcheck2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 2685,
+            "y": -340,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "cf1989cb-011e-4aee-8876-5ac6d134c50e",
+            "label": "firescape",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "fire_escape_platform_1"
+            },
+            "x": 4663,
+            "y": -751,
+            "scaleX": 0.8726904200702011,
+            "scaleY": 0.8726904200702011,
+            "body.width": 219,
+            "body.height": 115,
+            "body.offset.y": 100
+        },
+        {
+            "type": "TileSprite",
+            "id": "b8488f06-80ac-4a8b-b4bb-04dd9d018803",
+            "label": "blocksep2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 4079,
+            "y": -425,
+            "scaleX": 0.76,
+            "scaleY": 0.32579245333998536,
+            "width": 1575,
+            "height": 36,
+            "tileScaleX": 0.917,
+            "tileScaleY": 1.5
+        },
+        {
+            "type": "Image",
+            "id": "d85651c4-771c-477f-88e4-b3d52e3cc04b",
+            "label": "Spidercheck2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 2006,
+            "y": 90,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e7df7cf9-7904-4716-a211-6e2be538a3b6",
+            "label": "Birdcheck2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 2707,
+            "y": 92,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "5a44a9c6-0738-4a21-baa6-33969d5f5e33",
+            "label": "Mousecheck2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 2347,
+            "y": 95,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "5a13d5c7-e522-4197-b1b9-4374ed3a9426",
+            "label": "openwindowlove2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "window_01_open"
+            },
+            "x": 2242,
+            "y": -742,
+            "scaleX": 0.7767224245044714,
+            "scaleY": 0.7767224245044714,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b6a700ed-6886-411b-b043-3101b66c75ff",
+            "label": "heart2loveroom",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "100-percent"
+            },
+            "x": 2242,
+            "y": -728,
+            "scaleX": 0.1344739131946201,
+            "scaleY": 0.1344739131946201,
+            "visible": false,
+            "body.width": 256,
+            "body.height": 256
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3ac5bd6e-ffe4-427d-80ff-962574a40c11",
+            "label": "firescape2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "fire_escape_platform_1"
+            },
+            "x": 3494,
+            "y": -206,
+            "scaleX": 0.8726904200702011,
+            "scaleY": 0.8726904200702011,
+            "body.width": 219,
+            "body.height": 115,
+            "body.offset.y": 100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3c017bb9-684d-429d-8b27-0bda3e035613",
+            "label": "step333",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 3757,
+            "y": -593,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "e87e43bd-91e4-4b18-9661-c0f6da908b0a",
+            "label": "fishitem3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__female_gambusia_swim_000"
+            },
+            "x": 4275,
+            "y": -117,
+            "scaleX": 0.10286225103379901,
+            "scaleY": 0.10286225103379901,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 550,
+            "body.height": 240
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "41439ea9-07ce-45d4-b805-135d4b8b836c",
+            "label": "mouseitem3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_mouse_walk_000"
+            },
+            "x": 3755,
+            "y": -632,
+            "scaleX": 0.13345414075092935,
+            "scaleY": 0.13345414075092935,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 442,
+            "body.height": 292
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "5b777149-814d-4522-804c-1bafe9fe2e2b",
+            "label": "ratitem3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_yellow_eyes_idle_standing_000"
+            },
+            "x": 3873,
+            "y": -119,
+            "scaleX": 0.12937473066256244,
+            "scaleY": 0.12937473066256244,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 536,
+            "body.height": 268
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b46663d8-90b7-4dab-a86c-a8a7a0c37c84",
+            "label": "itemSpider3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__brown_spider_idle_008"
+            },
+            "x": 4095,
+            "y": -638,
+            "scaleX": 0.07761133935997001,
+            "scaleY": 0.07761133935997001,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 591,
+            "body.height": 661
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a453378d-2e3d-4da0-9e1c-3b5bb319a32d",
+            "label": "Birdcageitem3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "gold_bird_cage_closed_no_back_bars"
+            },
+            "x": 4401,
+            "y": -635,
+            "scaleX": 0.08090658792800536,
+            "scaleY": 0.08090658792800536,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 413,
+            "body.height": 500
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bd579b7f-a5eb-4291-bc0e-73832e95b152",
+            "label": "arrow11",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 3752,
+            "y": -527,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "2ebff32c-de93-4be7-b925-eb1403669826",
+            "label": "arrow12",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 4095,
+            "y": -529,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f1ee59e7-4b4c-4623-bd39-86bbf9591107",
+            "label": "arrow13",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 4399,
+            "y": -535,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "7e1ee021-45d9-4766-a709-f531edfd7c15",
+            "label": "arrow14",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 3872,
+            "y": -18,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "1c81d501-eaf8-4148-ba6c-d4f1dfccdff2",
+            "label": "arrow15",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 4274.848359905316,
+            "y": -18.41335966674427,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "Image",
+            "id": "df852836-cbb9-4be3-a467-23de349a0ce1",
+            "label": "Mousecheck3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 3759,
+            "y": -630,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "87dc421f-cacb-4b1f-96ec-40d2dde06075",
+            "label": "Birdcheck3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 4401,
+            "y": -635,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "8c28cf38-f861-4223-b52a-19df79d3c83c",
+            "label": "spidercheck3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 4096,
+            "y": -634,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "19fb2062-e3a6-4475-b0c5-5e5e4b1775e9",
+            "label": "ratcheck3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 3875,
+            "y": -116,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e72e2d1e-7a81-4c20-a110-b433fd7f71db",
+            "label": "fishcheck3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 4279,
+            "y": -116,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "TileSprite",
+            "id": "4134fccd-1100-470d-8c25-ff16880822fb",
+            "label": "platformtwo2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 5149,
+            "y": 477,
+            "scaleX": 0.85,
+            "scaleY": 0.5243546465936467,
+            "visible": false,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "tintTopLeft": "#cfc1b0",
+            "tintTopRight": "#d2c8b3",
+            "tintBottomLeft": "#c7c29b",
+            "tintBottomRight": "#b9b283",
+            "width": 1100,
+            "height": 29
+        },
+        {
+            "type": "Rectangle",
+            "id": "2d906748-815c-4e64-ba27-0c0880f0e338",
+            "label": "washy2",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 1496,
+            "y": 148,
+            "scaleX": 11,
+            "scaleY": 0.01,
+            "isFilled": true,
+            "fillColor": "#160101",
+            "width": 55,
+            "height": 128
+        },
+        {
+            "type": "TileSprite",
+            "id": "dabbebc9-8993-486b-b629-78aa36d11a0b",
+            "label": "blue_side_srone_left_2",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 6716,
+            "y": -1490,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 0.85,
+            "flipX": true,
+            "visible": false,
+            "width": 100,
+            "height": 800,
+            "tileScaleY": 0.6
+        },
+        {
+            "type": "TileSprite",
+            "id": "ff459d3f-95bd-4769-a0b9-190b2cd226ba",
+            "label": "blue_side_srone_left_3",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 6444,
+            "y": -1491,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 0.85,
+            "visible": false,
+            "width": 100,
+            "height": 800,
+            "tileScaleY": 0.6
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "d1818b07-c733-4e48-9974-4fecd70919c9",
+            "label": "blocksepred1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 6239,
+            "y": -1142,
+            "scaleX": 0.96,
+            "scaleY": 0.385783340536251,
+            "width": 1338,
+            "height": 40,
+            "leftWidth": 269,
+            "rightWidth": 184
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "410aa6a8-5837-4170-8d37-d83e516e6a75",
+            "label": "firescape5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "fire_escape_platform_1"
+            },
+            "x": 5633,
+            "y": -285,
+            "scaleX": 0.8726904200702011,
+            "scaleY": 0.8726904200702011,
+            "body.width": 219,
+            "body.height": 115,
+            "body.offset.y": 100
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "0992664f-a509-41a5-85da-b797e29eab75",
+            "label": "roofb4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 6578,
+            "y": -1701,
+            "scaleX": 0.25,
+            "scaleY": 0.385783340536251,
+            "width": 1338,
+            "height": 40,
+            "leftWidth": 269,
+            "rightWidth": 184
+        },
+        {
+            "type": "Image",
+            "id": "d59e0c0f-c3db-4501-b405-fe5d030d2e0e",
+            "label": "large_shop_window_2",
+            "texture": {
+                "key": "large_shop_window"
+            },
+            "x": 5936,
+            "y": 294,
+            "scaleX": 0.41381830030244215,
+            "scaleY": 0.41381830030244215,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "c4751fe2-051c-4199-a714-1d4eb08159a1",
+            "label": "large_shop_window_3",
+            "texture": {
+                "key": "large_shop_window"
+            },
+            "x": 6567,
+            "y": 294,
+            "scaleX": 0.41381830030244215,
+            "scaleY": 0.41381830030244215,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "2a56e66b-39d8-4f36-9710-f7047ad87937",
+            "label": "washing",
+            "texture": {
+                "key": "washing_06"
+            },
+            "x": 5247,
+            "y": -569,
+            "scaleX": 0.6468325780301887,
+            "scaleY": 0.6468325780301887
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ad66ca92-9233-4025-9990-45c4ef35f92e",
+            "label": "clothunderpants_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "washing_02"
+            },
+            "x": 4918,
+            "y": -577,
+            "scaleX": 0.6501472038009779,
+            "scaleY": 0.6501472038009779,
+            "body.width": 88,
+            "body.height": 76
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ff6454ad-2369-4f2a-97ff-27baa19512a7",
+            "label": "trashcanbl1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "trash_can_lid"
+            },
+            "x": 5824,
+            "y": 573,
+            "scaleX": 0.19225678948774275,
+            "scaleY": 0.19225678948774275,
+            "useDamping": true,
+            "body.width": 442,
+            "body.height": 561,
+            "body.offset.y": 60
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0d72b88e-7c43-4d7c-8733-ffa317cb07e5",
+            "label": "trashcanlast",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "trash_can_lid"
+            },
+            "x": 8606,
+            "y": 571,
+            "scaleX": 0.19225678948774275,
+            "scaleY": 0.19225678948774275,
+            "flipX": true,
+            "tintTopLeft": "#d5c0c0",
+            "tintTopRight": "#bcb3b3",
+            "body.width": 442,
+            "body.height": 561,
+            "body.offset.y": 60
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c7354ac2-c8a2-49d4-8e34-1119844d9e5e",
+            "label": "parachute2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "awning_blue_large"
+            },
+            "x": 6567,
+            "y": 234,
+            "scaleX": 0.5183229984833753,
+            "scaleY": 0.5183229984833753,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 581,
+            "body.height": 102,
+            "body.offset.y": 50
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a9ce4a26-8ab1-4639-914a-c399c4a21c58",
+            "label": "parachute1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "awning_blue_large"
+            },
+            "x": 5939,
+            "y": 232,
+            "scaleX": 0.5183229984833753,
+            "scaleY": 0.5183229984833753,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 581,
+            "body.height": 102,
+            "body.offset.y": 50
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bbb58587-1d66-4a00-87be-f58a02b90899",
+            "label": "mail_box",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "mail_box"
+            },
+            "x": 6679,
+            "y": 569,
+            "scaleX": 0.2967146364476922,
+            "scaleY": 0.2967146364476922,
+            "body.width": 281,
+            "body.height": 431
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "575652b3-7c72-413f-a225-1a622bd54d76",
+            "label": "roofb4t",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 5924,
+            "y": -1457,
+            "scaleX": 0.38,
+            "scaleY": 0.385783340536251,
+            "width": 1338,
+            "height": 40,
+            "leftWidth": 269,
+            "rightWidth": 184
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "53f6dab0-434f-465e-83d6-bc43826f800b",
+            "label": "trashsidel1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "trash_can_group"
+            },
+            "x": 6296,
+            "y": 582,
+            "scaleX": 0.1721663411708699,
+            "scaleY": 0.1721663411708699,
+            "body.width": 420,
+            "body.height": 364,
+            "body.offset.y": 100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ad003c56-38ac-4deb-b4c6-c1189885fed2",
+            "label": "steplred2",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 6484,
+            "y": -110,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "828dff50-9d7d-4e54-8525-0cb1f766bfff",
+            "label": "steplred1",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 6005,
+            "y": -109,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "Image",
+            "id": "0079c9a9-a98b-4686-ade9-ce8f109e74c0",
+            "label": "large_shop_window_1",
+            "texture": {
+                "key": "large_shop_window"
+            },
+            "x": 6258,
+            "y": -776,
+            "scaleX": 0.41381830030244215,
+            "scaleY": 0.41381830030244215,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0d781c56-2897-4676-a2bc-bd24d0aca1ab",
+            "label": "parachute3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "awning_blue_large"
+            },
+            "x": 6261,
+            "y": -827,
+            "scaleX": 0.5183229984833753,
+            "scaleY": 0.5183229984833753,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 581,
+            "body.height": 102,
+            "body.offset.y": 50
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "cca6413f-937d-47d6-b8c4-2d4b44dbe901",
+            "label": "steplredlev4",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 5864,
+            "y": -756,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "53203193-0e50-47b0-b723-d6642ce5731d",
+            "label": "steplredredl3",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 6627,
+            "y": -755,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "d19c44de-5103-4d95-b6c0-7c224743987d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window44",
+            "displayName": " ",
+            "scope": "PUBLIC",
+            "x": 6006,
+            "y": -171
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "2d4e586b-36ef-48c8-bfce-53a000d24874",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window43",
+            "scope": "PUBLIC",
+            "x": 6486,
+            "y": -169
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "c3e375ba-2ab1-4ac7-926e-6021ab7a3498",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window45",
+            "scope": "PUBLIC",
+            "x": 5849,
+            "y": -808
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "d8d8e062-ca9f-49e3-b207-6e703d64d1ac",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window42",
+            "scope": "PUBLIC",
+            "x": 6604,
+            "y": -811
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "16e6a45b-93e8-4959-81cb-9606525150b3",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window41",
+            "scope": "PUBLIC",
+            "x": 5925,
+            "y": -1304
+        },
+        {
+            "type": "Image",
+            "id": "502ff737-db56-446f-affb-f2c716be6fa6",
+            "label": "window",
+            "texture": {
+                "key": "window_01"
+            },
+            "x": 6585,
+            "y": -1502,
+            "scaleX": 0.8058046867648366,
+            "scaleY": 0.8058046867648366
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6d6399e4-5c48-4074-b254-d7a273d81fe1",
+            "label": "ratitem4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_yellow_eyes_idle_standing_000"
+            },
+            "x": 6005,
+            "y": -154,
+            "scaleX": 0.12937473066256244,
+            "scaleY": 0.12937473066256244,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 536,
+            "body.height": 268
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "884df50f-137d-4082-9799-85bbd267e109",
+            "label": "fishitem4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__female_gambusia_swim_000"
+            },
+            "x": 5849,
+            "y": -790,
+            "scaleX": 0.10286225103379901,
+            "scaleY": 0.10286225103379901,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 550,
+            "body.height": 240
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f8f27680-38b5-4ef4-89f5-dc128479edaf",
+            "label": "Birdcageitem4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "gold_bird_cage_closed_no_back_bars"
+            },
+            "x": 6486,
+            "y": -154,
+            "scaleX": 0.08090658792800536,
+            "scaleY": 0.08090658792800536,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 413,
+            "body.height": 500
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "912e4282-7e0d-481e-8ca4-5a55fad2da14",
+            "label": "itemSpider4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__brown_spider_idle_008"
+            },
+            "x": 6603,
+            "y": -797,
+            "scaleX": 0.07761133935997001,
+            "scaleY": 0.07761133935997001,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 591,
+            "body.height": 661
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "9de3f533-85ef-49eb-a6d5-180ca3aff4d7",
+            "label": "mouseitem4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_mouse_walk_000"
+            },
+            "x": 5922,
+            "y": -1289,
+            "scaleX": 0.13345414075092935,
+            "scaleY": 0.13345414075092935,
+            "tintTopLeft": "#413f3f",
+            "tintTopRight": "#404040",
+            "tintBottomLeft": "#484343",
+            "tintBottomRight": "#494949",
+            "body.width": 442,
+            "body.height": 292
+        },
+        {
+            "type": "Image",
+            "id": "5a6e2bd6-e435-4327-9256-7be40ce1c852",
+            "label": "aircon_1",
+            "texture": {
+                "key": "aircon"
+            },
+            "x": 5756,
+            "y": -1493,
+            "scaleX": 0.8249207473345339,
+            "scaleY": 0.8249207473345339
+        },
+        {
+            "type": "Image",
+            "id": "c8087d60-fca2-4cbd-9998-b1da9d538e43",
+            "label": "arial_2",
+            "texture": {
+                "key": "arial"
+            },
+            "x": 6473,
+            "y": -1735,
+            "scaleX": 0.6842914831405458,
+            "scaleY": 0.6842914831405458
+        },
+        {
+            "type": "Image",
+            "id": "ff6f2734-2e27-4bed-85c6-9eedc6c5c755",
+            "label": "openwindowlove4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "window_01_open"
+            },
+            "x": 6585,
+            "y": -1503,
+            "scaleX": 0.7767224245044714,
+            "scaleY": 0.7767224245044714,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "268739d2-b90b-4cb9-bcba-5a7aad160f3e",
+            "label": "steplredlev5",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 5923,
+            "y": -1250,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "d98f7e3e-84cf-41bd-ab9d-dd267c76d4bd",
+            "label": "heart4loveroom",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "100-percent"
+            },
+            "x": 6584,
+            "y": -1489,
+            "scaleX": 0.1344739131946201,
+            "scaleY": 0.1344739131946201,
+            "visible": false,
+            "body.width": 256,
+            "body.height": 256
+        },
+        {
+            "type": "Image",
+            "id": "216be4a1-ef6f-460d-88c1-ea0173f9568b",
+            "label": "fishcheck4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 5847,
+            "y": -792,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "5ba30e08-b275-4093-a8be-f821322eebed",
+            "label": "ratcheck4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 6013,
+            "y": -158,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "fd466a48-7e8a-414e-a7da-a4d35384dddc",
+            "label": "spidercheck4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 6596,
+            "y": -807,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "b66c26a8-5c55-499c-a781-a44df60290cd",
+            "label": "birdcheck4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 6484,
+            "y": -162,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ca4b7abb-aacd-436a-a1f8-c1b668951082",
+            "label": "grey_block_10",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 13334,
+            "y": -923,
+            "scaleX": 1.2915975141972877,
+            "scaleY": 1.2915975141972877
+        },
+        {
+            "type": "Image",
+            "id": "052414ad-6cf9-41af-9d60-5e547c0bba5c",
+            "label": "mousecheck4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "checkmark-xxl"
+            },
+            "x": 5922,
+            "y": -1291,
+            "scaleX": 0.1121754501485466,
+            "scaleY": 0.1121754501485466,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "05b22d0b-24b5-443a-b99a-daabbf1c8565",
+            "label": "arrow16",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 6004,
+            "y": -44,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "da48c637-b70e-4b28-8612-3d9bef01fb3f",
+            "label": "arrow17",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 5848,
+            "y": -676,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b271108d-28f1-42e6-8163-41e68d5023a7",
+            "label": "arrow18",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 6608,
+            "y": -683,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3a03a845-6110-4d58-ac52-ff1b15ec014a",
+            "label": "arrow19",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 5926,
+            "y": -1180,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "54945bc0-de2b-4a81-a596-43dd514462e4",
+            "label": "arrow20",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "short_straight_up"
+            },
+            "x": 6487,
+            "y": -40,
+            "scaleX": 0.12232717242392994,
+            "scaleY": 0.12232717242392994,
+            "tintTopLeft": "#fafafa",
+            "tintTopRight": "#f7f7f7",
+            "tintBottomLeft": "#f6f5f5",
+            "body.width": 2000,
+            "body.height": 2000
+        },
+        {
+            "type": "Image",
+            "id": "c8601f0f-8d39-4ff2-b4e8-9b02af8fe1a0",
+            "label": "grey_block_1",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 2969,
+            "y": 4582,
+            "scaleX": 0.9469061322854652,
+            "scaleY": 0.9469061322854652,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c7e339a5-d8ff-4aa2-9121-904cf755b5f5",
+            "label": "green_door_01",
+            "texture": {
+                "key": "green_door_01"
+            },
+            "x": 12152,
+            "y": -2479,
+            "scaleX": 0.7178729484752997,
+            "scaleY": 0.7178729484752997
+        },
+        {
+            "type": "Image",
+            "id": "12c2c74c-95d7-4cac-8671-6ae1698f3d9f",
+            "label": "door_frame",
+            "texture": {
+                "key": "door_frame"
+            },
+            "x": 12154,
+            "y": -2495,
+            "scaleX": 0.6796927703177682,
+            "scaleY": 0.6796927703177682
+        },
+        {
+            "prefabId": "063418db-c32a-4a7d-9f7d-9c02d801f872",
+            "id": "347b81f1-2c81-40c2-997b-33cf3d7bb7cc",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "onWorldBounds",
+                "up",
+                "down",
+                "left",
+                "right",
+                "immovable",
+                "body.width",
+                "body.height",
+                "body.offset.x",
+                "body.offset.y"
+            ],
+            "label": "woofie",
+            "scope": "PUBLIC",
+            "x": 1894,
+            "y": 577,
+            "collideWorldBounds": true,
+            "onWorldBounds": true,
+            "up": true,
+            "down": true,
+            "left": true,
+            "right": true,
+            "immovable": true,
+            "body.width": 100,
+            "body.height": 100,
+            "body.offset.x": 120,
+            "body.offset.y": 0
+        },
+        {
+            "type": "Image",
+            "id": "7e77159b-9430-4c10-9f06-092f068db107",
+            "label": "grey_block_lift_shaft_2",
+            "texture": {
+                "key": "grey_block_lift_shaft"
+            },
+            "x": 2404,
+            "y": 1013,
+            "scaleX": 1.5022358089872774,
+            "scaleY": 1.5022358089872774
+        },
+        {
+            "type": "Image",
+            "id": "ff8c74a6-eab2-4bd0-a9ad-dc889b895289",
+            "label": "grey_block_lift_shaft_3",
+            "texture": {
+                "key": "grey_block_lift_shaft"
+            },
+            "x": 8373,
+            "y": -2294,
+            "scaleX": 1.2358305159014518,
+            "scaleY": 1.2358305159014518
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4faf2545-cfb8-471b-bdde-ede64975b155",
+            "label": "trashcanb",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "trash_can_lid"
+            },
+            "x": 2620,
+            "y": 4393,
+            "scaleX": 0.19225678948774275,
+            "scaleY": 0.19225678948774275,
+            "flipX": true,
+            "tintTopLeft": "#d5c0c0",
+            "tintTopRight": "#bcb3b3",
+            "body.width": 442,
+            "body.height": 561,
+            "body.offset.y": 60
+        },
+        {
+            "type": "TileSprite",
+            "id": "af6507af-b98b-4918-8a7f-c1f4b20b3cbe",
+            "label": "blue_side_srone_left_8",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 15073,
+            "y": -1680,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 0.5,
+            "width": 100,
+            "height": 800,
+            "tileScaleY": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "e1124b60-f782-472d-b50d-6b37ed96dc34",
+            "label": "window_3",
+            "texture": {
+                "key": "window_3"
+            },
+            "x": 15689,
+            "y": -1651,
+            "scaleX": 0.8013484370196791,
+            "scaleY": 0.8013484370196791
+        },
+        {
+            "type": "Image",
+            "id": "79eff09f-7547-48a8-841a-ce09edcb67c0",
+            "label": "window_2",
+            "texture": {
+                "key": "window_3"
+            },
+            "x": 13712,
+            "y": -2704,
+            "scaleX": 0.8007462717120388,
+            "scaleY": 0.8007462717120388
+        },
+        {
+            "type": "Image",
+            "id": "839f9182-a347-4d38-90c4-41737f6dfd84",
+            "label": "grey_block_5",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 8374,
+            "y": -1549,
+            "scaleX": 1.2915975141972877,
+            "scaleY": 1.2915975141972877
+        },
+        {
+            "type": "Image",
+            "id": "f6508570-d89f-4c1f-bd77-96d1303f41d6",
+            "label": "grey_block_6",
+            "texture": {
+                "key": "grey_block"
+            },
+            "x": 8379,
+            "y": -1970,
+            "scaleX": 1.2915975141972877,
+            "scaleY": 1.2915975141972877
+        },
+        {
+            "type": "TileSprite",
+            "id": "0e2b8f43-1fba-43c4-a79d-9ba25001f271",
+            "label": "blue_side_srone_left_9",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 8779,
+            "y": -1755,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 0.5,
+            "flipX": true,
+            "width": 100,
+            "height": 1730,
+            "tileScaleY": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "3a82f1c4-7a6f-4db8-8f6c-ac2548a3a31f",
+            "label": "window_5",
+            "texture": {
+                "key": "window_3"
+            },
+            "x": 12404,
+            "y": -2072,
+            "scaleX": 0.8007462717120388,
+            "scaleY": 0.8007462717120388
+        },
+        {
+            "type": "Image",
+            "id": "a3052ca0-d7d7-4319-9504-e956aba4d41e",
+            "label": "chimney_1",
+            "texture": {
+                "key": "chimney"
+            },
+            "x": 8905,
+            "y": -1400,
+            "scaleX": 0.8979682984570669,
+            "scaleY": 0.8979682984570669
+        },
+        {
+            "type": "TileSprite",
+            "id": "8c48de34-6a96-41f4-a103-738222574a01",
+            "label": "blue_side_srone_left_10",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 7967,
+            "y": -1757,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 0.5,
+            "width": 100,
+            "height": 1730,
+            "tileScaleY": 0.9
+        },
+        {
+            "type": "TileSprite",
+            "id": "ec196763-37f3-4890-a211-1a163d63b9ba",
+            "label": "blockwallmid_2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 13726,
+            "y": -1838,
+            "scaleY": 0.6352806194156675,
+            "angle": 90,
+            "flipX": true,
+            "width": 460,
+            "height": 20
+        },
+        {
+            "type": "Image",
+            "id": "dc098465-7fdb-43f8-b0cd-fb74c0e70791",
+            "label": "small_shop_window_1",
+            "texture": {
+                "key": "small_shop_window"
+            },
+            "x": 9391,
+            "y": 217,
+            "scaleX": 0.3667426249529734,
+            "scaleY": 0.3667426249529734,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bf0c6cc9-67ed-464c-ae82-b11f07b7f15d",
+            "label": "windowlast1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "small_shop_window"
+            },
+            "x": 8091,
+            "y": 328,
+            "scaleX": 0.42151863203897044,
+            "scaleY": 0.42151863203897044,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "body.width": 263,
+            "body.height": 241,
+            "body.offset.y": 225
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3b3e1bbe-3e49-41ba-9a12-0d3451c2dd08",
+            "label": "windowlast2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "large_shop_window"
+            },
+            "x": 8537,
+            "y": 155,
+            "scaleX": 0.46959442559563286,
+            "scaleY": 0.46959442559563286,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "body.width": 460,
+            "body.height": 241,
+            "body.offset.y": 225
+        },
+        {
+            "type": "TileSprite",
+            "id": "007cc697-0e8e-468f-95ae-1e9e7637ccd9",
+            "label": "blue_side_srone_left_11",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 13188,
+            "y": -1220,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 0.5,
+            "flipX": true,
+            "width": 100,
+            "height": 1060,
+            "tileScaleY": 0.9
+        },
+        {
+            "type": "TileSprite",
+            "id": "e1846404-2406-489d-9b75-bf4f7b2e606f",
+            "label": "blue_side_srone_left_12",
+            "texture": {
+                "key": "blue_side_srone_left"
+            },
+            "x": 12706,
+            "y": -1999,
+            "scaleX": 0.6434618337976579,
+            "scaleY": 0.4266172157168978,
+            "flipX": true,
+            "width": 100,
+            "height": 1060,
+            "tileScaleY": 0.9
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "10c940a2-6f5a-4392-8017-8e4da6f39201",
+            "label": "firescape_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "fire_escape_platform_1"
+            },
+            "x": 8967,
+            "scaleX": 0.8726904200702011,
+            "scaleY": 0.8726904200702011,
+            "body.width": 219,
+            "body.height": 115,
+            "body.offset.y": 100
+        },
+        {
+            "type": "TileSprite",
+            "id": "14e979e5-99e5-465d-881f-9fab82511de6",
+            "label": "blockwallmid",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 13026,
+            "y": -1509,
+            "scaleX": 0.9,
+            "scaleY": 0.6587029692541941,
+            "flipX": true,
+            "width": 970,
+            "height": 29,
+            "tilePositionX": 105,
+            "tileScaleX": 1.29
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "1f447638-a166-4fed-9c3a-bfda56400f59",
+            "label": "billboard_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "small_bill_board"
+            },
+            "x": 12820,
+            "y": -2084,
+            "scaleX": 0.7677804810584435,
+            "scaleY": 0.758873178661238,
+            "alpha": 0.6,
+            "alphaTopLeft": 0.6,
+            "alphaTopRight": 0.6,
+            "alphaBottomLeft": 0.6,
+            "alphaBottomRight": 0.6,
+            "tintTopLeft": "#a2adc6",
+            "tintTopRight": "#bfc6d8",
+            "tintBottomLeft": "#446aa4",
+            "tintBottomRight": "#4d85bc",
+            "body.width": 277,
+            "body.height": 103,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "1bbf9bb3-9b1f-47e3-9fc5-f438678f6ad7",
+                    "label": "shadowFx_3",
+                    "y": -1,
+                    "samples": 3,
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "c2bd02e9-fd4f-4bc7-b7d2-0c381fdfac9d",
+            "label": "text_1",
+            "scope": "PUBLIC",
+            "padding": 0.2,
+            "x": 12741,
+            "y": -2114,
+            "scaleX": 1.5535229736724894,
+            "scaleY": 1.5381343995806056,
+            "text": "Watch it",
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "resolution": 2,
+            "lineSpacing": 2,
+            "fontFamily": "Awesome",
+            "fontSize": "30px",
+            "stroke": "#060606ff",
+            "strokeThickness": 1.2,
+            "shadow.offsetX": 1,
+            "shadow.offsetY": 1,
+            "shadow.fill": true,
+            "shadow.blur": 1,
+            "baselineX": 3,
+            "maxLines": 1,
+            "wordWrapWidth": 120
+        },
+        {
+            "type": "TileSprite",
+            "id": "563fda18-d8ac-40e9-8f24-d671e1fe7a49",
+            "label": "platformtwo_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 9333,
+            "y": 454,
+            "scaleX": 0.6139297054737364,
+            "scaleY": 0.5243546465936467,
+            "visible": false,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "tintTopLeft": "#cfc1b0",
+            "tintTopRight": "#d2c8b3",
+            "tintBottomLeft": "#c7c29b",
+            "tintBottomRight": "#b9b283",
+            "width": 1100,
+            "height": 29
+        },
+        {
+            "prefabId": "31228444-de3f-4012-bfa3-ad8322bb5030",
+            "id": "07763547-ae2e-4841-9b43-6706886cc4dd",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "stepBlock1",
+            "displayName": " ",
+            "scope": "PUBLIC",
+            "x": 8250,
+            "y": -85,
+            "scaleX": 0.7371687156268603,
+            "scaleY": 1.0115583323110042,
+            "alpha": 0.4
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bd309da7-de10-4d39-acd4-9d6dd1a31900",
+            "label": "firescapelast1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "fire_escape_platform_1"
+            },
+            "x": 7846,
+            "y": -636,
+            "scaleX": 0.8726904200702011,
+            "scaleY": 0.8726904200702011,
+            "flipX": true,
+            "body.width": 219,
+            "body.height": 115,
+            "body.offset.y": 100
+        },
+        {
+            "type": "TileSprite",
+            "id": "b5b236d6-7a8e-419d-8d36-2344c62af032",
+            "label": "platformtwo_2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 12218,
+            "y": -1456,
+            "scaleX": 0.6139297054737364,
+            "scaleY": 0.5243546465936467,
+            "visible": false,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8,
+            "tintTopLeft": "#cfc1b0",
+            "tintTopRight": "#d2c8b3",
+            "tintBottomLeft": "#c7c29b",
+            "tintBottomRight": "#b9b283",
+            "width": 1100,
+            "height": 29
+        },
+        {
+            "prefabId": "31228444-de3f-4012-bfa3-ad8322bb5030",
+            "id": "70c6ed03-c622-44d9-8c14-987f01bd0157",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "stepBlock2",
+            "scope": "PUBLIC",
+            "x": 8612,
+            "y": -355,
+            "scaleX": 0.847460760004689,
+            "scaleY": 1.1030253813731088,
+            "alpha": 0.4
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "593b3a07-21ad-41fe-b178-dead9b683aa0",
+            "label": "step51",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 8176,
+            "y": -346,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "52ff5534-b80d-48db-a80b-f0919c92bd6d",
+            "label": "step52",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 8710,
+            "y": -693,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c0e18ca7-d8c2-4252-8957-36c4ad5e3d59",
+            "label": "stepladderleft",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 7851,
+            "y": -570,
+            "scaleX": 0.9778427422157434,
+            "scaleY": 0.6141521468953506,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bffe9352-a831-448c-b1b6-627bcf3f5590",
+            "label": "stepladderleft1",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 8970,
+            "y": 39,
+            "scaleX": 0.9778427422157434,
+            "scaleY": 0.6141521468953506,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "prefabId": "31228444-de3f-4012-bfa3-ad8322bb5030",
+            "id": "c3df89ee-bc82-4827-8c88-e7df1870fd20",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "stepBlock3",
+            "displayName": " ",
+            "scope": "PUBLIC",
+            "x": 8295,
+            "y": -777,
+            "scaleX": 0.847460760004689,
+            "scaleY": 1.1030253813731088,
+            "alpha": 0.4
+        },
+        {
+            "prefabId": "31228444-de3f-4012-bfa3-ad8322bb5030",
+            "id": "dee3dfe0-4d27-472f-9167-5af084082b37",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "stepBlock4",
+            "displayName": " ",
+            "scope": "PUBLIC",
+            "x": 8594,
+            "y": -1022,
+            "scaleX": 0.6971934433376743,
+            "scaleY": 0.95635667752653,
+            "alpha": 0.4
+        },
+        {
+            "prefabId": "31228444-de3f-4012-bfa3-ad8322bb5030",
+            "id": "149ee60d-ec2d-44ea-99da-3673df091a4d",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "stepBlock5",
+            "displayName": " ",
+            "scope": "PUBLIC",
+            "x": 8406,
+            "y": -1810,
+            "scaleX": 0.6066644829684937,
+            "scaleY": 1.030778854898828,
+            "alpha": 0.4
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "0e31fe99-b2a8-40b0-82c5-3e175419e7d0",
+            "label": "blocksepred",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 8393,
+            "y": -1327,
+            "scaleX": 0.86,
+            "scaleY": 0.385783340536251,
+            "width": 1338,
+            "height": 40,
+            "leftWidth": 269,
+            "rightWidth": 184
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "cfe3fbfd-6b56-4b35-8f09-5fa66f250565",
+            "label": "step53",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 8133,
+            "y": -1051,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "prefabId": "31228444-de3f-4012-bfa3-ad8322bb5030",
+            "id": "01bb21bd-caa3-48f7-ae72-6862a68f2495",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "stepBlock7",
+            "displayName": " ",
+            "scope": "PUBLIC",
+            "x": 8198,
+            "y": -1632,
+            "scaleX": 0.6971934433376743,
+            "scaleY": 0.95635667752653,
+            "alpha": 0.4
+        },
+        {
+            "prefabId": "31228444-de3f-4012-bfa3-ad8322bb5030",
+            "id": "8d68c498-cce7-4e7a-83cf-9c373c9affd7",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "stepBlock6",
+            "displayName": " ",
+            "scope": "PUBLIC",
+            "x": 8530,
+            "y": -1484,
+            "scaleX": 0.6971934433376743,
+            "scaleY": 0.95635667752653,
+            "alpha": 0.4
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "448d4aed-c448-4883-ba9e-97b86ac5607a",
+            "label": "poster5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "poster_01"
+            },
+            "x": 10235,
+            "y": -587,
+            "scaleX": 0.5007194768950565,
+            "scaleY": 0.5007194768950565,
+            "angle": 5,
+            "alpha": 0.7,
+            "alphaTopLeft": 0.7,
+            "alphaTopRight": 0.7,
+            "alphaBottomLeft": 0.7,
+            "alphaBottomRight": 0.7,
+            "body.width": 101,
+            "body.height": 132
+        },
+        {
+            "type": "ThreeSlice",
+            "id": "5a911c9f-fcab-4257-a390-ce853298eade",
+            "label": "blocksepred_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 8372,
+            "y": -2194,
+            "scaleX": 0.66,
+            "scaleY": 0.385783340536251,
+            "width": 1338,
+            "height": 40,
+            "leftWidth": 269,
+            "rightWidth": 184
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "1258427f-ae4f-4aca-9dda-98f0342ed491",
+            "label": "step54",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 8602,
+            "y": -1877,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6a9f304e-a062-4f10-84e3-918eca39d581",
+            "label": "step55",
+            "displayName": " ",
+            "useGameObjectName": true,
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "step"
+            },
+            "x": 8125,
+            "y": -1867,
+            "scaleX": 0.4597905632442396,
+            "scaleY": 0.4597905632442396,
+            "visible": false,
+            "down": false,
+            "left": false,
+            "right": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 180,
+            "body.height": 32
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "5e33d2a3-1c3e-4136-95d7-15e9d1e5a05d",
+            "label": "eagle1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__eagle_flying_000"
+            },
+            "x": 8924,
+            "y": -1750,
+            "scaleX": 0.29589246908582933,
+            "scaleY": 0.29589246908582933,
+            "body.velocity.x": -450,
+            "collideWorldBounds": true,
+            "onWorldBounds": true,
+            "body.width": 818,
+            "body.height": 866
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "b89c9adb-9d2d-4cee-8be9-e4a612d1de94",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window_10",
+            "scope": "PUBLIC",
+            "x": 8181,
+            "y": -405
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "218855d5-97a2-4537-85b8-e21b41c8408d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window_1",
+            "scope": "PUBLIC",
+            "x": 8706,
+            "y": -749
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "4abcf54a-1143-48f9-9f9a-901f38e648e5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window_4",
+            "scope": "PUBLIC",
+            "x": 8132,
+            "y": -1109
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "4964afab-a255-4faa-bb41-8fc07bd3dda0",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window_6",
+            "scope": "PUBLIC",
+            "x": 8126,
+            "y": -1927
+        },
+        {
+            "prefabId": "54961cc0-b02f-4c9e-94f7-fa1199db5ff2",
+            "id": "002b1eac-f9f5-4586-a3c8-345f669e9d10",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "window_9",
+            "scope": "PUBLIC",
+            "x": 8596,
+            "y": -1929
+        },
+        {
+            "type": "Rectangle",
+            "id": "35485f2a-7ca4-47d2-a608-d61764bbab86",
+            "label": "shaderfull",
+            "scope": "PUBLIC",
+            "blendMode": 16,
+            "x": 4512,
+            "y": -905,
+            "scaleX": 81.56642608919448,
+            "scaleY": 26.16854379983087,
+            "alpha": 0.05,
+            "isFilled": true,
+            "fillColor": "#1460c2",
+            "width": 128,
+            "height": 128,
+            "list": [
+                {
+                    "type": "ColorMatrix",
+                    "id": "05d84b97-8813-4792-bbd6-92a5c191dae5",
+                    "label": "saturateFx",
+                    "operationType": 3,
+                    "saturate": 3
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "id": "111a7fe7-982b-41e4-b689-29e4aee1c2f0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "72fb419b-daf2-4012-b58a-d017f0f7172c",
+            "label": "mouse_4",
+            "texture": {
+                "key": "mouse"
+            },
+            "scaleX": 0.07818909273346061,
+            "scaleY": 0.07818909273346061,
+            "flipX": true,
+            "body.width": 350,
+            "body.height": 300
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "Speed",
+            "label": "Speed",
+            "tooltip": "Speed",
+            "defValue": "-=450",
+            "customDefinition": true,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "Time",
+            "label": "Time",
+            "tooltip": "Time",
+            "defValue": 3100,
+            "customDefinition": true,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

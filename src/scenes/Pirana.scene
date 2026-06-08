@@ -1,0 +1,34 @@
+{
+    "id": "067d243c-3a05-4b92-9998-f80d8842ccd7",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "040b39d5-1023-4ced-81c3-7735f680e6d0",
+            "label": "PiranhaAqua",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__piranha_swim_000"
+            },
+            "scaleX": 0.2538837055167929,
+            "scaleY": 0.2538837055167929,
+            "collideWorldBounds": true,
+            "body.width": 681,
+            "body.height": 478
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

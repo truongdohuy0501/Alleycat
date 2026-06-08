@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Testie; 
+    src: url(assets/Font/Sakitu.otf);
+
+}
+
+@font-face {
+    font-family: Goofy; 
+    src: url(assets/Font/Goofy.ttf);
+
+}
+
+@font-face {
+    font-family: Awesome; 
+    src: url(assets/Font/Awesome.ttf);
+
+}
+
+@font-face {
+    font-family: Amanojaku; 
+    src: url(assets/Font/Amanojaku.otf);
+
+}
+
+@font-face {
+    font-family: Chalkboard; 
+    src: url(assets/Font/Chalkboard.ttf);
+
+}
+
+@font-face {
+    font-family: Fungky; 
+    src: url(assets/Font/Fungky.otf);
+
+}
+
+@font-face {
+    font-family: ChildHood; 
+    src: url(assets/Font/ChildHood.otf);
+
+}
+
+
+
+
+/* Je kunt hier meer font-face regels toevoegen voor verschillende varianten */

@@ -1,0 +1,279 @@
+{
+    "id": "308bbebd-45a0-404c-8b8a-67c822865eed",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "OverlayScreen",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "878adfad-e7c7-4782-abbc-6d2e84d56394",
+            "label": "ellipse_1",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 87,
+            "y": 53,
+            "scaleX": 0.8420969115069692,
+            "scaleY": 0.2909264455958094,
+            "visible": false,
+            "isFilled": true,
+            "fillColor": "#141212",
+            "fillAlpha": 0.3,
+            "strokeColor": "#090808",
+            "isStroked": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "8ecee4c8-5900-4282-84ad-9a7f0a48d8f6",
+            "label": "heart3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "100-percent"
+            },
+            "x": 53,
+            "y": 53,
+            "scaleX": 0.1406250016427852,
+            "scaleY": 0.1406250016427852
+        },
+        {
+            "type": "Image",
+            "id": "707569fc-6e9d-4099-ad89-2874ffc2ab48",
+            "label": "heart1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "100-percent"
+            },
+            "x": 96,
+            "y": 53,
+            "scaleX": 0.1406250016427852,
+            "scaleY": 0.1406250016427852
+        },
+        {
+            "type": "Image",
+            "id": "372d6694-4bda-47b3-a8ce-733088a21129",
+            "label": "heart2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "100-percent"
+            },
+            "x": 139,
+            "y": 53,
+            "scaleX": 0.1406250016427852,
+            "scaleY": 0.1406250016427852
+        },
+        {
+            "type": "Image",
+            "id": "cb94b864-2732-4d99-b687-60034e30a1b7",
+            "label": "redround",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "meter_icon_holder_red"
+            },
+            "x": 881,
+            "y": 56,
+            "scaleX": 0.06743051843931211,
+            "scaleY": 0.06743051843931211
+        },
+        {
+            "type": "Text",
+            "id": "8f525bf9-716f-41a3-b760-9ef23b9df20f",
+            "label": "completetext",
+            "scope": "PUBLIC",
+            "x": 225,
+            "y": 155,
+            "scaleX": 0.5590000013417582,
+            "scaleY": 0.5590000013417582,
+            "tintTopLeft": "#49c6e5",
+            "tintTopRight": "#942323",
+            "tintBottomLeft": "#515cde",
+            "tintBottomRight": "#86c5dc",
+            "text": "Mission complete!",
+            "fixedWidth": 1000,
+            "fixedHeight": 150,
+            "paddingTop": -30,
+            "align": "center",
+            "fontFamily": "Goofy",
+            "fontSize": "150px",
+            "fontStyle": "bold",
+            "color": "#a2cfe8ff",
+            "stroke": "#121313ff",
+            "strokeThickness": 6,
+            "backgroundColor": "#1d4e5a6e",
+            "shadow.stroke": true,
+            "shadow.fill": true,
+            "shadow.color": "#0000005e",
+            "shadow.blur": 100,
+            "baselineX": 0,
+            "baselineY": 0,
+            "wordWrapUseAdvanced": true
+        },
+        {
+            "type": "Text",
+            "id": "8f386f73-bee1-4dcc-98f1-7a71b0a26476",
+            "label": "GameOverText",
+            "scope": "PUBLIC",
+            "x": 225,
+            "y": 155,
+            "scaleX": 0.5590000013417582,
+            "scaleY": 0.5590000013417582,
+            "visible": false,
+            "tintTopLeft": "#49c6e5",
+            "tintTopRight": "#942323",
+            "tintBottomLeft": "#515cde",
+            "tintBottomRight": "#86c5dc",
+            "text": "Game Over",
+            "fixedWidth": 1000,
+            "fixedHeight": 150,
+            "paddingTop": -30,
+            "align": "center",
+            "fontFamily": "Goofy",
+            "fontSize": "150px",
+            "fontStyle": "bold",
+            "color": "#a2cfe8ff",
+            "stroke": "#121313ff",
+            "strokeThickness": 6,
+            "backgroundColor": "#1d4e5a6e",
+            "shadow.stroke": true,
+            "shadow.fill": true,
+            "shadow.color": "#0000005e",
+            "shadow.blur": 100,
+            "baselineX": 0,
+            "baselineY": 0,
+            "wordWrapUseAdvanced": true
+        },
+        {
+            "type": "Image",
+            "id": "aa7dfb45-79c6-4649-8045-c64728403ea8",
+            "label": "multiplication",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "cross"
+            },
+            "x": 930,
+            "y": 54,
+            "scaleX": 0.028729570739138326,
+            "scaleY": 0.028729570739138326
+        },
+        {
+            "type": "Image",
+            "id": "37cea867-ff19-41d4-8dae-9ed0094af223",
+            "label": "bird",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "iconbird"
+            },
+            "x": 882,
+            "y": 54,
+            "scaleX": 0.01951267241025338,
+            "scaleY": 0.01951267241025338,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0cc00599-8287-40c5-ba64-8f8d364d456d",
+            "label": "spider",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "flowersbush"
+            },
+            "x": 880,
+            "y": 55,
+            "scaleX": 0.05338256788947569,
+            "scaleY": 0.05338256788947569
+        },
+        {
+            "type": "Image",
+            "id": "23649e5f-7814-412d-9039-d65e9f3caf44",
+            "label": "fish",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__female_gambusia_swim_000"
+            },
+            "x": 881,
+            "y": 54,
+            "scaleX": 0.06221102972315308,
+            "scaleY": 0.06221102972315308,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "13ec414b-8d81-46e5-acd8-f1cbbfda299d",
+            "label": "rat",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__rat_idle_standing_000"
+            },
+            "x": 879,
+            "y": 54,
+            "scaleX": 0.07892870875856689,
+            "scaleY": 0.07892870875856689,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "bc4aed22-4217-4ab0-b7dd-3b69529ffb67",
+            "label": "mouse",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_mouse_walk_000"
+            },
+            "x": 880,
+            "y": 52,
+            "scaleX": 0.07380588923631783,
+            "scaleY": 0.07380588923631783,
+            "visible": false
+        },
+        {
+            "type": "Text",
+            "id": "7e23bc29-ef8e-4e8c-899e-5d66ee407fff",
+            "label": "preycount",
+            "scope": "PUBLIC",
+            "x": 960,
+            "y": 18,
+            "scaleX": 0.5321631911933176,
+            "scaleY": 0.5321631911933176,
+            "tintTopLeft": "#0d0c0c",
+            "tintTopRight": "#0b0a0a",
+            "tintBottomLeft": "#131111",
+            "tintBottomRight": "#0e0d0d",
+            "text": "0",
+            "fontFamily": "Goofy",
+            "fontSize": "100px"
+        },
+        {
+            "type": "Rectangle",
+            "id": "65b9d85d-9e14-49cd-9311-39cdafc6078d",
+            "label": "ellipse",
+            "scope": "PUBLIC",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.width": 128,
+            "hitArea.height": 128,
+            "x": 915,
+            "y": 54,
+            "scaleX": 1.1701900525795625,
+            "scaleY": 0.3715406343221952,
+            "visible": false,
+            "isFilled": true,
+            "fillColor": "#3e4474",
+            "fillAlpha": 0.3,
+            "strokeColor": "#090808",
+            "isStroked": true,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

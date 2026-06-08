@@ -1,0 +1,4848 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/Aquarium/__angler_fish_idle.png",
+                "frameConfig": {
+                    "frameWidth": 622,
+                    "frameHeight": 451,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "__angler_fish_idle"
+            },
+            {
+                "url": "assets/Aquarium/__angler_fish_swim.png",
+                "frameConfig": {
+                    "frameWidth": 622,
+                    "frameHeight": 451,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "__angler_fish_swim"
+            },
+            {
+                "url": "assets/__bad_dog_brown_bite_000.png",
+                "type": "image",
+                "key": "__bad_dog_brown_bite_000"
+            },
+            {
+                "url": "assets/__bad_dog_brown_bite_001.png",
+                "type": "image",
+                "key": "__bad_dog_brown_bite_001"
+            },
+            {
+                "url": "assets/__bad_dog_brown_die_005.png",
+                "type": "image",
+                "key": "__bad_dog_brown_die_005"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_000.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_000"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_001.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_001"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_002.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_002"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_003.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_003"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_004.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_004"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_005.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_005"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_006.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_006"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_007.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_007"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_008.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_008"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_009.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_009"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_010.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_010"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_011.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_011"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_012.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_012"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_013.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_013"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_014.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_014"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_015.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_015"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_016.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_016"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_017.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_017"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_018.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_018"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_idle_019.png",
+                "type": "image",
+                "key": "__bad_dog_brown_idle_019"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_run_000.png",
+                "type": "image",
+                "key": "__bad_dog_brown_run_000"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_run_001.png",
+                "type": "image",
+                "key": "__bad_dog_brown_run_001"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_run_002.png",
+                "type": "image",
+                "key": "__bad_dog_brown_run_002"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_run_003.png",
+                "type": "image",
+                "key": "__bad_dog_brown_run_003"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_run_004.png",
+                "type": "image",
+                "key": "__bad_dog_brown_run_004"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_run_005.png",
+                "type": "image",
+                "key": "__bad_dog_brown_run_005"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_run_006.png",
+                "type": "image",
+                "key": "__bad_dog_brown_run_006"
+            },
+            {
+                "url": "assets/BadDog/__bad_dog_brown_run_007.png",
+                "type": "image",
+                "key": "__bad_dog_brown_run_007"
+            },
+            {
+                "url": "assets/__bad_dog_brown_walk_000.png",
+                "type": "image",
+                "key": "__bad_dog_brown_walk_000"
+            },
+            {
+                "url": "assets/__bad_dog_brown_walk_001.png",
+                "type": "image",
+                "key": "__bad_dog_brown_walk_001"
+            },
+            {
+                "url": "assets/__bad_dog_brown_walk_002.png",
+                "type": "image",
+                "key": "__bad_dog_brown_walk_002"
+            },
+            {
+                "url": "assets/__bad_dog_brown_walk_003.png",
+                "type": "image",
+                "key": "__bad_dog_brown_walk_003"
+            },
+            {
+                "url": "assets/__bad_dog_brown_walk_004.png",
+                "type": "image",
+                "key": "__bad_dog_brown_walk_004"
+            },
+            {
+                "url": "assets/__bad_dog_brown_walk_005.png",
+                "type": "image",
+                "key": "__bad_dog_brown_walk_005"
+            },
+            {
+                "url": "assets/__bad_dog_brown_walk_006.png",
+                "type": "image",
+                "key": "__bad_dog_brown_walk_006"
+            },
+            {
+                "url": "assets/__bad_dog_brown_walk_007.png",
+                "type": "image",
+                "key": "__bad_dog_brown_walk_007"
+            },
+            {
+                "url": "assets/Bat/__black_bat_fly_mouth_closed_007.png",
+                "type": "image",
+                "key": "__black_bat_fly_mouth_closed_007"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_000.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_000"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_001.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_001"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_002.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_002"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_003.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_003"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_004.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_004"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_005.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_005"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_006.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_006"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_007.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_007"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_008.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_008"
+            },
+            {
+                "url": "assets/Birds/__black_bird_01_fly_straight_009.png",
+                "type": "image",
+                "key": "__black_bird_01_fly_straight_009"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_000.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_000"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_001.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_001"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_002.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_002"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_003.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_003"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_004.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_004"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_005.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_005"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_006.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_006"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_007.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_007"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_008.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_008"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_009.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_009"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_010.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_010"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_011.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_011"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_012.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_012"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_013.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_013"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_014.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_014"
+            },
+            {
+                "url": "assets/__black_cat_dizzy_015.png",
+                "type": "image",
+                "key": "__black_cat_dizzy_015"
+            },
+            {
+                "url": "assets/__black_cat_idle_000.png",
+                "type": "image",
+                "key": "__black_cat_idle_000"
+            },
+            {
+                "url": "assets/__black_cat_idle_001.png",
+                "type": "image",
+                "key": "__black_cat_idle_001"
+            },
+            {
+                "url": "assets/__black_cat_idle_002.png",
+                "type": "image",
+                "key": "__black_cat_idle_002"
+            },
+            {
+                "url": "assets/__black_cat_idle_003.png",
+                "type": "image",
+                "key": "__black_cat_idle_003"
+            },
+            {
+                "url": "assets/__black_cat_idle_004.png",
+                "type": "image",
+                "key": "__black_cat_idle_004"
+            },
+            {
+                "url": "assets/__black_cat_idle_005.png",
+                "type": "image",
+                "key": "__black_cat_idle_005"
+            },
+            {
+                "url": "assets/__black_cat_idle_006.png",
+                "type": "image",
+                "key": "__black_cat_idle_006"
+            },
+            {
+                "url": "assets/__black_cat_idle_007.png",
+                "type": "image",
+                "key": "__black_cat_idle_007"
+            },
+            {
+                "url": "assets/__black_cat_idle_008.png",
+                "type": "image",
+                "key": "__black_cat_idle_008"
+            },
+            {
+                "url": "assets/__black_cat_idle_009.png",
+                "type": "image",
+                "key": "__black_cat_idle_009"
+            },
+            {
+                "url": "assets/__black_cat_idle_010.png",
+                "type": "image",
+                "key": "__black_cat_idle_010"
+            },
+            {
+                "url": "assets/__black_cat_idle_011.png",
+                "type": "image",
+                "key": "__black_cat_idle_011"
+            },
+            {
+                "url": "assets/__black_cat_idle_012.png",
+                "type": "image",
+                "key": "__black_cat_idle_012"
+            },
+            {
+                "url": "assets/__black_cat_idle_013.png",
+                "type": "image",
+                "key": "__black_cat_idle_013"
+            },
+            {
+                "url": "assets/__black_cat_idle_014.png",
+                "type": "image",
+                "key": "__black_cat_idle_014"
+            },
+            {
+                "url": "assets/__black_cat_idle_015.png",
+                "type": "image",
+                "key": "__black_cat_idle_015"
+            },
+            {
+                "url": "assets/__black_cat_idle_016.png",
+                "type": "image",
+                "key": "__black_cat_idle_016"
+            },
+            {
+                "url": "assets/__black_cat_idle_017.png",
+                "type": "image",
+                "key": "__black_cat_idle_017"
+            },
+            {
+                "url": "assets/__black_cat_idle_018.png",
+                "type": "image",
+                "key": "__black_cat_idle_018"
+            },
+            {
+                "url": "assets/__black_cat_idle_019.png",
+                "type": "image",
+                "key": "__black_cat_idle_019"
+            },
+            {
+                "url": "assets/__black_cat_jump_000.png",
+                "type": "image",
+                "key": "__black_cat_jump_000"
+            },
+            {
+                "url": "assets/__black_cat_jump_001.png",
+                "type": "image",
+                "key": "__black_cat_jump_001"
+            },
+            {
+                "url": "assets/__black_cat_jump_002.png",
+                "type": "image",
+                "key": "__black_cat_jump_002"
+            },
+            {
+                "url": "assets/__black_cat_jump_003.png",
+                "type": "image",
+                "key": "__black_cat_jump_003"
+            },
+            {
+                "url": "assets/__black_cat_jump_004.png",
+                "type": "image",
+                "key": "__black_cat_jump_004"
+            },
+            {
+                "url": "assets/__black_cat_jump_005.png",
+                "type": "image",
+                "key": "__black_cat_jump_005"
+            },
+            {
+                "url": "assets/__black_cat_jump_006.png",
+                "type": "image",
+                "key": "__black_cat_jump_006"
+            },
+            {
+                "url": "assets/__black_cat_jump_007.png",
+                "type": "image",
+                "key": "__black_cat_jump_007"
+            },
+            {
+                "url": "assets/__black_cat_jump_008.png",
+                "type": "image",
+                "key": "__black_cat_jump_008"
+            },
+            {
+                "url": "assets/__black_cat_jump_009.png",
+                "type": "image",
+                "key": "__black_cat_jump_009"
+            },
+            {
+                "url": "assets/__black_cat_jump_010.png",
+                "type": "image",
+                "key": "__black_cat_jump_010"
+            },
+            {
+                "url": "assets/__black_cat_jump_011.png",
+                "type": "image",
+                "key": "__black_cat_jump_011"
+            },
+            {
+                "url": "assets/__black_cat_scratch_000.png",
+                "type": "image",
+                "key": "__black_cat_scratch_000"
+            },
+            {
+                "url": "assets/__black_cat_scratch_001.png",
+                "type": "image",
+                "key": "__black_cat_scratch_001"
+            },
+            {
+                "url": "assets/__black_cat_scratch_002.png",
+                "type": "image",
+                "key": "__black_cat_scratch_002"
+            },
+            {
+                "url": "assets/__black_cat_scratch_003.png",
+                "type": "image",
+                "key": "__black_cat_scratch_003"
+            },
+            {
+                "url": "assets/__black_cat_scratch_004.png",
+                "type": "image",
+                "key": "__black_cat_scratch_004"
+            },
+            {
+                "url": "assets/__black_cat_scratch_005.png",
+                "type": "image",
+                "key": "__black_cat_scratch_005"
+            },
+            {
+                "url": "assets/__black_cat_scratch_006.png",
+                "type": "image",
+                "key": "__black_cat_scratch_006"
+            },
+            {
+                "url": "assets/__black_cat_scratch_007.png",
+                "type": "image",
+                "key": "__black_cat_scratch_007"
+            },
+            {
+                "url": "assets/__black_cat_scratch_008.png",
+                "type": "image",
+                "key": "__black_cat_scratch_008"
+            },
+            {
+                "url": "assets/__black_cat_scratch_009.png",
+                "type": "image",
+                "key": "__black_cat_scratch_009"
+            },
+            {
+                "url": "assets/__black_cat_sit_tranistion_to_004.png",
+                "type": "image",
+                "key": "__black_cat_sit_tranistion_to_004"
+            },
+            {
+                "url": "assets/__black_cat_walk_000.png",
+                "type": "image",
+                "key": "__black_cat_walk_000"
+            },
+            {
+                "url": "assets/__black_cat_walk_001.png",
+                "type": "image",
+                "key": "__black_cat_walk_001"
+            },
+            {
+                "url": "assets/__black_cat_walk_002.png",
+                "type": "image",
+                "key": "__black_cat_walk_002"
+            },
+            {
+                "url": "assets/__black_cat_walk_003.png",
+                "type": "image",
+                "key": "__black_cat_walk_003"
+            },
+            {
+                "url": "assets/__black_cat_walk_004.png",
+                "type": "image",
+                "key": "__black_cat_walk_004"
+            },
+            {
+                "url": "assets/__black_cat_walk_005.png",
+                "type": "image",
+                "key": "__black_cat_walk_005"
+            },
+            {
+                "url": "assets/__black_cat_walk_006.png",
+                "type": "image",
+                "key": "__black_cat_walk_006"
+            },
+            {
+                "url": "assets/Other cats/__black_cat_yellow_eyes_walk_000.png",
+                "type": "image",
+                "key": "__black_cat_yellow_eyes_walk_000"
+            },
+            {
+                "url": "assets/Other cats/__black_cat_yellow_eyes_walk_001.png",
+                "type": "image",
+                "key": "__black_cat_yellow_eyes_walk_001"
+            },
+            {
+                "url": "assets/Other cats/__black_cat_yellow_eyes_walk_002.png",
+                "type": "image",
+                "key": "__black_cat_yellow_eyes_walk_002"
+            },
+            {
+                "url": "assets/Other cats/__black_cat_yellow_eyes_walk_003.png",
+                "type": "image",
+                "key": "__black_cat_yellow_eyes_walk_003"
+            },
+            {
+                "url": "assets/Other cats/__black_cat_yellow_eyes_walk_004.png",
+                "type": "image",
+                "key": "__black_cat_yellow_eyes_walk_004"
+            },
+            {
+                "url": "assets/Other cats/__black_cat_yellow_eyes_walk_005.png",
+                "type": "image",
+                "key": "__black_cat_yellow_eyes_walk_005"
+            },
+            {
+                "url": "assets/Other cats/__black_cat_yellow_eyes_walk_006.png",
+                "type": "image",
+                "key": "__black_cat_yellow_eyes_walk_006"
+            },
+            {
+                "url": "assets/Other cats/__black_cat_yellow_eyes_walk_007.png",
+                "type": "image",
+                "key": "__black_cat_yellow_eyes_walk_007"
+            },
+            {
+                "url": "assets/Spider/__black_widow_black_attack_000.png",
+                "type": "image",
+                "key": "__black_widow_black_attack_000"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_base standing_009.png",
+                "type": "image",
+                "key": "__brown_spider_base standing_009"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_000.png",
+                "type": "image",
+                "key": "__brown_spider_idle_000"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_001.png",
+                "type": "image",
+                "key": "__brown_spider_idle_001"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_002.png",
+                "type": "image",
+                "key": "__brown_spider_idle_002"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_003.png",
+                "type": "image",
+                "key": "__brown_spider_idle_003"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_004.png",
+                "type": "image",
+                "key": "__brown_spider_idle_004"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_005.png",
+                "type": "image",
+                "key": "__brown_spider_idle_005"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_006.png",
+                "type": "image",
+                "key": "__brown_spider_idle_006"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_007.png",
+                "type": "image",
+                "key": "__brown_spider_idle_007"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_008.png",
+                "type": "image",
+                "key": "__brown_spider_idle_008"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_009.png",
+                "type": "image",
+                "key": "__brown_spider_idle_009"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_010.png",
+                "type": "image",
+                "key": "__brown_spider_idle_010"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_011.png",
+                "type": "image",
+                "key": "__brown_spider_idle_011"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_012.png",
+                "type": "image",
+                "key": "__brown_spider_idle_012"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_013.png",
+                "type": "image",
+                "key": "__brown_spider_idle_013"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_014.png",
+                "type": "image",
+                "key": "__brown_spider_idle_014"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_015.png",
+                "type": "image",
+                "key": "__brown_spider_idle_015"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_016.png",
+                "type": "image",
+                "key": "__brown_spider_idle_016"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_017.png",
+                "type": "image",
+                "key": "__brown_spider_idle_017"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_018.png",
+                "type": "image",
+                "key": "__brown_spider_idle_018"
+            },
+            {
+                "url": "assets/Spider/__brown_spider_idle_019.png",
+                "type": "image",
+                "key": "__brown_spider_idle_019"
+            },
+            {
+                "url": "assets/Aquarium/__cartoon_fish_06_blue_swim.png",
+                "frameConfig": {
+                    "frameWidth": 498,
+                    "frameHeight": 327,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "__cartoon_fish_06_blue_swim"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_000.png",
+                "type": "image",
+                "key": "__eagle_flying_000"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_001.png",
+                "type": "image",
+                "key": "__eagle_flying_001"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_002.png",
+                "type": "image",
+                "key": "__eagle_flying_002"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_003.png",
+                "type": "image",
+                "key": "__eagle_flying_003"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_004.png",
+                "type": "image",
+                "key": "__eagle_flying_004"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_005.png",
+                "type": "image",
+                "key": "__eagle_flying_005"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_006.png",
+                "type": "image",
+                "key": "__eagle_flying_006"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_007.png",
+                "type": "image",
+                "key": "__eagle_flying_007"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_008.png",
+                "type": "image",
+                "key": "__eagle_flying_008"
+            },
+            {
+                "url": "assets/Eagle/__eagle_flying_009.png",
+                "type": "image",
+                "key": "__eagle_flying_009"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_000.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_000"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_001.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_001"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_002.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_002"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_003.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_003"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_004.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_004"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_005.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_005"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_006.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_006"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_007.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_007"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_008.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_008"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_009.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_009"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_010.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_010"
+            },
+            {
+                "url": "assets/Aquarium/__electric_eel_swimming_011.png",
+                "type": "image",
+                "key": "__electric_eel_swimming_011"
+            },
+            {
+                "url": "assets/Aquarium/Female fish/__female_gambusia_swim_000.png",
+                "type": "image",
+                "key": "__female_gambusia_swim_000"
+            },
+            {
+                "url": "assets/Aquarium/Female fish/__female_gambusia_swim_001.png",
+                "type": "image",
+                "key": "__female_gambusia_swim_001"
+            },
+            {
+                "url": "assets/Aquarium/Female fish/__female_gambusia_swim_002.png",
+                "type": "image",
+                "key": "__female_gambusia_swim_002"
+            },
+            {
+                "url": "assets/Aquarium/Female fish/__female_gambusia_swim_003.png",
+                "type": "image",
+                "key": "__female_gambusia_swim_003"
+            },
+            {
+                "url": "assets/Aquarium/Female fish/__female_gambusia_swim_004.png",
+                "type": "image",
+                "key": "__female_gambusia_swim_004"
+            },
+            {
+                "url": "assets/Aquarium/Female fish/__female_gambusia_swim_005.png",
+                "type": "image",
+                "key": "__female_gambusia_swim_005"
+            },
+            {
+                "url": "assets/Aquarium/Female fish/__female_gambusia_swim_006.png",
+                "type": "image",
+                "key": "__female_gambusia_swim_006"
+            },
+            {
+                "url": "assets/Aquarium/Female fish/__female_gambusia_swim_007.png",
+                "type": "image",
+                "key": "__female_gambusia_swim_007"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_000.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_000"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_001.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_001"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_002.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_002"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_003.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_003"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_004.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_004"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_005.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_005"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_006.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_006"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_007.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_007"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_008.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_008"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_009.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_009"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_010.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_010"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_011.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_011"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_012.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_012"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_013.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_013"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_014.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_014"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_015.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_015"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_016.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_016"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_017.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_017"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_018.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_018"
+            },
+            {
+                "url": "assets/Ghost/__four_directional_ghost_right_idle_019.png",
+                "type": "image",
+                "key": "__four_directional_ghost_right_idle_019"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_000.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_000"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_001.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_001"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_002.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_002"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_003.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_003"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_004.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_004"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_005.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_005"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_006.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_006"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_007.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_007"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_008.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_008"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_sniff_009.png",
+                "type": "image",
+                "key": "__grey_mouse_sniff_009"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_000.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_000"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_001.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_001"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_002.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_002"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_003.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_003"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_004.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_004"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_005.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_005"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_006.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_006"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_007.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_007"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_008.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_008"
+            },
+            {
+                "url": "assets/__grey_mouse_walk_009.png",
+                "type": "image",
+                "key": "__grey_mouse_walk_009"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_000.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_000"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_001.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_001"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_002.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_002"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_003.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_003"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_004.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_004"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_005.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_005"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_006.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_006"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_007.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_007"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_008.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_008"
+            },
+            {
+                "url": "assets/Mouse/__grey_mouse_whacked_009.png",
+                "type": "image",
+                "key": "__grey_mouse_whacked_009"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_000.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_000"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_001.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_001"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_002.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_002"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_003.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_003"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_004.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_004"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_005.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_005"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_006.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_006"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_007.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_007"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_008.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_008"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_009.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_009"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_010.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_010"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_011.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_011"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_012.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_012"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_013.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_013"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_014.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_014"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_015.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_015"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_016.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_016"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_017.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_017"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_018.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_018"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_idle_standing_019.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_idle_standing_019"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_000.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_000"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_001.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_001"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_002.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_002"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_003.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_003"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_004.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_004"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_005.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_005"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_006.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_006"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_007.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_007"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_008.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_008"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_009.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_009"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_010.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_010"
+            },
+            {
+                "url": "assets/rat/__grey_yellow_eyes_walk_011.png",
+                "type": "image",
+                "key": "__grey_yellow_eyes_walk_011"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_000.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_000"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_001.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_001"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_002.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_002"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_003.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_003"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_004.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_004"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_005.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_005"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_006.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_006"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_007.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_007"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_008.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_008"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_009.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_009"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_010.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_010"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_011.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_011"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_012.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_012"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_013.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_013"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_014.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_014"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_015.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_015"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_016.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_016"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_017.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_017"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_018.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_018"
+            },
+            {
+                "url": "assets/Aquarium/__lion_fish_pink_idle_019.png",
+                "type": "image",
+                "key": "__lion_fish_pink_idle_019"
+            },
+            {
+                "url": "assets/Aquarium/BLEU mosquito/__male_gambusia_swim_000.png",
+                "type": "image",
+                "key": "__male_gambusia_swim"
+            },
+            {
+                "url": "assets/Aquarium/__male_gambusia_swim_000.png",
+                "type": "image",
+                "key": "__male_gambusia_swim_000"
+            },
+            {
+                "url": "assets/Aquarium/__male_gambusia_swim_001.png",
+                "type": "image",
+                "key": "__male_gambusia_swim_001"
+            },
+            {
+                "url": "assets/Aquarium/__male_gambusia_swim_002.png",
+                "type": "image",
+                "key": "__male_gambusia_swim_002"
+            },
+            {
+                "url": "assets/Aquarium/__male_gambusia_swim_003.png",
+                "type": "image",
+                "key": "__male_gambusia_swim_003"
+            },
+            {
+                "url": "assets/Aquarium/__male_gambusia_swim_004.png",
+                "type": "image",
+                "key": "__male_gambusia_swim_004"
+            },
+            {
+                "url": "assets/Aquarium/__male_gambusia_swim_005.png",
+                "type": "image",
+                "key": "__male_gambusia_swim_005"
+            },
+            {
+                "url": "assets/Aquarium/__male_gambusia_swim_006.png",
+                "type": "image",
+                "key": "__male_gambusia_swim_006"
+            },
+            {
+                "url": "assets/Aquarium/__male_gambusia_swim_007.png",
+                "type": "image",
+                "key": "__male_gambusia_swim_007"
+            },
+            {
+                "url": "assets/__orange_bird_5_fly.png",
+                "frameConfig": {
+                    "frameWidth": 164,
+                    "frameHeight": 152,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "__orange_bird_5_fly"
+            },
+            {
+                "url": "assets/Aquarium/__piranha_swim_000.png",
+                "type": "image",
+                "key": "__piranha_swim_000"
+            },
+            {
+                "url": "assets/Aquarium/__piranha_swim_001.png",
+                "type": "image",
+                "key": "__piranha_swim_001"
+            },
+            {
+                "url": "assets/Aquarium/__piranha_swim_002.png",
+                "type": "image",
+                "key": "__piranha_swim_002"
+            },
+            {
+                "url": "assets/Aquarium/__piranha_swim_003.png",
+                "type": "image",
+                "key": "__piranha_swim_003"
+            },
+            {
+                "url": "assets/Aquarium/__piranha_swim_004.png",
+                "type": "image",
+                "key": "__piranha_swim_004"
+            },
+            {
+                "url": "assets/Aquarium/__piranha_swim_005.png",
+                "type": "image",
+                "key": "__piranha_swim_005"
+            },
+            {
+                "url": "assets/Aquarium/__piranha_swim_006.png",
+                "type": "image",
+                "key": "__piranha_swim_006"
+            },
+            {
+                "url": "assets/Aquarium/__piranha_swim_007.png",
+                "type": "image",
+                "key": "__piranha_swim_007"
+            },
+            {
+                "url": "assets/Bat/__purple_bat_fly_mouth_closed_000.png",
+                "type": "image",
+                "key": "__purple_bat_fly_mouth_closed_000"
+            },
+            {
+                "url": "assets/Bat/__purple_bat_fly_mouth_closed_001.png",
+                "type": "image",
+                "key": "__purple_bat_fly_mouth_closed_001"
+            },
+            {
+                "url": "assets/Bat/__purple_bat_fly_mouth_closed_002.png",
+                "type": "image",
+                "key": "__purple_bat_fly_mouth_closed_002"
+            },
+            {
+                "url": "assets/Bat/__purple_bat_fly_mouth_closed_003.png",
+                "type": "image",
+                "key": "__purple_bat_fly_mouth_closed_003"
+            },
+            {
+                "url": "assets/Bat/__purple_bat_fly_mouth_closed_004.png",
+                "type": "image",
+                "key": "__purple_bat_fly_mouth_closed_004"
+            },
+            {
+                "url": "assets/Bat/__purple_bat_fly_mouth_closed_005.png",
+                "type": "image",
+                "key": "__purple_bat_fly_mouth_closed_005"
+            },
+            {
+                "url": "assets/Bat/__purple_bat_fly_mouth_closed_006.png",
+                "type": "image",
+                "key": "__purple_bat_fly_mouth_closed_006"
+            },
+            {
+                "url": "assets/Bat/__purple_bat_fly_mouth_closed_007.png",
+                "type": "image",
+                "key": "__purple_bat_fly_mouth_closed_007"
+            },
+            {
+                "url": "assets/Spider/__purple_black_widow_attack_000.png",
+                "type": "image",
+                "key": "__purple_black_widow_attack_000"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_000.png",
+                "type": "image",
+                "key": "__rat_idle_standing_000"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_001.png",
+                "type": "image",
+                "key": "__rat_idle_standing_001"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_002.png",
+                "type": "image",
+                "key": "__rat_idle_standing_002"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_003.png",
+                "type": "image",
+                "key": "__rat_idle_standing_003"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_004.png",
+                "type": "image",
+                "key": "__rat_idle_standing_004"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_005.png",
+                "type": "image",
+                "key": "__rat_idle_standing_005"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_006.png",
+                "type": "image",
+                "key": "__rat_idle_standing_006"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_007.png",
+                "type": "image",
+                "key": "__rat_idle_standing_007"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_008.png",
+                "type": "image",
+                "key": "__rat_idle_standing_008"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_009.png",
+                "type": "image",
+                "key": "__rat_idle_standing_009"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_010.png",
+                "type": "image",
+                "key": "__rat_idle_standing_010"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_011.png",
+                "type": "image",
+                "key": "__rat_idle_standing_011"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_012.png",
+                "type": "image",
+                "key": "__rat_idle_standing_012"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_013.png",
+                "type": "image",
+                "key": "__rat_idle_standing_013"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_014.png",
+                "type": "image",
+                "key": "__rat_idle_standing_014"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_015.png",
+                "type": "image",
+                "key": "__rat_idle_standing_015"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_016.png",
+                "type": "image",
+                "key": "__rat_idle_standing_016"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_017.png",
+                "type": "image",
+                "key": "__rat_idle_standing_017"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_018.png",
+                "type": "image",
+                "key": "__rat_idle_standing_018"
+            },
+            {
+                "url": "assets/rat/__rat_idle_standing_019.png",
+                "type": "image",
+                "key": "__rat_idle_standing_019"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_000.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_000"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_001.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_001"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_002.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_002"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_003.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_003"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_004.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_004"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_005.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_005"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_006.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_006"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_007.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_007"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_008.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_008"
+            },
+            {
+                "url": "assets/Birds/__red_bird_02_fly_straight_009.png",
+                "type": "image",
+                "key": "__red_bird_02_fly_straight_009"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_000.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_000"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_001.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_001"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_002.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_002"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_003.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_003"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_004.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_004"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_005.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_005"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_006.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_006"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_007.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_007"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_008.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_008"
+            },
+            {
+                "url": "assets/__tan_cat_scratch_009.png",
+                "type": "image",
+                "key": "__tan_cat_scratch_009"
+            },
+            {
+                "url": "assets/Other cats/__tan_cat_walk_000.png",
+                "type": "image",
+                "key": "__tan_cat_walk_000"
+            },
+            {
+                "url": "assets/Other cats/__tan_cat_walk_001.png",
+                "type": "image",
+                "key": "__tan_cat_walk_001"
+            },
+            {
+                "url": "assets/Other cats/__tan_cat_walk_002.png",
+                "type": "image",
+                "key": "__tan_cat_walk_002"
+            },
+            {
+                "url": "assets/Other cats/__tan_cat_walk_003.png",
+                "type": "image",
+                "key": "__tan_cat_walk_003"
+            },
+            {
+                "url": "assets/Other cats/__tan_cat_walk_004.png",
+                "type": "image",
+                "key": "__tan_cat_walk_004"
+            },
+            {
+                "url": "assets/Other cats/__tan_cat_walk_005.png",
+                "type": "image",
+                "key": "__tan_cat_walk_005"
+            },
+            {
+                "url": "assets/Other cats/__tan_cat_walk_006.png",
+                "type": "image",
+                "key": "__tan_cat_walk_006"
+            },
+            {
+                "url": "assets/Other cats/__tan_cat_walk_007.png",
+                "type": "image",
+                "key": "__tan_cat_walk_007"
+            },
+            {
+                "url": "assets/Mouse/__trap_trap_trigger_000.png",
+                "type": "image",
+                "key": "__trap_trap_trigger_000"
+            },
+            {
+                "url": "assets/Mouse/__trap_trap_trigger_006.png",
+                "type": "image",
+                "key": "__trap_trap_trigger_006"
+            },
+            {
+                "url": "assets/Loveroom/__white_cat_beg_000.png",
+                "type": "image",
+                "key": "__white_cat_beg_000"
+            },
+            {
+                "url": "assets/Loveroom/__white_cat_sitting_011.png",
+                "type": "image",
+                "key": "__white_cat_sitting_011"
+            },
+            {
+                "url": "assets/__white_cat_walk_000.png",
+                "type": "image",
+                "key": "__white_cat_walk_000"
+            },
+            {
+                "url": "assets/__white_cat_walk_001.png",
+                "type": "image",
+                "key": "__white_cat_walk_001"
+            },
+            {
+                "url": "assets/__white_cat_walk_002.png",
+                "type": "image",
+                "key": "__white_cat_walk_002"
+            },
+            {
+                "url": "assets/__white_cat_walk_003.png",
+                "type": "image",
+                "key": "__white_cat_walk_003"
+            },
+            {
+                "url": "assets/__white_cat_walk_004.png",
+                "type": "image",
+                "key": "__white_cat_walk_004"
+            },
+            {
+                "url": "assets/__white_cat_walk_005.png",
+                "type": "image",
+                "key": "__white_cat_walk_005"
+            },
+            {
+                "url": "assets/__white_cat_walk_006.png",
+                "type": "image",
+                "key": "__white_cat_walk_006"
+            },
+            {
+                "url": "assets/__white_cat_walk_007.png",
+                "type": "image",
+                "key": "__white_cat_walk_007"
+            },
+            {
+                "url": "assets/Loveroom/0-percent.png",
+                "type": "image",
+                "key": "0-percent"
+            },
+            {
+                "url": "assets/Loveroom/100-percent.png",
+                "type": "image",
+                "key": "100-percent"
+            },
+            {
+                "url": "assets/aircon.png",
+                "type": "image",
+                "key": "aircon"
+            },
+            {
+                "url": "assets/Aquarium/angler fish.png",
+                "type": "image",
+                "key": "angler fish"
+            },
+            {
+                "url": "animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/Traps/animcannon.png",
+                "frameConfig": {
+                    "frameWidth": 512,
+                    "frameHeight": 288,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "animcannon2"
+            },
+            {
+                "url": "assets/antenna.png",
+                "type": "image",
+                "key": "antenna"
+            },
+            {
+                "url": "assets/arial.png",
+                "type": "image",
+                "key": "arial"
+            },
+            {
+                "url": "assets/autumn_tree_01.png",
+                "type": "image",
+                "key": "autumn_tree_01"
+            },
+            {
+                "url": "assets/autumn_tree_02.png",
+                "type": "image",
+                "key": "autumn_tree_02"
+            },
+            {
+                "url": "assets/Font/Awesome.ttf",
+                "format": "truetype",
+                "descriptors": {},
+                "type": "font",
+                "key": "Awesome"
+            },
+            {
+                "url": "assets/Exterior building/awning_blue_large.png",
+                "type": "image",
+                "key": "awning_blue_large"
+            },
+            {
+                "url": "assets/Exterior building/awning_blue_small.png",
+                "type": "image",
+                "key": "awning_blue_small"
+            },
+            {
+                "url": "assets/Exterior building/awning_green_large.png",
+                "type": "image",
+                "key": "awning_green_large"
+            },
+            {
+                "url": "assets/Exterior building/awning_green_small.png",
+                "type": "image",
+                "key": "awning_green_small"
+            },
+            {
+                "url": "assets/Exterior building/awning_pink_large.png",
+                "type": "image",
+                "key": "awning_pink_large"
+            },
+            {
+                "url": "assets/Exterior building/awning_pink_small.png",
+                "type": "image",
+                "key": "awning_pink_small"
+            },
+            {
+                "url": "assets/Exterior building/awning_red_large.png",
+                "type": "image",
+                "key": "awning_red_large"
+            },
+            {
+                "url": "assets/Exterior building/awning_red_small.png",
+                "type": "image",
+                "key": "awning_red_small"
+            },
+            {
+                "url": "assets/Exterior building/awning_sky_blue_large.png",
+                "type": "image",
+                "key": "awning_sky_blue_large"
+            },
+            {
+                "url": "assets/Exterior building/awning_sky_blue_small.png",
+                "type": "image",
+                "key": "awning_sky_blue_small"
+            },
+            {
+                "url": "assets/Exterior building/awning_yellow_large.png",
+                "type": "image",
+                "key": "awning_yellow_large"
+            },
+            {
+                "url": "assets/Exterior building/awning_yellow_small.png",
+                "type": "image",
+                "key": "awning_yellow_small"
+            },
+            {
+                "url": "assets/Interior/castle/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "assets/Aquarium/background_piece_01.png",
+                "type": "image",
+                "key": "background_piece_01"
+            },
+            {
+                "url": "assets/Aquarium/background_piece_02.png",
+                "type": "image",
+                "key": "background_piece_02"
+            },
+            {
+                "url": "assets/Aquarium/background_piece_03.png",
+                "type": "image",
+                "key": "background_piece_03"
+            },
+            {
+                "url": "assets/Aquarium/background_piece_04.png",
+                "type": "image",
+                "key": "background_piece_04"
+            },
+            {
+                "url": "assets/Aquarium/background_piece_06.png",
+                "type": "image",
+                "key": "background_piece_06"
+            },
+            {
+                "url": "assets/Aquarium/background_piece_07.png",
+                "type": "image",
+                "key": "background_piece_07"
+            },
+            {
+                "url": "assets/Traps/ball.png",
+                "type": "image",
+                "key": "ball"
+            },
+            {
+                "url": "assets/Traps/base.png",
+                "type": "image",
+                "key": "base"
+            },
+            {
+                "url": "assets/beans_open.png",
+                "type": "image",
+                "key": "beans_open"
+            },
+            {
+                "url": "assets/Interior/bed_01.png",
+                "type": "image",
+                "key": "bed_01"
+            },
+            {
+                "url": "assets/Interior/bed_03.png",
+                "type": "image",
+                "key": "bed_03"
+            },
+            {
+                "url": "assets/Interior/bed_05.png",
+                "type": "image",
+                "key": "bed_05"
+            },
+            {
+                "url": "assets/Interior/bed_06.png",
+                "type": "image",
+                "key": "bed_06"
+            },
+            {
+                "url": "assets/Interior/bed_11.png",
+                "type": "image",
+                "key": "bed_11"
+            },
+            {
+                "url": "assets/Interior/bed_12.png",
+                "type": "image",
+                "key": "bed_12"
+            },
+            {
+                "url": "assets/big_can_closed.png",
+                "type": "image",
+                "key": "big_can_closed"
+            },
+            {
+                "url": "assets/birdorange.png",
+                "type": "image",
+                "key": "birdorange"
+            },
+            {
+                "url": "assets/black heart.png",
+                "type": "image",
+                "key": "black heart"
+            },
+            {
+                "url": "assets/Interior/black_1_seat.png",
+                "type": "image",
+                "key": "black_1_seat"
+            },
+            {
+                "url": "assets/Interior/black_office_chair_back.png",
+                "type": "image",
+                "key": "black_office_chair_back"
+            },
+            {
+                "url": "assets/Interior/black_office_chair_front.png",
+                "type": "image",
+                "key": "black_office_chair_front"
+            },
+            {
+                "url": "assets/__black_bird_5_fly.png",
+                "frameConfig": {
+                    "frameWidth": 1083,
+                    "frameHeight": 1003,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "blackbirdfly"
+            },
+            {
+                "url": "assets/block_base.png",
+                "type": "image",
+                "key": "block_base"
+            },
+            {
+                "url": "assets/block_separator_01.png",
+                "type": "image",
+                "key": "block_separator_01"
+            },
+            {
+                "url": "assets/block_separator_02.png",
+                "type": "image",
+                "key": "block_separator_02"
+            },
+            {
+                "url": "assets/block_top.png",
+                "type": "image",
+                "key": "block_top"
+            },
+            {
+                "url": "assets/block_wall_top.png",
+                "type": "image",
+                "key": "block_wall_top"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/block-horizontal-repeating-top.png",
+                "type": "image",
+                "key": "block-horizontal-repeating-top"
+            },
+            {
+                "url": "assets/blue_block.png",
+                "type": "image",
+                "key": "blue_block"
+            },
+            {
+                "url": "assets/blue_block_slice_32.png",
+                "type": "image",
+                "key": "blue_block_slice_32"
+            },
+            {
+                "url": "assets/Interior/blue_flock.png",
+                "type": "image",
+                "key": "blue_flock"
+            },
+            {
+                "url": "assets/Interior/blue_large_stripe.png",
+                "type": "image",
+                "key": "blue_large_stripe"
+            },
+            {
+                "url": "assets/Interior/blue_office_chair_front.png",
+                "type": "image",
+                "key": "blue_office_chair_front"
+            },
+            {
+                "url": "assets/Interior/blue_plain.png",
+                "type": "image",
+                "key": "blue_plain"
+            },
+            {
+                "url": "assets/blue_side_srone_left.png",
+                "type": "image",
+                "key": "blue_side_srone_left"
+            },
+            {
+                "url": "assets/Interior/blue_wall_clock.png",
+                "type": "image",
+                "key": "blue_wall_clock"
+            },
+            {
+                "url": "assets/Interior/castle/boar_head_light.png",
+                "type": "image",
+                "key": "boar_head_light"
+            },
+            {
+                "url": "assets/Interior/bobble_repeating.png",
+                "type": "image",
+                "key": "bobble_repeating"
+            },
+            {
+                "url": "assets/Interior/castle/bocase_with_books.png",
+                "type": "image",
+                "key": "bocase_with_books"
+            },
+            {
+                "url": "assets/bomb.png",
+                "type": "image",
+                "key": "bomb"
+            },
+            {
+                "url": "assets/bombfeline.png",
+                "type": "image",
+                "key": "bombfeline"
+            },
+            {
+                "url": [
+                    "assets/Audio/retro_impact_colorful_05.m4a"
+                ],
+                "type": "audio",
+                "key": "Boom2"
+            },
+            {
+                "url": [
+                    "assets/Audio/Boom3.m4a"
+                ],
+                "type": "audio",
+                "key": "Boom3"
+            },
+            {
+                "url": [
+                    "assets/Audio/Boom4.m4a"
+                ],
+                "type": "audio",
+                "key": "Boom4"
+            },
+            {
+                "url": "assets/Interior/Box white.png",
+                "type": "image",
+                "key": "Box white"
+            },
+            {
+                "url": "assets/Interior/box_no_perspective_01.png",
+                "type": "image",
+                "key": "box_no_perspective_01"
+            },
+            {
+                "url": "assets/broom.webp",
+                "type": "image",
+                "key": "broom"
+            },
+            {
+                "url": "assets/broom.png",
+                "type": "image",
+                "key": "broom2"
+            },
+            {
+                "url": [
+                    "assets/Audio/broomwoosh.m4a"
+                ],
+                "type": "audio",
+                "key": "broomwoosh"
+            },
+            {
+                "url": "assets/Interior/brown_1_seat.png",
+                "type": "image",
+                "key": "brown_1_seat"
+            },
+            {
+                "url": "assets/Interior/brown_2_seat.png",
+                "type": "image",
+                "key": "brown_2_seat"
+            },
+            {
+                "url": "assets/Interior/brown_2_seat2.png",
+                "type": "image",
+                "key": "brown_2_seat2"
+            },
+            {
+                "url": "assets/brown_block.png",
+                "type": "image",
+                "key": "brown_block"
+            },
+            {
+                "url": "assets/brown_door_01.png",
+                "type": "image",
+                "key": "brown_door_01"
+            },
+            {
+                "url": "assets/Interior/brown_flock.png",
+                "type": "image",
+                "key": "brown_flock"
+            },
+            {
+                "url": "assets/Interior/brown_large_stripe.png",
+                "type": "image",
+                "key": "brown_large_stripe"
+            },
+            {
+                "url": "assets/Interior/brown_plain.png",
+                "type": "image",
+                "key": "brown_plain"
+            },
+            {
+                "url": "assets/brown_side_srone_left.png",
+                "type": "image",
+                "key": "brown_side_srone_left"
+            },
+            {
+                "url": "assets/Interior/brown_small_stripe.png",
+                "type": "image",
+                "key": "brown_small_stripe"
+            },
+            {
+                "url": "assets/Lava/bubble_01.png",
+                "type": "image",
+                "key": "bubble_01"
+            },
+            {
+                "url": "assets/Lava/bubble_02.png",
+                "type": "image",
+                "key": "bubble_02"
+            },
+            {
+                "url": "assets/Lava/bubble_03.png",
+                "type": "image",
+                "key": "bubble_03"
+            },
+            {
+                "url": "assets/Lava/bubble_04.png",
+                "type": "image",
+                "key": "bubble_04"
+            },
+            {
+                "url": "assets/Lava/bubble_05.png",
+                "type": "image",
+                "key": "bubble_05"
+            },
+            {
+                "url": "assets/Lava/bubble_06.png",
+                "type": "image",
+                "key": "bubble_06"
+            },
+            {
+                "url": "assets/Lava/bubble_07.png",
+                "type": "image",
+                "key": "bubble_07"
+            },
+            {
+                "url": "assets/Lava/bubble_08.png",
+                "type": "image",
+                "key": "bubble_08"
+            },
+            {
+                "url": "assets/Lava/bubble_09.png",
+                "type": "image",
+                "key": "bubble_09"
+            },
+            {
+                "url": "assets/Lava/bubble_10.png",
+                "type": "image",
+                "key": "bubble_10"
+            },
+            {
+                "url": "assets/bubble-128px.png",
+                "type": "image",
+                "key": "bubble-128px"
+            },
+            {
+                "url": "assets/bubble-64px.png",
+                "type": "image",
+                "key": "bubble-64px"
+            },
+            {
+                "url": "assets/Traps/bucket_connector.png",
+                "type": "image",
+                "key": "bucket_connector"
+            },
+            {
+                "url": "assets/Exterior building/bus_stop_sign.png",
+                "type": "image",
+                "key": "bus_stop_sign"
+            },
+            {
+                "url": "assets/Traps/cannon.png",
+                "type": "image",
+                "key": "cannon"
+            },
+            {
+                "url": "assets/cannon_ball.png",
+                "type": "image",
+                "key": "cannon_ball"
+            },
+						{
+							"url": "assets/dino_01.webp",
+							"type": "image",
+							"key": "catback1"
+						},
+						{
+							"url": "assets/dino_02.webp",
+							"type": "image",
+							"key": "catback2"
+					},
+            {
+                "url": "assets/cathang.png",
+                "type": "image",
+                "key": "cathang"
+            },
+            {
+                "url": "assets/Interior/castle/chandelier_large.png",
+                "type": "image",
+                "key": "chandelier_large"
+            },
+            {
+                "url": "assets/checkmark-xxl.png",
+                "type": "image",
+                "key": "checkmark-xxl"
+            },
+            {
+                "url": "assets/cheese.png",
+                "type": "image",
+                "key": "cheese"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_grater_fore.png",
+                "type": "image",
+                "key": "cheese_grater_fore"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_knife_01.png",
+                "type": "image",
+                "key": "cheese_knife_01"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_knife_02.png",
+                "type": "image",
+                "key": "cheese_knife_02"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_melt_01_cream.png",
+                "type": "image",
+                "key": "cheese_melt_01_cream"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_melt_01_yellow.png",
+                "type": "image",
+                "key": "cheese_melt_01_yellow"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_prop_10.png",
+                "type": "image",
+                "key": "cheese_prop_10"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_prop_15.png",
+                "type": "image",
+                "key": "cheese_prop_15"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_slice_stack_01.png",
+                "type": "image",
+                "key": "cheese_slice_stack_01"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_slice_stack_02.png",
+                "type": "image",
+                "key": "cheese_slice_stack_02"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_slice_stack_03.png",
+                "type": "image",
+                "key": "cheese_slice_stack_03"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_stack_01.png",
+                "type": "image",
+                "key": "cheese_stack_01"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_stack_02.png",
+                "type": "image",
+                "key": "cheese_stack_02"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_stack_03.png",
+                "type": "image",
+                "key": "cheese_stack_03"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/cheese_stack_04.png",
+                "type": "image",
+                "key": "cheese_stack_04"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/background_cheese_color_tiling.png",
+                "type": "image",
+                "key": "cheesebackground"
+            },
+            {
+                "url": "assets/cheesecorner.webp",
+                "type": "image",
+                "key": "cheesecorner"
+            },
+            {
+                "url": "assets/chimney.png",
+                "type": "image",
+                "key": "chimney"
+            },
+            {
+                "url": [
+                    "assets/Audio/chirp.m4a"
+                ],
+                "type": "audio",
+                "key": "chirp"
+            },
+            {
+                "url": "assets/Traps/circle_with_outlet.png",
+                "type": "image",
+                "key": "circle_with_outlet"
+            },
+            {
+                "url": "assets/cloud_01.png",
+                "type": "image",
+                "key": "cloud_01"
+            },
+            {
+                "url": "assets/cloud_02.png",
+                "type": "image",
+                "key": "cloud_02"
+            },
+            {
+                "url": "assets/cloud_03.png",
+                "type": "image",
+                "key": "cloud_03"
+            },
+            {
+                "url": "assets/cloud_04.png",
+                "type": "image",
+                "key": "cloud_04"
+            },
+            {
+                "url": "assets/cloud_05.png",
+                "type": "image",
+                "key": "cloud_05"
+            },
+            {
+                "url": "assets/Interior/computer_bluescreen.png",
+                "type": "image",
+                "key": "computer_bluescreen"
+            },
+            {
+                "url": "assets/Interior/computer_key_board.png",
+                "type": "image",
+                "key": "computer_key_board"
+            },
+            {
+                "url": "assets/Interior/computer_monitor.png",
+                "type": "image",
+                "key": "computer_monitor"
+            },
+            {
+                "url": "assets/Interior/counter.png",
+                "type": "image",
+                "key": "counter"
+            },
+            {
+                "url": "assets/crack.png",
+                "type": "image",
+                "key": "crack"
+            },
+            {
+                "url": "assets/cross.png",
+                "type": "image",
+                "key": "cross"
+            },
+            {
+                "url": "assets/Interior/dark_2_shelves.png",
+                "type": "image",
+                "key": "dark_2_shelves"
+            },
+            {
+                "url": "assets/Interior/dark_3_shelves.png",
+                "type": "image",
+                "key": "dark_3_shelves"
+            },
+            {
+                "url": "assets/Interior/dark_5_shelves.png",
+                "type": "image",
+                "key": "dark_5_shelves"
+            },
+            {
+                "url": "assets/Interior/dark_blue_flock.png",
+                "type": "image",
+                "key": "dark_blue_flock"
+            },
+            {
+                "url": "assets/Interior/dark_blue_large_stripe.png",
+                "type": "image",
+                "key": "dark_blue_large_stripe"
+            },
+            {
+                "url": "assets/Interior/dark_blue_plain.png",
+                "type": "image",
+                "key": "dark_blue_plain"
+            },
+            {
+                "url": "assets/Interior/dark_blue_small_stripe.png",
+                "type": "image",
+                "key": "dark_blue_small_stripe"
+            },
+            {
+                "url": "assets/Interior/dark_counter.png",
+                "type": "image",
+                "key": "dark_counter"
+            },
+            {
+                "url": "assets/Interior/dark_desk.png",
+                "type": "image",
+                "key": "dark_desk"
+            },
+            {
+                "url": "assets/Interior/dark_five_draw.png",
+                "type": "image",
+                "key": "dark_five_draw"
+            },
+            {
+                "url": "assets/Interior/dark_table_round.png",
+                "type": "image",
+                "key": "dark_table_round"
+            },
+            {
+                "url": "assets/Interior/dark_table_small.png",
+                "type": "image",
+                "key": "dark_table_small"
+            },
+            {
+                "url": "assets/Interior/dark_wall_clock.png",
+                "type": "image",
+                "key": "dark_wall_clock"
+            },
+            {
+                "url": "assets/dark_wall_shelf.png",
+                "type": "image",
+                "key": "dark_wall_shelf"
+            },
+            {
+                "url": "assets/Interior/dark_wardrobe.png",
+                "type": "image",
+                "key": "dark_wardrobe"
+            },
+            {
+                "url": "assets/Interior/dark_wardrobe_door_open.png",
+                "type": "image",
+                "key": "dark_wardrobe_door_open"
+            },
+            {
+                "url": "assets/Interior/dark_wood_background.png",
+                "type": "image",
+                "key": "dark_wood_background"
+            },
+            {
+                "url": "assets/Interior/dark_wood_chair_back.png",
+                "type": "image",
+                "key": "dark_wood_chair_back"
+            },
+            {
+                "url": "assets/Interior/dark_wood_chair_front.png",
+                "type": "image",
+                "key": "dark_wood_chair_front"
+            },
+            {
+                "url": "assets/Interior/dark_wood_chair_left.png",
+                "type": "image",
+                "key": "dark_wood_chair_left"
+            },
+            {
+                "url": "assets/Interior/darkbluelargestripe.png",
+                "type": "image",
+                "key": "darkbluelargestripe"
+            },
+            {
+                "url": "assets/Loveroom/Darts.png",
+                "type": "image",
+                "key": "Darts"
+            },
+            {
+                "url": "assets/Aquarium/deeper_sea_bed.png",
+                "type": "image",
+                "key": "deeper_sea_bed"
+            },
+            {
+                "url": "assets/Interior/castle/deer_head.png",
+                "type": "image",
+                "key": "deer_head"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/dish.png",
+                "type": "image",
+                "key": "dish"
+            },
+            {
+                "url": "assets/Interior/door_02.png",
+                "type": "image",
+                "key": "door_02"
+            },
+            {
+                "url": "assets/Interior/door_07.png",
+                "type": "image",
+                "key": "door_07"
+            },
+            {
+                "url": "assets/Interior/door_09.png",
+                "type": "image",
+                "key": "door_09"
+            },
+            {
+                "url": "assets/Interior/door_15.png",
+                "type": "image",
+                "key": "door_15"
+            },
+            {
+                "url": "assets/Interior/door_16.png",
+                "type": "image",
+                "key": "door_16"
+            },
+            {
+                "url": "assets/Interior/door_25.png",
+                "type": "image",
+                "key": "door_25"
+            },
+            {
+                "url": "assets/Interior/door_27.png",
+                "type": "image",
+                "key": "door_27"
+            },
+            {
+                "url": "assets/door_brown.png",
+                "type": "image",
+                "key": "door_brown"
+            },
+            {
+                "url": "assets/door_frame.png",
+                "type": "image",
+                "key": "door_frame"
+            },
+            {
+                "url": "assets/Interior/door_frame_dark.png",
+                "type": "image",
+                "key": "door_frame_dark"
+            },
+            {
+                "url": "assets/Interior/door_frame_light.png",
+                "type": "image",
+                "key": "door_frame_light"
+            },
+            {
+                "url": "assets/Interior/door_frame_white.png",
+                "type": "image",
+                "key": "door_frame_white"
+            },
+            {
+                "url": "assets/Interior/double_switch.png",
+                "type": "image",
+                "key": "double_switch"
+            },
+            {
+                "url": "assets/dumpster.png",
+                "type": "image",
+                "key": "dumpster"
+            },
+            {
+                "url": "assets/egg grey.png",
+                "type": "image",
+                "key": "egg grey"
+            },
+            {
+                "url": "assets/Interior/empty_frame_03_dark.png",
+                "type": "image",
+                "key": "empty_frame_03_dark"
+            },
+            {
+                "url": "assets/empty_line.png",
+                "type": "image",
+                "key": "empty_line"
+            },
+            {
+                "url": "assets/Interior/emptyshelllight.png",
+                "type": "image",
+                "key": "emptyshelllight"
+            },
+            {
+                "url": "assets/Interior/emptyshelvedark.png",
+                "type": "image",
+                "key": "emptyshelvedark"
+            },
+            {
+                "url": "assets/Interior/eu_double_plug.png",
+                "type": "image",
+                "key": "eu_double_plug"
+            },
+            {
+                "url": "assets/Interior/eu_single_plug.png",
+                "type": "image",
+                "key": "eu_single_plug"
+            },
+            {
+                "url": "assets/Explosion/explosion_01.png",
+                "type": "image",
+                "key": "explosion_01"
+            },
+            {
+                "url": "assets/Explosion/explosion_02.png",
+                "type": "image",
+                "key": "explosion_02"
+            },
+            {
+                "url": "assets/Explosion/explosion_03.png",
+                "type": "image",
+                "key": "explosion_03"
+            },
+            {
+                "url": "assets/Explosion/explosion_04.png",
+                "type": "image",
+                "key": "explosion_04"
+            },
+            {
+                "url": "assets/Explosion/explosion_05.png",
+                "type": "image",
+                "key": "explosion_05"
+            },
+            {
+                "url": "assets/Explosion/explosion_06.png",
+                "type": "image",
+                "key": "explosion_06"
+            },
+            {
+                "url": "assets/Explosion/explosion_07.png",
+                "type": "image",
+                "key": "explosion_07"
+            },
+            {
+                "url": "assets/Explosion/explosion_08.png",
+                "type": "image",
+                "key": "explosion_08"
+            },
+            {
+                "url": "assets/Explosion/explosion_09.png",
+                "type": "image",
+                "key": "explosion_09"
+            },
+            {
+                "url": "assets/Aquarium/farbackground.png",
+                "type": "image",
+                "key": "farbackground"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/fill_variation_04.png",
+                "type": "image",
+                "key": "fill_variation_04"
+            },
+            {
+                "url": "assets/Exterior building/fire_escape_platform.png",
+                "type": "image",
+                "key": "fire_escape_platform_1"
+            },
+            {
+                "url": "assets/Exterior building/fire_escape_steps_up_side.png",
+                "type": "image",
+                "key": "fire_escape_steps_up_side_1"
+            },
+            {
+                "url": "assets/Interior/castle/fireplace.png",
+                "type": "image",
+                "key": "fireplace"
+            },
+            {
+                "url": "assets/Interior/castle/fireplace_faceon.png",
+                "type": "image",
+                "key": "fireplace_faceon"
+            },
+            {
+                "url": "assets/Interior/flat_screen_back.png",
+                "type": "image",
+                "key": "flat_screen_back"
+            },
+            {
+                "url": "assets/Interior/flat_screen_front.png",
+                "type": "image",
+                "key": "flat_screen_front"
+            },
+            {
+                "url": "assets/Interior/castle/floor.png",
+                "type": "image",
+                "key": "floor"
+            },
+            {
+                "url": "assets/Plants/flowers_16.png",
+                "type": "image",
+                "key": "flowersbush"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/fondue_skewer_02.png",
+                "type": "image",
+                "key": "fondue_skewer_02"
+            },
+            {
+                "url": "assets/Aquarium/foreground_piece_01.png",
+                "type": "image",
+                "key": "foreground_piece_01"
+            },
+            {
+                "url": "assets/Aquarium/foreground_piece_02.png",
+                "type": "image",
+                "key": "foreground_piece_02"
+            },
+            {
+                "url": "assets/Aquarium/foreground_piece_03.png",
+                "type": "image",
+                "key": "foreground_piece_03"
+            },
+            {
+                "url": "assets/Aquarium/foreground_piece_04.png",
+                "type": "image",
+                "key": "foreground_piece_04"
+            },
+            {
+                "url": "assets/Aquarium/foreground_piece_05.png",
+                "type": "image",
+                "key": "foreground_piece_05"
+            },
+            {
+                "url": "assets/Aquarium/foreground_repeating_piece_no_coral.png",
+                "type": "image",
+                "key": "foreground_repeating_piece_no_coral"
+            },
+            {
+                "url": "assets/Aquarium/foreground_repeating_piece_with_corals.png",
+                "type": "image",
+                "key": "foreground_repeating_piece_with_corals"
+            },
+            {
+                "url": "assets/full-star-thick-black-border.png",
+                "type": "image",
+                "key": "full-star-thick-black-border"
+            },
+            {
+                "url": [
+                    "assets/Audio/GetMouse.m4a"
+                ],
+                "type": "audio",
+                "key": "GetMouse"
+            },
+            {
+                "url": "assets/Ghost/Ghost.png",
+                "type": "image",
+                "key": "Ghost"
+            },
+            {
+                "url": "assets/gold_bird_cage_closed_no_back_bars.png",
+                "type": "image",
+                "key": "gold_bird_cage_closed_no_back_bars"
+            },
+            {
+                "url": "assets/Interior/castle/gold_cord_02.png",
+                "type": "image",
+                "key": "gold_cord_02"
+            },
+            {
+                "url": "assets/Font/Goofy.ttf",
+                "format": "truetype",
+                "descriptors": {},
+                "type": "font",
+                "key": "Goofy"
+            },
+            {
+                "url": "assets/Interior/green.png",
+                "type": "image",
+                "key": "green"
+            },
+            {
+                "url": "assets/green_block.png",
+                "type": "image",
+                "key": "green_block"
+            },
+            {
+                "url": "assets/green_block_lift_shaft.png",
+                "type": "image",
+                "key": "green_block_lift_shaft"
+            },
+            {
+                "url": "assets/green_door_01.png",
+                "type": "image",
+                "key": "green_door_01"
+            },
+            {
+                "url": "assets/Interior/green_flock.png",
+                "type": "image",
+                "key": "green_flock"
+            },
+            {
+                "url": "assets/Interior/green_large_stripe.png",
+                "type": "image",
+                "key": "green_large_stripe"
+            },
+            {
+                "url": "assets/Interior/green_plain.png",
+                "type": "image",
+                "key": "green_plain"
+            },
+            {
+                "url": "assets/green_side_srone_left.png",
+                "type": "image",
+                "key": "green_side_srone_left"
+            },
+            {
+                "url": "assets/green_side_srone_right.png",
+                "type": "image",
+                "key": "green_side_srone_right"
+            },
+            {
+                "url": "assets/Interior/green_small_stripe.png",
+                "type": "image",
+                "key": "green_small_stripe"
+            },
+            {
+                "url": "assets/green_tree_01.png",
+                "type": "image",
+                "key": "green_tree_01"
+            },
+            {
+                "url": "assets/green_tree_02.png",
+                "type": "image",
+                "key": "green_tree_02"
+            },
+            {
+                "url": "assets/Interior/green_wall_clock.png",
+                "type": "image",
+                "key": "green_wall_clock"
+            },
+            {
+                "url": "assets/Exterior building/grey_block.png",
+                "type": "image",
+                "key": "grey_block"
+            },
+            {
+                "url": "assets/Exterior building/grey_block_lift_shaft.png",
+                "type": "image",
+                "key": "grey_block_lift_shaft"
+            },
+            {
+                "url": "assets/grey_side_srone_left.png",
+                "type": "image",
+                "key": "grey_side_srone_left"
+            },
+            {
+                "url": "assets/Exterior building/grey_side_stone_left.png",
+                "type": "image",
+                "key": "grey_side_stone_left"
+            },
+            {
+                "url": "assets/Exterior building/grey_side_stone_right.png",
+                "type": "image",
+                "key": "grey_side_stone_right"
+            },
+            {
+                "url": "assets/guide.png",
+                "type": "image",
+                "key": "guide"
+            },
+            {
+                "url": "assets/Interior/castle/hanging_flag.png",
+                "type": "image",
+                "key": "hanging_flag"
+            },
+            {
+                "url": "assets/Interior/castle/hanging_flag_square.png",
+                "type": "image",
+                "key": "hanging_flag_square"
+            },
+            {
+                "url": "assets/Loveroom/health.png",
+                "type": "image",
+                "key": "health"
+            },
+            {
+                "url": "assets/holewall.png",
+                "type": "image",
+                "key": "holewall"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_01.png",
+                "type": "image",
+                "key": "house_plant_example_01"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_02.png",
+                "type": "image",
+                "key": "house_plant_example_02"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_03.png",
+                "type": "image",
+                "key": "house_plant_example_03"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_04.png",
+                "type": "image",
+                "key": "house_plant_example_04"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_05.png",
+                "type": "image",
+                "key": "house_plant_example_05"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_06.png",
+                "type": "image",
+                "key": "house_plant_example_06"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_07.png",
+                "type": "image",
+                "key": "house_plant_example_07"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_08.png",
+                "type": "image",
+                "key": "house_plant_example_08"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_09.png",
+                "type": "image",
+                "key": "house_plant_example_09"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_10.png",
+                "type": "image",
+                "key": "house_plant_example_10"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_11.png",
+                "type": "image",
+                "key": "house_plant_example_11"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_12.png",
+                "type": "image",
+                "key": "house_plant_example_12"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_13.png",
+                "type": "image",
+                "key": "house_plant_example_13"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_14.png",
+                "type": "image",
+                "key": "house_plant_example_14"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_15.png",
+                "type": "image",
+                "key": "house_plant_example_15"
+            },
+            {
+                "url": "assets/Plants/house_plant_example_16.png",
+                "type": "image",
+                "key": "house_plant_example_16"
+            },
+            {
+                "url": "assets/hydrant.png",
+                "type": "image",
+                "key": "hydrant"
+            },
+            {
+                "url": "assets/icon.png",
+                "type": "image",
+                "key": "icon"
+            },
+            {
+                "url": "assets/iconbird.png",
+                "type": "image",
+                "key": "iconbird"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/island-single.png",
+                "type": "image",
+                "key": "island-single"
+            },
+            {
+                "url": "assets/Aquarium/JellyFish/jellyfish_01.png",
+                "type": "image",
+                "key": "jellyfish_01"
+            },
+            {
+                "url": "assets/Aquarium/JellyFish/jellyfish_spritesheet_small.png",
+                "frameConfig": {
+                    "frameWidth": 295,
+                    "frameHeight": 500,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "jellyfish_spritesheet_small"
+            },
+            {
+                "url": [
+                    "assets/Audio/music_happy_high_pop_advertising_jingle.m4a"
+                ],
+                "type": "audio",
+                "key": "jingle"
+            },
+            {
+                "url": [
+                    "assets/Audio/job done.m4a"
+                ],
+                "type": "audio",
+                "key": "jobdone"
+            },
+            {
+                "url": [
+                    "assets/Audio/retro_jump_bounce_09.m4a"
+                ],
+                "type": "audio",
+                "key": "jumpsound"
+            },
+            {
+                "url": [
+                    "assets/Audio/retro_jump_bounce_06.m4a"
+                ],
+                "type": "audio",
+                "key": "jumpsound2"
+            },
+            {
+                "url": [
+                    "assets/Audio/jumpwater.m4a"
+                ],
+                "type": "audio",
+                "key": "jumpwater"
+            },
+            {
+                "url": "assets/key_01.png",
+                "type": "image",
+                "key": "key_01"
+            },
+            {
+                "url": "assets/Interior/lamp_02.png",
+                "type": "image",
+                "key": "lamp_02"
+            },
+            {
+                "url": "assets/Interior/lamp_04.png",
+                "type": "image",
+                "key": "lamp_04"
+            },
+            {
+                "url": "assets/Interior/lamp_05.png",
+                "type": "image",
+                "key": "lamp_05"
+            },
+            {
+                "url": "assets/Interior/lamp_13.png",
+                "type": "image",
+                "key": "lamp_13"
+            },
+            {
+                "url": "assets/Interior/lamp_21.png",
+                "type": "image",
+                "key": "lamp_21"
+            },
+            {
+                "url": "assets/large_rectangle_block_100_percent.png",
+                "type": "image",
+                "key": "large_rectangle_block_100_percent"
+            },
+            {
+                "url": "assets/large_shop_window.png",
+                "type": "image",
+                "key": "large_shop_window"
+            },
+            {
+                "url": "assets/Aquarium/large_spark_01.png",
+                "type": "image",
+                "key": "large_spark_01"
+            },
+            {
+                "url": "assets/Aquarium/large_spark_02.png",
+                "type": "image",
+                "key": "large_spark_02"
+            },
+            {
+                "url": "assets/Aquarium/large_spark_03.png",
+                "type": "image",
+                "key": "large_spark_03"
+            },
+            {
+                "url": "assets/Aquarium/large_spark_04.png",
+                "type": "image",
+                "key": "large_spark_04"
+            },
+            {
+                "url": "assets/Interior/large_speaker_no_perspective.png",
+                "type": "image",
+                "key": "large_speaker_no_perspective"
+            },
+            {
+                "url": "assets/Interior/large_speaker_with_perspective.png",
+                "type": "image",
+                "key": "large_speaker_with_perspective"
+            },
+            {
+                "url": "assets/lava.png",
+                "type": "image",
+                "key": "lava"
+            },
+            {
+                "url": "assets/lavaball_line_x4_03.png",
+                "type": "image",
+                "key": "lavaball_line_x"
+            },
+            {
+                "url": "assets/lavaball_line_x1_01.png",
+                "type": "image",
+                "key": "lavaball_line_x_1"
+            },
+            {
+                "url": "assets/lavaball_line_x1_02.png",
+                "type": "image",
+                "key": "lavaball_line_x_2"
+            },
+            {
+                "url": "assets/lavaball_line_x1_03.png",
+                "type": "image",
+                "key": "lavaball_line_x_3"
+            },
+            {
+                "url": "assets/lavaball_line_x1_04.png",
+                "type": "image",
+                "key": "lavaball_line_x_4"
+            },
+            {
+                "url": "assets/lavaball_line_x4_01.png",
+                "type": "image",
+                "key": "lavaball_line_x4_01"
+            },
+            {
+                "url": "assets/lavaball_line_x4_02.png",
+                "type": "image",
+                "key": "lavaball_line_x4_02"
+            },
+            {
+                "url": "assets/Traps/lavaball_line_x4_03.png",
+                "type": "image",
+                "key": "lavaball_line_x4_03"
+            },
+            {
+                "url": "assets/lavaball_line_x4_04.png",
+                "type": "image",
+                "key": "lavaball_line_x4_04"
+            },
+            {
+                "url": "assets/lavaball_line_x6_01.png",
+                "type": "image",
+                "key": "lavaball_line_x6_01"
+            },
+            {
+                "url": "assets/lavaball_line_x6_02.png",
+                "type": "image",
+                "key": "lavaball_line_x6_02"
+            },
+            {
+                "url": "assets/lavaball_line_x6_03.png",
+                "type": "image",
+                "key": "lavaball_line_x6_03"
+            },
+            {
+                "url": "assets/lavaball_line_x6_04.png",
+                "type": "image",
+                "key": "lavaball_line_x6_04"
+            },
+            {
+                "url": "assets/lavaball_line_x8_04.png",
+                "type": "image",
+                "key": "lavaball_line_x8_04"
+            },
+            {
+                "url": "assets/Exterior building/light.png",
+                "type": "image",
+                "key": "light"
+            },
+            {
+                "url": "assets/Interior/light_2_shelves.png",
+                "type": "image",
+                "key": "light_2_shelves"
+            },
+            {
+                "url": "assets/Interior/light_3_shelves.png",
+                "type": "image",
+                "key": "light_3_shelves"
+            },
+            {
+                "url": "assets/Interior/light_5_shelves.png",
+                "type": "image",
+                "key": "light_5_shelves"
+            },
+            {
+                "url": "assets/Interior/light_table_round.png",
+                "type": "image",
+                "key": "light_table_round"
+            },
+            {
+                "url": "assets/Interior/light_table_small.png",
+                "type": "image",
+                "key": "light_table_small"
+            },
+            {
+                "url": "assets/Interior/light_wall_clock.png",
+                "type": "image",
+                "key": "light_wall_clock"
+            },
+            {
+                "url": "assets/light_wall_shelf.png",
+                "type": "image",
+                "key": "light_wall_shelf"
+            },
+            {
+                "url": "assets/Interior/light_wardrobe.png",
+                "type": "image",
+                "key": "light_wardrobe"
+            },
+            {
+                "url": "assets/Interior/light_wood_chair_back.png",
+                "type": "image",
+                "key": "light_wood_chair_back"
+            },
+            {
+                "url": "assets/Interior/light_wood_chair_front.png",
+                "type": "image",
+                "key": "light_wood_chair_front"
+            },
+            {
+                "url": "assets/Interior/light_wood_table.png",
+                "type": "image",
+                "key": "light_wood_table"
+            },
+            {
+                "url": "assets/Interior/lime_green.png",
+                "type": "image",
+                "key": "lime_green"
+            },
+            {
+                "url": "assets/Interior/lime_green_flock.png",
+                "type": "image",
+                "key": "lime_green_flock"
+            },
+            {
+                "url": "assets/Interior/lime_green_large_stripe.png",
+                "type": "image",
+                "key": "lime_green_large_stripe"
+            },
+            {
+                "url": "assets/Interior/lime_green_plain.png",
+                "type": "image",
+                "key": "lime_green_plain"
+            },
+            {
+                "url": "assets/littlecloud.png",
+                "type": "image",
+                "key": "littlecloud"
+            },
+            {
+                "url": "assets/long_bill_board.png",
+                "type": "image",
+                "key": "long_bill_board"
+            },
+            {
+                "url": "assets/Traps/long_chain_piece.png",
+                "type": "image",
+                "key": "long_chain_piece"
+            },
+            {
+                "url": "assets/Interior/long_curtain_03.png",
+                "type": "image",
+                "key": "long_curtain_03"
+            },
+            {
+                "url": "assets/Interior/long_curtain_04.png",
+                "type": "image",
+                "key": "long_curtain_04"
+            },
+            {
+                "url": "assets/Interior/long_curtain_05.png",
+                "type": "image",
+                "key": "long_curtain_05"
+            },
+            {
+                "url": "assets/Interior/long_curtain_06.png",
+                "type": "image",
+                "key": "long_curtain_06"
+            },
+            {
+                "url": "assets/Interior/long_curtain_07.png",
+                "type": "image",
+                "key": "long_curtain_07"
+            },
+            {
+                "url": "assets/Interior/long_curtain_08.png",
+                "type": "image",
+                "key": "long_curtain_08"
+            },
+            {
+                "url": "assets/Interior/long_curtain_09.png",
+                "type": "image",
+                "key": "long_curtain_09"
+            },
+            {
+                "url": "assets/Interior/long_curtain_10.png",
+                "type": "image",
+                "key": "long_curtain_10"
+            },
+            {
+                "url": "assets/Traps/long_metal_spike_01.png",
+                "type": "image",
+                "key": "long_metal_spike_01"
+            },
+            {
+                "url": "assets/Traps/long_metal_spike_02.png",
+                "type": "image",
+                "key": "long_metal_spike_02"
+            },
+            {
+                "url": "assets/Traps/long_metal_spike_03.png",
+                "type": "image",
+                "key": "long_metal_spike_03"
+            },
+            {
+                "url": "assets/Traps/long_metal_spike_04.png",
+                "type": "image",
+                "key": "long_metal_spike_04"
+            },
+            {
+                "url": "assets/Traps/long_rope_piece.png",
+                "type": "image",
+                "key": "long_rope_piece"
+            },
+            {
+                "url": [
+                    "assets/Audio/Lovelevel.m4a"
+                ],
+                "type": "audio",
+                "key": "Lovelevel"
+            },
+            {
+                "url": "assets/Exterior building/mail_box.png",
+                "type": "image",
+                "key": "mail_box"
+            },
+            {
+                "url": "assets/main (1).png",
+                "type": "image",
+                "key": "main (1)"
+            },
+            {
+                "url": [
+                    "assets/Audio/music_fun_funky_whistle_groove_loop.m4a"
+                ],
+                "type": "audio",
+                "key": "maintheme"
+            },
+            {
+                "url": "assets/man_hole_cover.png",
+                "type": "image",
+                "key": "man_hole_cover"
+            },
+            {
+                "url": "assets/Interior/mediaum_curtain_rail_dark.png",
+                "type": "image",
+                "key": "mediaum_curtain_rail_dark"
+            },
+            {
+                "url": "assets/Interior/mediaum_curtain_rail_white.png",
+                "type": "image",
+                "key": "mediaum_curtain_rail_white"
+            },
+            {
+                "url": "assets/medium_bill_board.png",
+                "type": "image",
+                "key": "medium_bill_board"
+            },
+            {
+                "url": "assets/Interior/medium_window_light.png",
+                "type": "image",
+                "key": "medium_window_light"
+            },
+            {
+                "url": "assets/metal_bird_cage_closed.png",
+                "type": "image",
+                "key": "metal_bird_cage_closed"
+            },
+            {
+                "url": "assets/metal_bird_open.png",
+                "type": "image",
+                "key": "metal_bird_open"
+            },
+            {
+                "url": "assets/meter_icon_holder_red.png",
+                "type": "image",
+                "key": "meter_icon_holder_red"
+            },
+            {
+                "url": [
+                    "assets/Audio/miauw.m4a"
+                ],
+                "type": "audio",
+                "key": "miauw"
+            },
+            {
+                "url": "assets/Aquarium/midground_rocks_02.png",
+                "type": "image",
+                "key": "midground_rocks_02"
+            },
+            {
+                "url": "assets/Aquarium/midground_rocks_03.png",
+                "type": "image",
+                "key": "midground_rocks_03"
+            },
+            {
+                "url": "assets/Aquarium/midground_rocks_04.png",
+                "type": "image",
+                "key": "midground_rocks_04"
+            },
+            {
+                "url": "assets/Aquarium/midground_rocks_18.png",
+                "type": "image",
+                "key": "midground_rocks_18"
+            },
+            {
+                "url": "assets/Aquarium/midground_ruin_piece_04.png",
+                "type": "image",
+                "key": "midground_ruin_piece_04"
+            },
+            {
+                "url": "assets/Aquarium/midground_ruin_piece_06.png",
+                "type": "image",
+                "key": "midground_ruin_piece_06"
+            },
+            {
+                "url": "assets/Aquarium/midground_ruin_piece_16.png",
+                "type": "image",
+                "key": "midground_ruin_piece_16"
+            },
+            {
+                "url": "assets/Aquarium/midground_ruin_piece_17.png",
+                "type": "image",
+                "key": "midground_ruin_piece_17"
+            },
+            {
+                "url": "assets/milk_bottle_carton_large.png",
+                "type": "image",
+                "key": "milk_bottle_carton_large"
+            },
+            {
+                "url": "assets/milk_bottle_carton_small.png",
+                "type": "image",
+                "key": "milk_bottle_carton_small"
+            },
+            {
+                "url": "assets/milk_bottle_red_top.png",
+                "type": "image",
+                "key": "milkbottle"
+            },
+            {
+                "url": [
+                    "assets/Audio/points_ticker_bonus_score_reward_jingle_01.m4a"
+                ],
+                "type": "audio",
+                "key": "missiongoal"
+            },
+            {
+                "url": "assets/mouse.png",
+                "type": "image",
+                "key": "mouse"
+            },
+            {
+                "url": "assets/Mouse/Mousehole.png",
+                "type": "image",
+                "key": "Mousehole"
+            },
+            {
+                "url": [
+                    "assets/Audio/music_happy_bounce.m4a"
+                ],
+                "type": "audio",
+                "key": "music_happy_bounce"
+            },
+            {
+                "url": "assets/—Pngtree—dynamic musical notes vector art_21140880.png",
+                "type": "image",
+                "key": "musicnote"
+            },
+            {
+                "url": "assets/Ninja star.png",
+                "type": "image",
+                "key": "Ninja star"
+            },
+            {
+                "url": "assets/ocean_foreground_wave.png",
+                "type": "image",
+                "key": "ocean_foreground_wave"
+            },
+            {
+                "url": "assets/Interior/old_tele.png",
+                "type": "image",
+                "key": "old_tele"
+            },
+            {
+                "url": "assets/Interior/orange.png",
+                "type": "image",
+                "key": "orange"
+            },
+            {
+                "url": "assets/Interior/orange_flock.png",
+                "type": "image",
+                "key": "orange_flock"
+            },
+            {
+                "url": "assets/Interior/orange_large_stripe.png",
+                "type": "image",
+                "key": "orange_large_stripe"
+            },
+            {
+                "url": "assets/Interior/orange_plain.png",
+                "type": "image",
+                "key": "orange_plain"
+            },
+            {
+                "url": "assets/Interior/painting_01_dark.png",
+                "type": "image",
+                "key": "painting_01_dark"
+            },
+            {
+                "url": "assets/Interior/painting_01_gold.png",
+                "type": "image",
+                "key": "painting_01_gold"
+            },
+            {
+                "url": "assets/Interior/painting_01_light.png",
+                "type": "image",
+                "key": "painting_01_light"
+            },
+            {
+                "url": "assets/Interior/painting_02_dark.png",
+                "type": "image",
+                "key": "painting_02_dark"
+            },
+            {
+                "url": "assets/Interior/painting_02_gold.png",
+                "type": "image",
+                "key": "painting_02_gold"
+            },
+            {
+                "url": "assets/Interior/painting_02_light.png",
+                "type": "image",
+                "key": "painting_02_light"
+            },
+            {
+                "url": "assets/Interior/painting_02_white.png",
+                "type": "image",
+                "key": "painting_02_white"
+            },
+            {
+                "url": "assets/Interior/painting_03_dark.png",
+                "type": "image",
+                "key": "painting_03_dark"
+            },
+            {
+                "url": "assets/Interior/painting_03_gold.png",
+                "type": "image",
+                "key": "painting_03_gold"
+            },
+            {
+                "url": "assets/Interior/painting_03_light.png",
+                "type": "image",
+                "key": "painting_03_light"
+            },
+            {
+                "url": "assets/Interior/painting_03_white.png",
+                "type": "image",
+                "key": "painting_03_white"
+            },
+            {
+                "url": "assets/Interior/painting_04_dark.png",
+                "type": "image",
+                "key": "painting_04_dark"
+            },
+            {
+                "url": "assets/Interior/painting_04_gold.png",
+                "type": "image",
+                "key": "painting_04_gold"
+            },
+            {
+                "url": "assets/Interior/painting_04_light.png",
+                "type": "image",
+                "key": "painting_04_light"
+            },
+            {
+                "url": "assets/Interior/painting_04_white.png",
+                "type": "image",
+                "key": "painting_04_white"
+            },
+            {
+                "url": "assets/Interior/painting_05_dark.png",
+                "type": "image",
+                "key": "painting_05_dark"
+            },
+            {
+                "url": "assets/Interior/painting_05_gold.png",
+                "type": "image",
+                "key": "painting_05_gold"
+            },
+            {
+                "url": "assets/Interior/painting_05_light.png",
+                "type": "image",
+                "key": "painting_05_light"
+            },
+            {
+                "url": "assets/Interior/painting_05_white.png",
+                "type": "image",
+                "key": "painting_05_white"
+            },
+            {
+                "url": "assets/Interior/painting_06_dark.png",
+                "type": "image",
+                "key": "painting_06_dark"
+            },
+            {
+                "url": "assets/Interior/painting_06_gold.png",
+                "type": "image",
+                "key": "painting_06_gold"
+            },
+            {
+                "url": "assets/Interior/painting_06_light.png",
+                "type": "image",
+                "key": "painting_06_light"
+            },
+            {
+                "url": "assets/Interior/painting_06_white.png",
+                "type": "image",
+                "key": "painting_06_white"
+            },
+            {
+                "url": "assets/Interior/painting_07_dark.png",
+                "type": "image",
+                "key": "painting_07_dark"
+            },
+            {
+                "url": "assets/Interior/painting_07_gold.png",
+                "type": "image",
+                "key": "painting_07_gold"
+            },
+            {
+                "url": "assets/Interior/painting_07_light.png",
+                "type": "image",
+                "key": "painting_07_light"
+            },
+            {
+                "url": "assets/Interior/painting_07_white.png",
+                "type": "image",
+                "key": "painting_07_white"
+            },
+            {
+                "url": "assets/Interior/painting_08_dark.png",
+                "type": "image",
+                "key": "painting_08_dark"
+            },
+            {
+                "url": "assets/Interior/painting_08_gold.png",
+                "type": "image",
+                "key": "painting_08_gold"
+            },
+            {
+                "url": "assets/Interior/painting_08_light.png",
+                "type": "image",
+                "key": "painting_08_light"
+            },
+            {
+                "url": "assets/Interior/painting_08_white.png",
+                "type": "image",
+                "key": "painting_08_white"
+            },
+            {
+                "url": "assets/Interior/painting_09_dark.png",
+                "type": "image",
+                "key": "painting_09_dark"
+            },
+            {
+                "url": "assets/Interior/painting_09_gold.png",
+                "type": "image",
+                "key": "painting_09_gold"
+            },
+            {
+                "url": "assets/Interior/painting_09_light.png",
+                "type": "image",
+                "key": "painting_09_light"
+            },
+            {
+                "url": "assets/Interior/painting_09_white.png",
+                "type": "image",
+                "key": "painting_09_white"
+            },
+            {
+                "url": "assets/pavement_narrow_repeating.png",
+                "type": "image",
+                "key": "pavement_narrow_repeating"
+            },
+            {
+                "url": [
+                    "assets/Audio/music_harp_peaceful_loop.wav"
+                ],
+                "type": "audio",
+                "key": "peacefultune"
+            },
+            {
+                "url": "assets/Physics Block.png",
+                "type": "image",
+                "key": "Physics Block"
+            },
+            {
+                "url": "assets/Aquarium/pillar.png",
+                "type": "image",
+                "key": "pillar"
+            },
+            {
+                "url": "assets/Lava/pillar_arch_center_repeating.png",
+                "type": "image",
+                "key": "pillar_arch_center_repeating"
+            },
+            {
+                "url": "assets/Lava/pillar_arch_left_end.png",
+                "type": "image",
+                "key": "pillar_arch_left_end"
+            },
+            {
+                "url": "assets/Lava/pillar_arch_right_end.png",
+                "type": "image",
+                "key": "pillar_arch_right_end"
+            },
+            {
+                "url": "assets/pillar_complete.png",
+                "type": "image",
+                "key": "pillar_complete"
+            },
+            {
+                "url": "assets/pillar_top_piece.png",
+                "type": "image",
+                "key": "pillar_top_piece"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/pillar-base.png",
+                "type": "image",
+                "key": "pillar-base"
+            },
+            {
+                "url": "assets/Interior/cheeseinterior/pillar-center-repeating.png",
+                "type": "image",
+                "key": "pillar-center-repeating"
+            },
+            {
+                "url": "assets/Interior/pink.png",
+                "type": "image",
+                "key": "pink"
+            },
+            {
+                "url": "assets/Interior/pink_flock.png",
+                "type": "image",
+                "key": "pink_flock"
+            },
+            {
+                "url": "assets/Interior/pink_large_stripe.png",
+                "type": "image",
+                "key": "pink_large_stripe"
+            },
+            {
+                "url": "assets/Interior/pink_plain.png",
+                "type": "image",
+                "key": "pink_plain"
+            },
+            {
+                "url": "assets/Interior/pink_small_stripe.png",
+                "type": "image",
+                "key": "pink_small_stripe"
+            },
+            {
+                "url": "assets/pipe.png",
+                "type": "image",
+                "key": "pipe"
+            },
+            {
+                "url": "assets/planter_01.png",
+                "type": "image",
+                "key": "planter_01"
+            },
+            {
+                "url": "assets/planter_02.png",
+                "type": "image",
+                "key": "planter_02"
+            },
+            {
+                "url": "assets/planter_03.png",
+                "type": "image",
+                "key": "planter_03"
+            },
+            {
+                "url": "assets/planter_04.png",
+                "type": "image",
+                "key": "planter_04"
+            },
+            {
+                "url": "assets/planter_05.png",
+                "type": "image",
+                "key": "planter_05"
+            },
+            {
+                "url": "assets/planter_06.png",
+                "type": "image",
+                "key": "planter_06"
+            },
+            {
+                "url": "assets/planter_07.png",
+                "type": "image",
+                "key": "planter_07"
+            },
+            {
+                "url": "assets/plants_01.png",
+                "type": "image",
+                "key": "plants_01"
+            },
+            {
+                "url": "assets/plants_02.png",
+                "type": "image",
+                "key": "plants_02"
+            },
+            {
+                "url": "assets/plants_03.png",
+                "type": "image",
+                "key": "plants_03"
+            },
+            {
+                "url": "assets/plants_07.png",
+                "type": "image",
+                "key": "plants_07"
+            },
+            {
+                "url": "assets/plants_10.png",
+                "type": "image",
+                "key": "plants_10"
+            },
+            {
+                "url": "assets/platform_coveyor_with_base_frame_03.png",
+                "type": "image",
+                "key": "platform_coveyor_with_base_frame_03"
+            },
+            {
+                "url": "assets/Interior/player_no_perspective.png",
+                "type": "image",
+                "key": "player_no_perspective"
+            },
+            {
+                "url": "assets/Interior/player_perspective.png",
+                "type": "image",
+                "key": "player_perspective"
+            },
+            {
+                "url": "assets/poster_01.png",
+                "type": "image",
+                "key": "poster_01"
+            },
+            {
+                "url": "assets/pots_with_perspective_01.png",
+                "type": "image",
+                "key": "pots_with_perspective_01"
+            },
+            {
+                "url": "assets/pots_with_perspective_05.png",
+                "type": "image",
+                "key": "pots_with_perspective_05"
+            },
+            {
+                "url": "assets/pots_with_perspective_07.png",
+                "type": "image",
+                "key": "pots_with_perspective_07"
+            },
+            {
+                "url": "assets/Plants/pots_with_perspective_22.png",
+                "type": "image",
+                "key": "pots_with_perspective_22"
+            },
+            {
+                "url": "assets/Plants/pots_with_perspective_24.png",
+                "type": "image",
+                "key": "pots_with_perspective_24"
+            },
+            {
+                "url": "assets/pots_with_perspective_27.png",
+                "type": "image",
+                "key": "pots_with_perspective_27"
+            },
+            {
+                "url": "assets/pots_with_perspective_37.png",
+                "type": "image",
+                "key": "pots_with_perspective_37"
+            },
+            {
+                "url": "assets/pots_with_perspective_39.png",
+                "type": "image",
+                "key": "pots_with_perspective_39"
+            },
+            {
+                "url": "assets/puddle.png",
+                "type": "image",
+                "key": "puddle"
+            },
+            {
+                "url": "assets/Aquarium/purple_01.png",
+                "type": "image",
+                "key": "purple_01"
+            },
+            {
+                "url": "assets/Aquarium/purple_02.png",
+                "type": "image",
+                "key": "purple_02"
+            },
+            {
+                "url": "assets/Aquarium/purple_03.png",
+                "type": "image",
+                "key": "purple_03"
+            },
+            {
+                "url": "assets/Aquarium/purple_04.png",
+                "type": "image",
+                "key": "purple_04"
+            },
+            {
+                "url": "assets/purple_block.png",
+                "type": "image",
+                "key": "purple_block"
+            },
+            {
+                "url": "assets/purple_block_lift_shaft.png",
+                "type": "image",
+                "key": "purple_block_lift_shaft"
+            },
+            {
+                "url": "assets/Loveroom/red_arrow_projectile.png",
+                "type": "image",
+                "key": "red_arrow_projectile"
+            },
+            {
+                "url": "assets/Interior/red_flock.png",
+                "type": "image",
+                "key": "red_flock"
+            },
+            {
+                "url": "assets/Interior/red_large_stripe.png",
+                "type": "image",
+                "key": "red_large_stripe"
+            },
+            {
+                "url": "assets/Interior/red_plain.png",
+                "type": "image",
+                "key": "red_plain"
+            },
+            {
+                "url": "assets/Interior/red_small_stripe.png",
+                "type": "image",
+                "key": "red_small_stripe"
+            },
+            {
+                "url": "assets/redheart.png",
+                "type": "image",
+                "key": "redheart"
+            },
+            {
+                "url": "assets/redheartnborder.png",
+                "type": "image",
+                "key": "redheartnborder"
+            },
+            {
+                "url": "assets/Interior/refridgerator_doors_closed.png",
+                "type": "image",
+                "key": "refridgerator_doors_closed"
+            },
+            {
+                "url": "assets/road.png",
+                "type": "image",
+                "key": "road"
+            },
+            {
+                "url": "assets/Traps/rope_end_right.png",
+                "type": "image",
+                "key": "rope_end_right"
+            },
+            {
+                "url": "assets/rope_repeating.png",
+                "type": "image",
+                "key": "rope_repeating"
+            },
+            {
+                "url": "assets/Traps/rotating_saw_01.png",
+                "type": "image",
+                "key": "rotating_saw_01"
+            },
+            {
+                "url": "assets/Traps/rotating_saw_02.png",
+                "type": "image",
+                "key": "rotating_saw_02"
+            },
+            {
+                "url": "assets/Traps/rotating_saw_03.png",
+                "type": "image",
+                "key": "rotating_saw_03"
+            },
+            {
+                "url": "assets/Traps/rotating_saw_04.png",
+                "type": "image",
+                "key": "rotating_saw_04"
+            },
+            {
+                "url": "assets/Traps/rotating_saw_05.png",
+                "type": "image",
+                "key": "rotating_saw_05"
+            },
+            {
+                "url": "assets/Traps/rotating_saw_06.png",
+                "type": "image",
+                "key": "rotating_saw_06"
+            },
+            {
+                "url": "assets/Interior/rug_02.png",
+                "type": "image",
+                "key": "rug_02"
+            },
+            {
+                "url": "assets/Interior/rug_05.png",
+                "type": "image",
+                "key": "rug_05"
+            },
+            {
+                "url": "assets/Interior/rug_09.png",
+                "type": "image",
+                "key": "rug_09"
+            },
+            {
+                "url": "assets/Interior/rug_11.png",
+                "type": "image",
+                "key": "rug_11"
+            },
+            {
+                "url": "assets/Interior/rug_13.png",
+                "type": "image",
+                "key": "rug_13"
+            },
+            {
+                "url": "assets/Interior/rug_14.png",
+                "type": "image",
+                "key": "rug_14"
+            },
+            {
+                "url": "assets/sack.png",
+                "type": "image",
+                "key": "sack"
+            },
+            {
+                "url": "assets/Aquarium/seabackground.png",
+                "type": "image",
+                "key": "seabackground"
+            },
+            {
+                "url": "assets/Aquarium/seabed.png",
+                "type": "image",
+                "key": "seabed"
+            },
+            {
+                "url": "assets/Interior/shelf.png",
+                "type": "image",
+                "key": "shelf"
+            },
+            {
+                "url": "assets/Aquarium/ship_wreck.png",
+                "type": "image",
+                "key": "ship_wreck"
+            },
+            {
+                "url": "assets/Interior/short_curtain_01.png",
+                "type": "image",
+                "key": "short_curtain_01"
+            },
+            {
+                "url": "assets/Interior/short_curtain_02.png",
+                "type": "image",
+                "key": "short_curtain_02"
+            },
+            {
+                "url": "assets/Interior/short_curtain_03.png",
+                "type": "image",
+                "key": "short_curtain_03"
+            },
+            {
+                "url": "assets/Interior/short_curtain_04.png",
+                "type": "image",
+                "key": "short_curtain_04"
+            },
+            {
+                "url": "assets/Interior/short_curtain_05.png",
+                "type": "image",
+                "key": "short_curtain_05"
+            },
+            {
+                "url": "assets/Interior/short_curtain_06.png",
+                "type": "image",
+                "key": "short_curtain_06"
+            },
+            {
+                "url": "assets/Interior/short_curtain_07.png",
+                "type": "image",
+                "key": "short_curtain_07"
+            },
+            {
+                "url": "assets/short_straight_up.png",
+                "type": "image",
+                "key": "short_straight_up"
+            },
+            {
+                "url": "assets/Interior/short-chain-with-candles.png",
+                "type": "image",
+                "key": "short-chain-with-candles"
+            },
+            {
+                "url": "assets/shutter.png",
+                "type": "image",
+                "key": "shutter"
+            },
+            {
+                "url": "assets/Interior/sing_switch.png",
+                "type": "image",
+                "key": "sing_switch"
+            },
+            {
+                "url": "assets/Interior/skirting_dark.png",
+                "type": "image",
+                "key": "skirting_dark"
+            },
+            {
+                "url": "assets/Interior/skirting_light.png",
+                "type": "image",
+                "key": "skirting_light"
+            },
+            {
+                "url": "assets/Interior/skirting_white.png",
+                "type": "image",
+                "key": "skirting_white"
+            },
+            {
+                "url": "assets/small_bill_board.png",
+                "type": "image",
+                "key": "small_bill_board"
+            },
+            {
+                "url": "assets/small_door_blue.png",
+                "type": "image",
+                "key": "small_door_blue"
+            },
+            {
+                "url": "assets/small_shop_grey.png",
+                "type": "image",
+                "key": "small_shop_grey"
+            },
+            {
+                "url": "assets/small_shop_window.png",
+                "type": "image",
+                "key": "small_shop_window"
+            },
+            {
+                "url": "assets/Interior/small_speaker_no_perspective.png",
+                "type": "image",
+                "key": "small_speaker_no_perspective"
+            },
+            {
+                "url": "assets/small_speaker_no_perspective.png",
+                "type": "image",
+                "key": "small_speaker_no_perspective_1"
+            },
+            {
+                "url": "assets/Interior/small_speaker_with_perspective.png",
+                "type": "image",
+                "key": "small_speaker_with_perspective"
+            },
+            {
+                "url": "assets/Interior/small_window_light.png",
+                "type": "image",
+                "key": "small_window_light"
+            },
+            {
+                "url": "assets/Interior/spiral_glow_green.png",
+                "type": "image",
+                "key": "spiral_glow_green"
+            },
+            {
+                "url": "assets/Interior/spiral_glow_purple.png",
+                "type": "image",
+                "key": "spiral_glow_purple"
+            },
+            {
+                "url": "assets/square_block_100_percent.png",
+                "type": "image",
+                "key": "square_block_100_percent"
+            },
+            {
+                "url": "assets/Traps/square_with_outlet.png",
+                "type": "image",
+                "key": "square_with_outlet"
+            },
+            {
+                "url": "assets/Interior/squares_glow_blue.png",
+                "type": "image",
+                "key": "squares_glow_blue"
+            },
+            {
+                "url": "assets/Interior/squares_glow_green.png",
+                "type": "image",
+                "key": "squares_glow_green"
+            },
+            {
+                "url": "assets/Interior/squares_glow_pink.png",
+                "type": "image",
+                "key": "squares_glow_pink"
+            },
+            {
+                "url": "assets/Interior/squares_glow_purple.png",
+                "type": "image",
+                "key": "squares_glow_purple"
+            },
+            {
+                "url": "assets/Interior/squares_repeating.png",
+                "type": "image",
+                "key": "squares_repeating"
+            },
+            {
+                "url": "assets/Interior/squares_repeating_blue.png",
+                "type": "image",
+                "key": "squares_repeating_blue"
+            },
+            {
+                "url": "assets/Interior/squares_repeating_green.png",
+                "type": "image",
+                "key": "squares_repeating_green"
+            },
+            {
+                "url": "assets/Interior/squares_repeating_pink.png",
+                "type": "image",
+                "key": "squares_repeating_pink"
+            },
+            {
+                "url": "assets/Interior/squares_repeating_purple.png",
+                "type": "image",
+                "key": "squares_repeating_purple"
+            },
+            {
+                "url": "assets/Interior/stairs_dark_blue.png",
+                "type": "image",
+                "key": "stairs_dark_blue"
+            },
+            {
+                "url": "assets/Interior/stairs_light_red.png",
+                "type": "image",
+                "key": "stairs_light_red"
+            },
+            {
+                "url": "assets/step.png",
+                "type": "image",
+                "key": "step"
+            },
+            {
+                "url": "assets/stoop.png",
+                "type": "image",
+                "key": "stoop"
+            },
+            {
+                "url": "assets/Exterior building/street_light.png",
+                "type": "image",
+                "key": "street_light"
+            },
+            {
+                "url": "assets/Aquarium/sunlight.png",
+                "type": "image",
+                "key": "sunlight"
+            },
+            {
+                "url": [
+                    "assets/Audio/swim.m4a"
+                ],
+                "type": "audio",
+                "key": "swim"
+            },
+            {
+                "url": "assets/Traps/swinging_blade.png",
+                "type": "image",
+                "key": "swinging_blade"
+            },
+            {
+                "url": "assets/Traps/swinging_spike_block.png",
+                "type": "image",
+                "key": "swinging_spike_block"
+            },
+            {
+                "url": "assets/Interior/castle/table.png",
+                "type": "image",
+                "key": "table"
+            },
+            {
+                "url": "assets/Interior/table_with_draws.png",
+                "type": "image",
+                "key": "table_with_draws"
+            },
+            {
+                "url": [
+                    "assets/Audio/takekey.m4a"
+                ],
+                "type": "audio",
+                "key": "takekey"
+            },
+            {
+                "url": "assets/tan_wall_shelf.png",
+                "type": "image",
+                "key": "tan_wall_shelf"
+            },
+            {
+                "url": [
+                    "assets/Audio/throw.m4a"
+                ],
+                "type": "audio",
+                "key": "throw"
+            },
+            {
+                "url": "assets/top_row.png",
+                "type": "image",
+                "key": "top_row"
+            },
+            {
+                "url": "assets/Interior/top_row_small.png",
+                "type": "image",
+                "key": "top_row_small"
+            },
+            {
+                "url": "assets/Interior/top_row_small_02.png",
+                "type": "image",
+                "key": "top_row_small_02"
+            },
+            {
+                "url": "assets/tourch.png",
+                "type": "image",
+                "key": "tourch"
+            },
+            {
+                "url": "assets/tourch_lit_01.png",
+                "type": "image",
+                "key": "tourch_lit_01"
+            },
+            {
+                "url": "assets/tourch_lit_02.png",
+                "type": "image",
+                "key": "tourch_lit_02"
+            },
+            {
+                "url": "assets/tourch_lit_03.png",
+                "type": "image",
+                "key": "tourch_lit_03"
+            },
+            {
+                "url": "assets/tourch_lit_04.png",
+                "type": "image",
+                "key": "tourch_lit_04"
+            },
+            {
+                "url": "assets/tourch_lit_05.png",
+                "type": "image",
+                "key": "tourch_lit_05"
+            },
+            {
+                "url": "assets/Exterior building/tram_stop.png",
+                "type": "image",
+                "key": "tram_stop"
+            },
+            {
+                "url": "assets/Mouse/trap.png",
+                "type": "image",
+                "key": "trap"
+            },
+            {
+                "url": "assets/trash_can_group.png",
+                "type": "image",
+                "key": "trash_can_group"
+            },
+            {
+                "url": "assets/trash_can_lid.png",
+                "type": "image",
+                "key": "trash_can_lid"
+            },
+            {
+                "url": "assets/trash_can_no_lid.png",
+                "type": "image",
+                "key": "trash_can_no_lid"
+            },
+            {
+                "url": "assets/trash_can_on_floor.png",
+                "type": "image",
+                "key": "trash_can_on_floor"
+            },
+            {
+                "url": "assets/treble-clef-1279909_1280.png",
+                "type": "image",
+                "key": "treble-clef-1279909_1280"
+            },
+            {
+                "url": "assets/tuna_closed.png",
+                "type": "image",
+                "key": "tuna_closed"
+            },
+            {
+                "url": "assets/tuna_open.png",
+                "type": "image",
+                "key": "tuna_open"
+            },
+            {
+                "url": "assets/Interior/uk_double_plug.png",
+                "type": "image",
+                "key": "uk_double_plug"
+            },
+            {
+                "url": "assets/Interior/uk_single_plug.png",
+                "type": "image",
+                "key": "uk_single_plug"
+            },
+            {
+                "url": "assets/Interior/us_double_plug.png",
+                "type": "image",
+                "key": "us_double_plug"
+            },
+            {
+                "url": "assets/Interior/us_single_plug.png",
+                "type": "image",
+                "key": "us_single_plug"
+            },
+            {
+                "url": "assets/wall_left_end.png",
+                "type": "image",
+                "key": "wall_left_end"
+            },
+            {
+                "url": "assets/wall_repeating.png",
+                "type": "image",
+                "key": "wall_repeating"
+            },
+            {
+                "url": "assets/wall_right_end.png",
+                "type": "image",
+                "key": "wall_right_end"
+            },
+            {
+                "url": "assets/washing_01.png",
+                "type": "image",
+                "key": "washing_01"
+            },
+            {
+                "url": "assets/washing_02.png",
+                "type": "image",
+                "key": "washing_02"
+            },
+            {
+                "url": "assets/washing_04.png",
+                "type": "image",
+                "key": "washing_04"
+            },
+            {
+                "url": "assets/washing_05.png",
+                "type": "image",
+                "key": "washing_05"
+            },
+            {
+                "url": "assets/washing_06.png",
+                "type": "image",
+                "key": "washing_06"
+            },
+            {
+                "url": "assets/washing_07.png",
+                "type": "image",
+                "key": "washing_07"
+            },
+            {
+                "url": "assets/water_tower.png",
+                "type": "image",
+                "key": "water_tower"
+            },
+            {
+                "url": "assets/WaterL.png",
+                "type": "image",
+                "key": "WaterL"
+            },
+            {
+                "url": "assets/Interior/waves_repeating_green.png",
+                "type": "image",
+                "key": "waves_repeating_green"
+            },
+            {
+                "url": "assets/Interior/waves_repeating_purple.png",
+                "type": "image",
+                "key": "waves_repeating_purple"
+            },
+            {
+                "url": [
+                    "assets/Audio/whack.m4a"
+                ],
+                "type": "audio",
+                "key": "whack"
+            },
+            {
+                "url": "assets/white_wall_shelf.png",
+                "type": "image",
+                "key": "white_wall_shelf"
+            },
+            {
+                "url": "assets/Interior/window_01.png",
+                "type": "image",
+                "key": "window"
+            },
+            {
+                "url": "assets/window_01.png",
+                "type": "image",
+                "key": "window_01"
+            },
+            {
+                "url": "assets/window_01_open.png",
+                "type": "image",
+                "key": "window_01_open"
+            },
+            {
+                "url": "assets/Interior/window_03.png",
+                "type": "image",
+                "key": "window_03"
+            },
+            {
+                "url": "assets/window_04.png",
+                "type": "image",
+                "key": "window_04"
+            },
+            {
+                "url": "assets/Interior/castle/window_05.png",
+                "type": "image",
+                "key": "window_05"
+            },
+            {
+                "url": "assets/Interior/window_06.png",
+                "type": "image",
+                "key": "window_06"
+            },
+            {
+                "url": "assets/Interior/castle/window_01.png",
+                "type": "image",
+                "key": "window_1"
+            },
+            {
+                "url": "assets/Interior/window_12.png",
+                "type": "image",
+                "key": "window_12"
+            },
+            {
+                "url": "assets/Interior/castle/window_04.png",
+                "type": "image",
+                "key": "window_2"
+            },
+            {
+                "url": "assets/Exterior building/window_03.png",
+                "type": "image",
+                "key": "window_3"
+            },
+            {
+                "url": "assets/window_broken.png",
+                "type": "image",
+                "key": "window_broken"
+            },
+            {
+                "url": "assets/window_broken_01.png",
+                "type": "image",
+                "key": "window_broken_01"
+            },
+            {
+                "url": "assets/yellow_block.png",
+                "type": "image",
+                "key": "yellow_block"
+            },
+            {
+                "url": "assets/yellow_block_lift_shaft.png",
+                "type": "image",
+                "key": "yellow_block_lift_shaft"
+            },
+            {
+                "url": "assets/yellow_side_srone_left.png",
+                "type": "image",
+                "key": "yellow_side_srone_left"
+            },
+            {
+                "url": "assets/yellow_side_stone_left.png",
+                "type": "image",
+                "key": "yellow_side_stone_left"
+            },
+            {
+                "url": "assets/yellow_side_stone_right.png",
+                "type": "image",
+                "key": "yellow_side_stone_right"
+            },
+            {
+                "url": [
+                    "assets/Audio/Yellybounce.m4a"
+                ],
+                "type": "audio",
+                "key": "Yellybounce"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false,
+        "visible": true
+    }
+}

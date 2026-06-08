@@ -1,0 +1,53 @@
+{
+    "id": "030ef5ce-7a2a-4fb2-9795-d3284bf95428",
+    "settings": {
+        "createMethodName": "",
+        "preloadMethodName": "",
+        "compilerOutputLanguage": "JAVA_SCRIPT",
+        "exportClass": false,
+        "autoImport": false,
+        "importFileExtension": false,
+        "generateAwakeHandler": false,
+        "compilerInsertSpaces": false,
+        "compilerTabSize": 4,
+        "borderWidth": 1280,
+        "borderHeight": 720,
+        "borderX": 0,
+        "borderY": 0
+    },
+    "sceneType": "PREFAB",
+    "displayList": [
+        {
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "type": "ArcadeSprite",
+            "id": "984a131f-6823-48a7-86f9-8397aad275db",
+            "label": "lionfish",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__lion_fish_pink_idle_000"
+            },
+            "x": 0,
+            "y": 0,
+            "scaleX": 0.2061529597068525,
+            "scaleY": 0.2061529597068525,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9,
+            "body.velocity.x": -30,
+            "collideWorldBounds": true,
+            "onWorldBounds": true,
+            "body.width": 570,
+            "body.height": 546
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

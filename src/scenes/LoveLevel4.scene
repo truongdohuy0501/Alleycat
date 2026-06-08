@@ -1,0 +1,3711 @@
+{
+    "id": "f80a134f-d28f-4791-ad89-38fa3460db7b",
+    "sceneType": "SCENE",
+    "settings": {
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LoveLevel4",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "de2032f7-880a-4e69-b4fa-d88439e7ea1e",
+            "label": "sky",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "sky"
+            },
+            "x": 592,
+            "y": -4123,
+            "scaleX": 1.0825492526253053,
+            "scaleY": 10.419272087292146,
+            "tintTopLeft": "#da1212",
+            "tintTopRight": "#172d62",
+            "tintBottomLeft": "#bf7d7d",
+            "tintBottomRight": "#7d84c1"
+        },
+        {
+            "type": "Image",
+            "id": "209e718a-80fd-4800-beef-b2704aabad7c",
+            "label": "sky_1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "sky"
+            },
+            "x": 594,
+            "y": -792,
+            "scaleX": 1.0825492526253053,
+            "scaleY": 3.771733843063168,
+            "alphaTopLeft": 0,
+            "alphaTopRight": 0,
+            "tintTopLeft": "#da1212",
+            "tintTopRight": "#6c7da6",
+            "tintBottomLeft": "#3b4c97",
+            "tintBottomRight": "#70495a"
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "3984c270-7ff3-40ca-96ff-5c0b92ef793b",
+            "unlock": [
+                "x",
+                "y",
+                "AllHearts",
+                "visible",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "heartPlatform0",
+            "scope": "PUBLIC",
+            "AllHearts": true,
+            "x": -80,
+            "y": 666,
+            "scaleX": 0.6859590093117656,
+            "scaleY": 0.8,
+            "visible": true,
+            "alpha": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "fe83218a-c78a-45d9-99e5-8941d7a5037d",
+            "label": "health_12",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": 508,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "b108ca04-c521-445d-8507-3c5e79284957",
+            "label": "health_13",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": 418,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d7132b69-98d6-4cfe-91c0-b8de24a81376",
+            "label": "health_14",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": 678,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "418ce82d-fd32-4fdd-843f-f7f2119bcd06",
+            "label": "health_15",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": 596,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d0e07a6b-0fc4-4b90-8328-501ff0494586",
+            "label": "health",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -179,
+            "y": 513,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "b2b69344-7e9d-4bd2-9012-282d02bc48b8",
+            "label": "health_1",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -179,
+            "y": 423,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "67a30101-e2a3-49c4-92f5-67fb533db0fc",
+            "label": "health_2",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -179,
+            "y": 683,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "dc69d873-906a-4ca2-b50d-ec56bba694e3",
+            "label": "health_3",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -179,
+            "y": 601,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "799b0056-b823-4ff6-9ae8-7df82bc731a1",
+            "label": "health_4",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -179,
+            "y": 329,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "63da3ac5-7f2e-408d-8b57-2e8f160bba14",
+            "label": "health_5",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -179,
+            "y": 233,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "37b18627-8356-4857-90de-0065e7ceef28",
+            "label": "health_6",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -177,
+            "y": -32,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "44473238-aba3-4f94-8daf-c862f34860df",
+            "label": "health_7",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -177,
+            "y": -122,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "96989d3c-7a57-444a-bb49-0bb586f198e3",
+            "label": "health_8",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -177,
+            "y": 138,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "5661f408-b1b1-4f32-b047-9dae0fcb7105",
+            "label": "health_9",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -177,
+            "y": 56,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "a858f1b9-b09a-401c-b156-698cd57b2064",
+            "label": "health_10",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -177,
+            "y": -218,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "094bd297-314b-4b47-a58d-5a8d3c80765e",
+            "label": "health_11",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -177,
+            "y": -319,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "b196784f-9072-4150-8bbe-e941389eeeb1",
+            "label": "health_16",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": 322,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "9908f756-f8a5-47c0-848d-16ecec821577",
+            "label": "health_17",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": 226,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "3c165ac9-57ab-4f2f-93ae-1c409aacfe31",
+            "label": "health_18",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": -32,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "f474e1c6-75fe-4f0d-97b8-8ca68a79c13f",
+            "label": "health_19",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": -122,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "85576e7e-b51d-4727-a4b6-c6e94a52d82e",
+            "label": "health_20",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": 138,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ff0a5999-29ef-4d0e-a695-d83731823794",
+            "label": "health_21",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": 56,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e269a37e-543c-4e00-bc2c-5dc9ea6ecd5e",
+            "label": "health_22",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": -218,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "acbc6e32-77d1-46ff-ab3a-55f66b4b30c9",
+            "label": "health_23",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1311,
+            "y": -319,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "prefabId": "f97944df-b631-4ec8-b3b9-6f9735b38ee4",
+            "id": "7cf09b69-f807-4405-953a-97a402c71207",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "onWorldBounds",
+                "visible"
+            ],
+            "label": "catPlayer",
+            "scope": "PUBLIC",
+            "x": 164,
+            "y": 613,
+            "visible": true,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "Image",
+            "id": "610f1a0f-0db8-4905-9af5-db4ce81d7f04",
+            "label": "health_24",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -174,
+            "y": -576,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "a195614b-3faa-4594-8046-3d47d9a24898",
+            "label": "health_25",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -174,
+            "y": -666,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "27b7184a-a546-4012-aed9-cfd4c46d5757",
+            "label": "health_26",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -174,
+            "y": -406,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "df760857-10db-4e28-825a-578b2c70f6b7",
+            "label": "health_27",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -174,
+            "y": -488,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d30f1cab-b072-4f3d-bd76-f3512cddb661",
+            "label": "health_28",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -174,
+            "y": -760,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "c8c761ad-e633-4d2c-b33a-93e8fd13364e",
+            "label": "health_29",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -174,
+            "y": -856,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "048be233-9b1a-4f5f-88cb-5cc5998403cb",
+            "label": "health_30",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -172,
+            "y": -1121,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "09f3488d-27a9-4c7b-ab50-fea249b52c6c",
+            "label": "health_31",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -172,
+            "y": -1211,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "f104d86b-7846-42fb-ae75-91cae748be16",
+            "label": "health_32",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -172,
+            "y": -951,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d6ce9a69-99be-4633-8048-afacc1c84a91",
+            "label": "health_33",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -172,
+            "y": -1033,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "91e5220e-6e06-4241-a2f8-98866ef77d0d",
+            "label": "health_34",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -172,
+            "y": -1307,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "9ce6da67-8548-4bd4-9fcb-913799a95498",
+            "label": "health_35",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -172,
+            "y": -1408,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "961c16b0-3d52-4bf1-b865-644b5c6fdf16",
+            "label": "health_36",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1314,
+            "y": -576,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "0eb70e58-6266-44f7-908d-ac028bbf99d1",
+            "label": "health_37",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1314,
+            "y": -666,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "6b6f5b72-f56a-47b3-b72a-b5ae8b2b38c7",
+            "label": "health_38",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1314,
+            "y": -406,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "6852c02c-dc2d-44a9-8b23-85ab56e79c99",
+            "label": "health_39",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1314,
+            "y": -488,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "006a1353-95c9-49a9-94e9-34051efacc56",
+            "label": "health_40",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1314,
+            "y": -760,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "8d33f0e8-6325-4530-b54e-0c085f42e688",
+            "label": "health_41",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1314,
+            "y": -856,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "b484d6fe-1340-4c8f-a0ec-b890377581ef",
+            "label": "health_42",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1121,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "9ee7c543-d53f-40bf-94ce-f9bb34dc5e83",
+            "label": "health_43",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1211,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "8eee1cad-d574-42f5-b299-a65c711ee8c3",
+            "label": "health_44",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -951,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "f0c76b1b-3868-4a26-a6dc-8c0b380d2d10",
+            "label": "health_45",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1033,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "718abf32-7200-4287-86b8-373f2987e5cb",
+            "label": "health_46",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1307,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d336ac7e-6f9d-4a71-9e6d-10ab160638df",
+            "label": "health_47",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1408,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "2a7b7e56-a815-44f4-9d3f-3a784a196052",
+            "unlock": [
+                "x",
+                "y",
+                "AllHearts",
+                "visible",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "heartPlatform_2",
+            "scope": "PUBLIC",
+            "AllHearts": true,
+            "x": -60,
+            "y": -5673,
+            "scaleX": 0.6859590093117656,
+            "scaleY": 0.8,
+            "visible": true,
+            "alpha": 0.4
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "1247f580-c3fa-4587-9a8f-af649f378bbf",
+            "unlock": [
+                "x",
+                "y",
+                "AllHearts",
+                "visible",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "heartPlatform",
+            "scope": "PUBLIC",
+            "AllHearts": true,
+            "x": -57,
+            "y": -2670,
+            "scaleX": 0.6859590093117656,
+            "scaleY": 0.8,
+            "visible": true,
+            "alpha": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "11a53b5a-1406-4f84-9f75-37221402e56f",
+            "label": "health_48",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -170,
+            "y": -1716,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "bdb71f9e-45df-4cac-b22b-cff0cf5119f2",
+            "label": "health_49",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -170,
+            "y": -1806,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "cfdfea4b-50dd-4552-819e-b10953ec3e15",
+            "label": "health_50",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -170,
+            "y": -1546,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e68e270f-eb73-4dab-bc0a-c9b23997c3e3",
+            "label": "health_51",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -170,
+            "y": -1628,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d50b6aaa-9fac-42c4-8981-3d57a1236386",
+            "label": "health_52",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -170,
+            "y": -1900,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "26e0ca8f-d295-4060-a5f6-0b008e4e64fb",
+            "label": "health_53",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -170,
+            "y": -1996,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ec17821f-02b7-4423-b707-2e493ba246d1",
+            "label": "health_54",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -168,
+            "y": -2261,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "866af208-2bb2-406d-8a21-560124c6483c",
+            "label": "health_55",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -168,
+            "y": -2351,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "2a579790-4d50-4d10-b5c6-1cdde6883812",
+            "label": "health_56",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -168,
+            "y": -2091,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e83cb483-b0b9-4c19-ba93-34ced9f862d1",
+            "label": "health_57",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -168,
+            "y": -2173,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "acc04686-5392-4ca6-9867-68054993f80e",
+            "label": "health_58",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -168,
+            "y": -2447,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "7531db2d-5efa-4d5e-8d93-f87e5ae04877",
+            "label": "health_59",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -168,
+            "y": -2548,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "2a812167-7550-4e32-afe3-2783e2279d13",
+            "label": "health_60",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -165,
+            "y": -2805,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "3b7f2fcf-1e07-4401-bfa7-d8420fa739af",
+            "label": "health_61",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -165,
+            "y": -2895,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "3041c752-ac9d-4cc0-993b-fd6b78ff82d2",
+            "label": "health_62",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -165,
+            "y": -2635,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "5200e66d-3d0c-4867-94c4-4a00cfde3cfd",
+            "label": "health_63",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -165,
+            "y": -2717,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "21610f42-1f6d-4075-9c65-a7adfd2d44c5",
+            "label": "health_64",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -165,
+            "y": -2989,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "69b0c680-be47-4ba2-abeb-1be4ad93388b",
+            "label": "health_65",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -165,
+            "y": -3085,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "882243bf-b6fe-424f-9cbc-bbbbb066c538",
+            "label": "health_66",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -163,
+            "y": -3350,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "6544ca26-ffc0-4b03-a20e-560a8cce4313",
+            "label": "health_67",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -163,
+            "y": -3440,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "08714e0f-d8ac-4130-897f-87bc67868d74",
+            "label": "health_68",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -163,
+            "y": -3180,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "8f35ce95-00d0-4ef5-99bc-b0d3bbadc2fa",
+            "label": "health_69",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -163,
+            "y": -3262,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "9481a692-5802-4517-9c5b-3665c6d32c3c",
+            "label": "health_70",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -163,
+            "y": -3536,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "4d68edba-3598-4176-b463-ead016140f1c",
+            "label": "health_71",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -163,
+            "y": -3637,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "61db48fc-03bf-4587-ba1d-4beeaf99efa7",
+            "label": "health_72",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1712,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "c0e48dc1-d7a8-44d9-8693-e004742a148b",
+            "label": "health_73",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1802,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "5ad1563d-7b3c-4b79-b36b-8e05aef06220",
+            "label": "health_74",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1542,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "7e4c85b5-2928-4809-9a32-75bd4896b8df",
+            "label": "health_75",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1624,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ee621b2a-cd86-4597-a26e-edd48019e109",
+            "label": "health_76",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1896,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "4dd4132f-d523-456e-82bd-d8acfd35c522",
+            "label": "health_77",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1316,
+            "y": -1992,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "cc6a2eea-3acc-4e68-9404-7c1fe2a4d10d",
+            "label": "health_78",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2257,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "8af0929f-1ac4-48f2-8399-3011ae00d480",
+            "label": "health_79",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2347,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "19a6c83b-b4c5-442d-b074-722fdd871628",
+            "label": "health_80",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2087,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "7e467f18-e6c1-4106-b845-a5f9482a85ea",
+            "label": "health_81",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2169,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "a5b22297-a7cc-48fb-ad43-9dc9f15456c4",
+            "label": "health_82",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2443,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "31b12b79-c634-4461-8f6f-4674eb3720e5",
+            "label": "health_83",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2544,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "bb55dcdd-422a-4c9a-821d-433a98d84aff",
+            "label": "health_84",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2801,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "21d0656c-b555-4625-83a5-67b19a2ac0ad",
+            "label": "health_85",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2891,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "aa9d83dd-379b-4062-a053-385c30703fdd",
+            "label": "health_86",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2631,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "cb893fab-b002-47bf-9cdd-a1fc07d9e1bb",
+            "label": "health_87",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2713,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "0cedc916-8546-4634-97fb-16e2ff73efe5",
+            "label": "health_88",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -2985,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "0979cfbb-8b03-4b47-b7fe-d69b87202d1e",
+            "label": "health_89",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3081,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "c933b632-9acf-4e7b-92cc-e60c5c4621e9",
+            "label": "health_90",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3346,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "9fa62e03-0f6a-414c-b9c4-c5fefeaed7e0",
+            "label": "health_91",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3436,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "c81d5292-3c06-4e4f-8dd9-98f44a70438c",
+            "label": "health_92",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3176,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "67d50fb7-fafd-4759-99e1-fd56d25fb6e6",
+            "label": "health_93",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3258,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "10e698e6-7b15-4df4-8b43-cd076797769e",
+            "label": "health_94",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3532,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "6e62d1b6-8e0a-4e21-92e5-1522cbfb1e16",
+            "label": "health_95",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3633,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "91e888f1-cb38-4f88-91c5-a82540f25e0d",
+            "label": "ninjastar1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 404,
+            "y": -2097,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "58c9c254-6e06-43ed-adc5-95da10205419",
+            "label": "ninjastar2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 929,
+            "y": -1686,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "prefabId": "073a3979-ae87-4e39-9746-90ffdf548790",
+            "id": "6490dcb9-9f80-401d-b16b-e2333f2fad94",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "enemyCat",
+            "scope": "PUBLIC",
+            "x": 711,
+            "y": -2733,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "36a8d4fe-920a-48e7-aca3-e5a8c9479130",
+            "label": "ninjastar3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 719,
+            "y": -2483,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4c7c2e93-8f08-4db3-84e1-fcc9a3f8bd86",
+            "label": "ninjastar4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 34,
+            "y": -3412,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c792637d-ef03-4908-9534-1a1cb41ca6cb",
+            "label": "ninjastar5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 491,
+            "y": -3859,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "99fd48f6-f5d4-4abb-9925-461606c1a0f6",
+            "label": "ninjastar6",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 222,
+            "y": -1347,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "45be4c14-01e9-4041-baf8-7dcbf31255f0",
+            "label": "ninjastar7",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 97,
+            "y": -4555,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0f9ebe29-7d3b-406b-b46c-95e900376657",
+            "label": "ninjastar8",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 37,
+            "y": -5570,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ed0e23ff-91d5-4e03-9b65-b3408d43b495",
+            "label": "ninjastar9",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 866,
+            "y": -642,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ae244ba3-6a50-48ce-a38c-f643b94b9208",
+            "label": "ninjastar10",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 186,
+            "y": -507,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "9b2b178a-87c5-4e5c-86f5-3aa7c4f731f3",
+            "label": "ninjastar11",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 248,
+            "y": -5109,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "d2afbb37-7750-4ee6-aea7-c261d940447e",
+            "label": "ninjastar12",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 539,
+            "y": -1679,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6e651707-e166-4d22-8d5b-dfd93bda6fc7",
+            "label": "ninjastar13",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 487,
+            "y": -954,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "31f60e87-1b21-403a-9985-abf040bb55f5",
+            "label": "ninjastar14",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 96,
+            "y": -3094,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angle": 25,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "Image",
+            "id": "2b21b211-0f1c-4a85-b288-7395b43ba645",
+            "label": "health_96",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3721,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ffd3ed90-2de8-4869-86e0-f74ef0ded8a6",
+            "label": "health_97",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3811,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "9798bbf5-7d24-461f-9835-90096dbd5c3b",
+            "label": "health_98",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -3905,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "42172bea-b83c-430c-adc3-efdbbe27fd76",
+            "label": "health_99",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4001,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "497ceb1c-f8d1-4e60-8e6d-9083c51082d5",
+            "label": "health_100",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4266,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "a4aefd66-adc3-4b3e-baec-7aabb1bdef76",
+            "label": "health_101",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4356,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "314b357f-26ed-49ed-b1b3-9265e3925cbd",
+            "label": "health_102",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4096,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "4f89cda4-e132-4172-9b55-b6972578f181",
+            "label": "health_103",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4178,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "106ad335-0eff-4b43-aeb3-65d8c3b14781",
+            "label": "health_104",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4452,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "4565309c-23db-465b-8368-adcaed07ffe9",
+            "label": "health_105",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4553,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "aa5ee52e-af52-419b-99ea-17cd73004ccf",
+            "label": "health_106",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4810,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "0a8ba93a-59e8-41a6-bfcc-e935273195a4",
+            "label": "health_107",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4900,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "8ab15317-d97d-4d7a-bf46-90813da5a811",
+            "label": "health_108",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4640,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "3dc11f83-b8ac-44ba-a19f-7f8dd439bcdd",
+            "label": "health_109",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4722,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "f4c9fb30-a13c-4d2a-9882-4eccf4085268",
+            "label": "health_110",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -4994,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "26c728ef-115c-4a5e-bfbd-3343766a5871",
+            "label": "health_111",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -5090,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "1304a2c9-6867-4ec9-897b-eac9246bdf7a",
+            "label": "health_112",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -5355,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "67c531f4-5fdd-4a4a-bd2d-7e723004de52",
+            "label": "health_113",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -5445,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "27b16791-31a7-4502-b856-205396466881",
+            "label": "health_114",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -5185,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "f1d940ac-7c44-4551-b45d-71048abfc1ab",
+            "label": "health_115",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -5267,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "b7672b8f-2d32-4786-9b21-0e56ef0bc554",
+            "label": "health_116",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -5541,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "a63a36be-3cb3-416f-8e51-b9f81fd22a51",
+            "label": "health_117",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1318,
+            "y": -5642,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "3791b99d-27d2-4bdf-9618-60cd93f284f0",
+            "label": "health_118",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -157,
+            "y": -3743,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "c9ee5cc7-f107-4f46-82f6-80fef5b84882",
+            "label": "health_119",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -157,
+            "y": -3833,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "70b63af5-2e15-404b-b96c-5f986bd0901e",
+            "label": "health_120",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -157,
+            "y": -3927,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "7aa41dcf-dec5-46ad-b100-bc7d36a994e2",
+            "label": "health_121",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -157,
+            "y": -4023,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d248ce87-3371-4ccc-85f3-ae0455b83267",
+            "label": "health_122",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -155,
+            "y": -4288,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "32769560-dd16-4e1f-9cb4-622f8df796b5",
+            "label": "health_123",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -155,
+            "y": -4378,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e68029dd-b07e-434f-96a8-bb1039de1949",
+            "label": "health_124",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -155,
+            "y": -4118,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "a18ab84e-93c9-4006-b79c-14a39a86b1dc",
+            "label": "health_125",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -155,
+            "y": -4200,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "5d65226e-6942-4f73-8e87-7dffa0871fb8",
+            "label": "health_126",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -155,
+            "y": -4474,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "00763dfb-1b81-4177-9243-11b0228afe5c",
+            "label": "health_127",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -155,
+            "y": -4575,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "2a3ec7a6-cc44-477e-b222-831dfb5d68a2",
+            "label": "health_128",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -152,
+            "y": -4832,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "a3f71fc2-b7bb-42be-8d94-16563eb0db1f",
+            "label": "health_129",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -152,
+            "y": -4922,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d80b704c-67ca-4e68-8675-0b14b6dfe7ce",
+            "label": "health_130",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -152,
+            "y": -4662,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "fe99a73c-fb9d-4852-a3e4-81c17baf3cb5",
+            "label": "health_131",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -152,
+            "y": -4744,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "2fa60efc-4469-4696-9c01-c3bcfa0269d2",
+            "label": "health_132",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -152,
+            "y": -5016,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "10fc3d6e-aee4-4118-8c46-86f9e51bebe4",
+            "label": "health_133",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -152,
+            "y": -5112,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "567f3105-4aae-44eb-9aad-c7cd27ea8d14",
+            "label": "health_134",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -150,
+            "y": -5377,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "b4888685-a844-4217-b9eb-7d36412bb936",
+            "label": "health_135",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -150,
+            "y": -5467,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "63f2b2e3-b8c0-4663-8529-1882ca013eb5",
+            "label": "health_136",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -150,
+            "y": -5207,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "0da18212-481c-4a7a-bbc6-a4d04125d4f4",
+            "label": "health_137",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -150,
+            "y": -5289,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "24feea3e-b9a8-4d7a-af62-06a5978fec23",
+            "label": "health_138",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -150,
+            "y": -5563,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "70aeb617-b386-4538-ac16-91527427cb46",
+            "label": "health_139",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -150,
+            "y": -5664,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bf677478-23cd-440b-80f3-06bde31a6228",
+            "label": "ninjastar15",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 438,
+            "y": -100,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "00cb5abd-3540-4da5-95bd-01add54e7961",
+            "label": "ninjastar16",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Ninja star"
+            },
+            "x": 873,
+            "y": 133,
+            "scaleX": 0.42986391835571236,
+            "scaleY": 0.42986391835571236,
+            "angularVelocity": 220,
+            "body.width": 251,
+            "body.height": 251
+        },
+        {
+            "prefabId": "073a3979-ae87-4e39-9746-90ffdf548790",
+            "id": "952537ca-9e6e-4872-bf2f-929cce4e26f3",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "enemyCat1",
+            "scope": "PUBLIC",
+            "x": 572,
+            "y": -5735,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "0cbf9396-4f5b-407e-8c7f-9367c98de9b7",
+            "unlock": [
+                "x",
+                "y",
+                "AllHearts",
+                "visible",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "heartPlatform_1",
+            "scope": "PUBLIC",
+            "AllHearts": true,
+            "x": -60,
+            "y": -5971,
+            "scaleX": 0.6859590093117656,
+            "scaleY": 0.8,
+            "visible": true,
+            "alpha": 0.4
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "981855c5-55d2-4397-8f87-44e4dc3bf9a5",
+            "unlock": [
+                "x",
+                "y",
+                "AllHearts",
+                "visible",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "heartPlatform_3",
+            "scope": "PUBLIC",
+            "AllHearts": true,
+            "x": -60,
+            "y": -6259,
+            "scaleX": 0.6859590093117656,
+            "scaleY": 0.8,
+            "visible": true,
+            "alpha": 0.4
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "558d4296-1d29-492b-9c94-4278963f3fa0",
+            "unlock": [
+                "x",
+                "y",
+                "AllHearts",
+                "visible",
+                "scaleX",
+                "scaleY",
+                "alpha"
+            ],
+            "label": "heartPlatform_4",
+            "scope": "PUBLIC",
+            "AllHearts": true,
+            "x": -60,
+            "y": -6550,
+            "scaleX": 0.6859590093117656,
+            "scaleY": 0.8,
+            "visible": true,
+            "alpha": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "9ee216ed-e273-497d-b3b0-d4a773a39aa1",
+            "label": "health_140",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -146,
+            "y": -5762,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "c7be7abf-1d52-4448-bd40-92fc813e3912",
+            "label": "health_141",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -144,
+            "y": -6027,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "94326b35-c4e9-49be-b9fe-d7ae5e194ad3",
+            "label": "health_142",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -144,
+            "y": -6117,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "cc8b67ee-855b-421a-bdaa-0b2de24533c9",
+            "label": "health_143",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -144,
+            "y": -5857,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "72fc5b82-e081-48d6-af4e-60c2c642f42c",
+            "label": "health_144",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -144,
+            "y": -5939,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "73b6542a-d03d-4406-82b4-aa653709dcfa",
+            "label": "health_145",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -144,
+            "y": -6213,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e325fff4-46e0-406e-b664-4a3e0da48856",
+            "label": "health_146",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -144,
+            "y": -6314,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "af5c02f7-4c00-4c94-bc3d-5672c277d6b6",
+            "label": "health_147",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -141,
+            "y": -6571,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "50554e78-ce6b-42d0-8152-1175a69f3b2c",
+            "label": "health_148",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -141,
+            "y": -6661,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "337b9b41-ded4-461a-8fca-2e1ce0ede56d",
+            "label": "health_149",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -141,
+            "y": -6401,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "bb44ad5a-ba9b-4394-9423-445022621691",
+            "label": "health_150",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -141,
+            "y": -6483,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ebf52da3-2d71-4971-ad94-34295ca16766",
+            "label": "health_151",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -141,
+            "y": -6755,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "07a2db68-d97e-4897-aadf-0b522ffdb3ac",
+            "label": "health_152",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -141,
+            "y": -6851,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "c0648fd9-53cc-4855-8f15-ba2183fbd0f4",
+            "label": "health_153",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -139,
+            "y": -7116,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "a5eeb27c-50b1-4859-8fdb-af5037e9923e",
+            "label": "health_154",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -139,
+            "y": -7206,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "d28e8273-7451-45ca-bbd0-a065bdd231f0",
+            "label": "health_155",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -139,
+            "y": -6946,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "157402b3-23be-4052-8254-7bec18fcce2b",
+            "label": "health_156",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -139,
+            "y": -7028,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "92b40056-0632-4a39-b3ac-fffe4f3288b7",
+            "label": "health_157",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -139,
+            "y": -7302,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "6fc576cf-2871-40f4-a46d-ac73222f0b4b",
+            "label": "health_158",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -139,
+            "y": -7403,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "bbb785b1-1bbf-4dae-9a97-46e64c9dbf26",
+            "label": "health_159",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1320,
+            "y": -5737,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "4674cced-dcb5-4a1d-ba8d-9e2b7e572b6e",
+            "label": "health_160",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1322,
+            "y": -6002,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "16d71415-69d3-4888-96b2-fa104445b2c5",
+            "label": "health_161",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1322,
+            "y": -6092,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "6ef5147d-7af0-4d39-a60c-cbf8aa12863b",
+            "label": "health_162",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1322,
+            "y": -5832,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "4bce6dd3-21da-4d8c-bac6-233847e3f10a",
+            "label": "health_163",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1322,
+            "y": -5914,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "073d529c-65ac-43fe-92dc-86ac4a4c0418",
+            "label": "health_164",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1322,
+            "y": -6188,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "28da4297-2553-423c-80e9-665127ac4ce6",
+            "label": "health_165",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1322,
+            "y": -6289,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ac136a38-00dc-4bc4-bee8-3f8dae45b5a6",
+            "label": "health_166",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1325,
+            "y": -6546,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "297f2d96-547e-4f7e-8e91-7b14a5e8cdcf",
+            "label": "health_167",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1325,
+            "y": -6636,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "39c6ff87-76da-4fc8-9848-ec4c1f5d1260",
+            "label": "health_168",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1325,
+            "y": -6376,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "1a5864e2-aad2-4754-8ff0-a0f6387f274c",
+            "label": "health_169",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1325,
+            "y": -6458,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "6162b531-d21c-42d9-8a21-805d642ea4d7",
+            "label": "health_170",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1325,
+            "y": -6730,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "ab4a19eb-7ed6-4bf9-88df-ba1d7fd5fe04",
+            "label": "health_171",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1325,
+            "y": -6826,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "fd34c9d5-eac9-41d8-82a6-a591ef6cac4a",
+            "label": "health_172",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1327,
+            "y": -7091,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "caf0086d-517f-4c25-8255-2ac4724bbcf6",
+            "label": "health_173",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1327,
+            "y": -7181,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e4bd2863-dc41-4e23-965a-2320b8195dd5",
+            "label": "health_174",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1327,
+            "y": -6921,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "a5385563-4213-476d-9322-e3a056d23817",
+            "label": "health_175",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1327,
+            "y": -7003,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "965a4abf-a2e3-4a5c-9a4f-11cd6e08c293",
+            "label": "health_176",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1327,
+            "y": -7277,
+            "scaleX": 0.31849922434064726,
+            "scaleY": 0.31849922434064726,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "f831d5c4-1abc-42b3-a2f8-4ae5078dbeb3",
+            "label": "health_177",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1327,
+            "y": -7378,
+            "scaleX": 0.3184992243406469,
+            "scaleY": 0.3184992243406469,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Rectangle",
+            "id": "9862044c-4885-404d-9697-7e4f5cb78077",
+            "label": "rectangle",
+            "x": 617,
+            "y": -4146,
+            "scaleX": 20.615414869426598,
+            "scaleY": 82.2491672679324,
+            "visible": false,
+            "alpha": 0.1,
+            "isFilled": true,
+            "fillColor": "#be2c26",
+            "width": 128,
+            "height": 128,
+            "list": [
+                {
+                    "type": "ColorMatrix",
+                    "id": "a7bd6445-375a-4611-9de5-39645bfa098f",
+                    "label": "saturateFx",
+                    "operationType": 3,
+                    "saturate": 1
+                }
+            ]
+        },
+        {
+            "prefabId": "073a3979-ae87-4e39-9746-90ffdf548790",
+            "id": "a590d851-fdd9-4dfe-9dbf-4eb2acd856b0",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "enemyCat2",
+            "scope": "PUBLIC",
+            "x": 794,
+            "y": -6316,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "073a3979-ae87-4e39-9746-90ffdf548790",
+            "id": "45db1dd2-891b-4b23-8242-5cf38621431d",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "enemyCat3",
+            "scope": "PUBLIC",
+            "x": 295,
+            "y": -6608,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "073a3979-ae87-4e39-9746-90ffdf548790",
+            "id": "c9d6ada4-0f2f-444a-8dc4-70f72aba8701",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "enemyCat4",
+            "scope": "PUBLIC",
+            "x": 57,
+            "y": -6031,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "5db7f46a-cd1a-41b8-84d8-46ec987e01a8",
+            "label": "feline",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__white_cat_sitting_011"
+            },
+            "x": 321,
+            "y": -7032,
+            "scaleX": 0.19586329317477102,
+            "scaleY": 0.19586329317477102,
+            "body.width": 636,
+            "body.height": 582
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "91f461fc-78e0-4a21-b1b6-0b0d401a94b4",
+            "label": "feline heart",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 320,
+            "y": -6987,
+            "scaleX": 0.31876119197505925,
+            "scaleY": 0.31876119197505925,
+            "body.width": 256,
+            "body.height": 256
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "9b9bbc82-3110-4080-8c6f-307bc658e278",
+            "label": "wallleft",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": -159,
+            "y": -2992,
+            "scaleX": 0.2542281543652115,
+            "scaleY": 29.15405364640106,
+            "visible": false,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 256,
+            "body.height": 256
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4a104f41-3783-4509-8da7-75a2e3c68aa1",
+            "label": "awougaheart",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "100-percent"
+            },
+            "x": 842,
+            "y": -8179,
+            "scaleX": 1.0683576286637164,
+            "scaleY": 0.7096208157108833,
+            "visible": false,
+            "body.width": 256,
+            "body.height": 256
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b66127d9-2859-4dc5-a23a-54bf45c995cb",
+            "label": "feline2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__white_cat_sitting_011"
+            },
+            "x": 965,
+            "y": -8163,
+            "scaleX": 0.18623933142280713,
+            "scaleY": 0.18623933142280713,
+            "visible": false,
+            "body.width": 636,
+            "body.height": 582
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6f2b2257-d8f2-4148-aeae-ef34a7be07ec",
+            "label": "wallright",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "redheart"
+            },
+            "x": 1382,
+            "y": -2984,
+            "scaleX": 0.2542281543652115,
+            "scaleY": 29.15405364640106,
+            "visible": false,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 256,
+            "body.height": 256
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

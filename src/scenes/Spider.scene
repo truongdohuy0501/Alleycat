@@ -1,0 +1,80 @@
+{
+    "id": "973a1556-f9f2-4e9b-bb8b-02f230b245ed",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "5e9c7543-79b3-493b-aa4f-1f1789b7f59a",
+            "label": "container_1",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": -78.71466414910631,
+            "hitArea.y": -84.34649889949212,
+            "hitArea.width": 20.42932829821262,
+            "hitArea.height": 20,
+            "y": -7,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "020ebc82-0b09-462e-8620-424f8f1d0208",
+                    "label": "strain",
+                    "scope": "PUBLIC",
+                    "x": 2,
+                    "y": -43,
+                    "scaleX": -0.11,
+                    "scaleY": 0.40450691271550965,
+                    "isFilled": true,
+                    "fillColor": "#262222",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "a8f25ee9-b9eb-41f3-9396-580622729587",
+                    "label": "round",
+                    "scope": "PUBLIC",
+                    "x": 2,
+                    "y": -55,
+                    "scaleX": 0.4585390453045643,
+                    "scaleY": 0.4585390453045643,
+                    "isFilled": true,
+                    "fillColor": "#262222",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "60028666-aaa2-4b6b-9237-15a75216576c",
+                    "label": "spider1",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "__brown_spider_base standing_009"
+                    },
+                    "y": 7,
+                    "scaleX": 0.2663778820612735,
+                    "scaleY": 0.2663778820612735,
+                    "flipY": true,
+                    "collideWorldBounds": true,
+                    "onWorldBounds": true,
+                    "body.width": 100,
+                    "body.height": 200,
+                    "body.offset.x": 260,
+                    "body.offset.y": 200
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

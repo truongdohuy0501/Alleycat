@@ -1,0 +1,1851 @@
+{
+    "id": "783e9d16-c4ac-4c90-9128-840aa4493f48",
+    "sceneType": "SCENE",
+    "settings": {
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Mission2Underwater4",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "5e48f46a-f6f3-4ecd-99c5-8e3e9d0d227d",
+            "label": "deeper_sea_bed",
+            "texture": {
+                "key": "deeper_sea_bed"
+            },
+            "x": 1071,
+            "y": 751,
+            "scaleX": 1.4572881267194293,
+            "scaleY": 4.339788630761496,
+            "visible": false
+        },
+        {
+            "type": "NineSlice",
+            "id": "b7349248-799a-4cc7-86c3-0f8b1102dacd",
+            "label": "seabed",
+            "texture": {
+                "key": "seabed"
+            },
+            "x": 1166,
+            "y": -52,
+            "scaleX": 1.0800800057793274,
+            "scaleY": 0.7221313151333908,
+            "leftWidth": -6,
+            "rightWidth": -2,
+            "topHeight": 59,
+            "bottomHeight": 501,
+            "width": 2381,
+            "height": 2305
+        },
+        {
+            "type": "Image",
+            "id": "52920c97-bcf7-4595-a174-983c0fb1b533",
+            "label": "seabackground",
+            "texture": {
+                "key": "seabackground"
+            },
+            "x": 1151,
+            "y": 116,
+            "scaleX": 82.62810856493219,
+            "scaleY": 1.000152572701718,
+            "alpha": 0.2,
+            "alphaTopLeft": 0.2,
+            "alphaTopRight": 0.2,
+            "alphaBottomLeft": 0.2,
+            "alphaBottomRight": 0.2,
+            "tintBottomLeft": "#1f2498",
+            "tintBottomRight": "#b5b9d2"
+        },
+        {
+            "type": "Image",
+            "id": "4c5423cd-9b25-44d2-aa4b-07f891e49868",
+            "label": "background_piece_1",
+            "texture": {
+                "key": "background_piece_06"
+            },
+            "x": 1110,
+            "y": 270,
+            "scaleX": 0.8583647499365288,
+            "scaleY": 0.8583647499365288,
+            "alpha": 0.3,
+            "alphaTopLeft": 0.3,
+            "alphaTopRight": 0.3,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0
+        },
+        {
+            "type": "Rectangle",
+            "id": "f8935ce9-c262-4dc6-85f5-c71eace05556",
+            "label": "rectangle3",
+            "scope": "PUBLIC",
+            "x": 590,
+            "y": 670,
+            "scaleX": 11.19455188188234,
+            "scaleY": 0.16124814136254448,
+            "visible": false,
+            "isFilled": true,
+            "fillColor": "#b3b379",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "c25cecf5-8908-47da-bac3-895bab573a4d",
+            "label": "background_piece_03",
+            "texture": {
+                "key": "background_piece_03"
+            },
+            "x": 426,
+            "y": 151,
+            "scaleX": 1.3931800823451552,
+            "scaleY": 1.3931800823451552,
+            "visible": false,
+            "alpha": 0.6,
+            "alphaTopLeft": 0.6,
+            "alphaTopRight": 0.6,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bf92c5a1-91c8-4987-b99e-e5961f223dee",
+            "label": "piece3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "ship_wreck"
+            },
+            "x": 2060,
+            "y": 316,
+            "scaleX": 0.7555819224106579,
+            "scaleY": 0.7555819224106579,
+            "alpha": 0.3,
+            "alphaTopLeft": 0.3,
+            "alphaTopRight": 0.3,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0,
+            "body.width": 845,
+            "body.height": 610
+        },
+        {
+            "type": "Image",
+            "id": "db0c789d-0e2b-43ad-9eff-7c8f5330da03",
+            "label": "background_piece_04",
+            "texture": {
+                "key": "background_piece_04"
+            },
+            "x": 661,
+            "y": 587,
+            "scaleX": 0.7032001329507295,
+            "scaleY": 0.7032001329507295,
+            "visible": false,
+            "alpha": 0.4,
+            "alphaTopLeft": 0.3,
+            "alphaTopRight": 0.3,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0
+        },
+        {
+            "type": "Image",
+            "id": "ea0fb518-81bd-431d-97c1-a3e32fc7d6ae",
+            "label": "background_piece_06",
+            "texture": {
+                "key": "background_piece_06"
+            },
+            "x": 1111,
+            "y": 559,
+            "scaleX": 0.35882011898718014,
+            "scaleY": 0.35882011898718014,
+            "visible": false,
+            "alpha": 0.4,
+            "alphaTopLeft": 0.4,
+            "alphaTopRight": 0.4,
+            "alphaBottomLeft": 0.4,
+            "alphaBottomRight": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "411e54ff-4557-4b0d-bd3c-406f43d963a8",
+            "label": "background_piece_07",
+            "texture": {
+                "key": "background_piece_07"
+            },
+            "x": 132,
+            "y": 601,
+            "scaleX": 0.7175042291588758,
+            "scaleY": 0.7175042291588758,
+            "visible": false,
+            "alpha": 0.4,
+            "alphaTopLeft": 0.4,
+            "alphaTopRight": 0.4,
+            "alphaBottomLeft": 0.4,
+            "alphaBottomRight": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "62b0c507-1225-4c6f-a10f-de0a6dede9da",
+            "label": "background_piece_01",
+            "texture": {
+                "key": "background_piece_01"
+            },
+            "x": 232,
+            "y": 338,
+            "scaleX": 0.9684366144882577,
+            "scaleY": 0.9684366144882577,
+            "alpha": 0.3,
+            "alphaTopLeft": 0.3,
+            "alphaTopRight": 0.3,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0
+        },
+        {
+            "type": "Rectangle",
+            "id": "7cb869ef-45b6-452e-99cc-8bcc83f19868",
+            "label": "rectangle_1",
+            "x": 582,
+            "y": -36,
+            "scaleY": 0.058959080772305605,
+            "visible": false,
+            "isFilled": true,
+            "width": 1400,
+            "height": 20
+        },
+        {
+            "type": "Image",
+            "id": "4c07097b-b13b-4fd9-babf-a37104c48f54",
+            "label": "foreground_piece_01",
+            "texture": {
+                "key": "foreground_piece_01"
+            },
+            "x": -203,
+            "y": 631,
+            "scaleX": 0.27497139796304504,
+            "scaleY": 0.27497139796304504,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "3413771c-5b74-4e53-a29e-bd77d88127fa",
+            "label": "foreground_piece_02",
+            "texture": {
+                "key": "foreground_piece_02"
+            },
+            "x": 56,
+            "y": 649,
+            "scaleX": 0.3376959723010384,
+            "scaleY": 0.3376959723010384,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "72f84aa8-5ab0-4ab7-9aab-bc36699a4d62",
+            "label": "foreground_piece_03",
+            "texture": {
+                "key": "foreground_piece_03"
+            },
+            "x": 394,
+            "y": 658,
+            "scaleX": 0.435660119678413,
+            "scaleY": 0.435660119678413,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "2736f7b0-d850-4f55-b0da-1df34a1be46e",
+            "label": "foreground_piece_04",
+            "texture": {
+                "key": "foreground_piece_04"
+            },
+            "x": 1141,
+            "y": 648,
+            "scaleX": 0.39405248053410225,
+            "scaleY": 0.39405248053410225,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "510ce9da-0838-4ff2-bc97-0bbbd26ed383",
+            "label": "foreground_piece_05",
+            "texture": {
+                "key": "foreground_piece_05"
+            },
+            "x": 784,
+            "y": 671,
+            "scaleX": 0.3744427756006714,
+            "scaleY": 0.3744427756006714,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "34fc3773-0a5a-4b22-8235-8e6363e6e206",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_17",
+            "scope": "PUBLIC",
+            "x": 785,
+            "y": 431,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "65905658-588e-4130-a8b3-908c7ed7402c",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish",
+            "scope": "PUBLIC",
+            "x": 113,
+            "y": 362,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "deaa79b9-3fe6-48ba-856b-f057a6b53c82",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_1",
+            "scope": "PUBLIC",
+            "x": 699,
+            "y": 99,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "eef4abd3-03f6-4888-b01c-84d520a7a3e9",
+            "label": "pillar1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "pillar"
+            },
+            "x": 687,
+            "y": 615,
+            "scaleX": 0.3922288531779187,
+            "scaleY": 0.3922288531779187,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 100,
+            "body.height": 600,
+            "body.offset.x": 100
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "2151807f-1209-406c-adfa-75fc456a9bd2",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_2",
+            "scope": "PUBLIC",
+            "x": 174,
+            "y": -201,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "79668090-dca5-457c-a252-0725741e7e0b",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_3",
+            "scope": "PUBLIC",
+            "x": 228,
+            "y": 291,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "4595a013-341a-45bf-9ac4-30d26958a20a",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electriceel",
+            "scope": "PUBLIC",
+            "Speed": 450,
+            "distance": 2100,
+            "x": 529,
+            "y": -345,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "e90c3056-da8e-4896-ad76-de6d7cd8d1bb",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electricEel",
+            "Speed": 300,
+            "distance": 1800,
+            "x": 710,
+            "y": 86,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "45cda40c-b415-435f-9a3f-027d214ab5d7",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electriceel_1",
+            "scope": "PUBLIC",
+            "Speed": 450,
+            "distance": 3000,
+            "x": 999,
+            "y": -93,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "5bded7ca-919f-4d09-bdea-8c971c485c15",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_4",
+            "scope": "PUBLIC",
+            "x": 507,
+            "y": 349,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "b543aafa-70fa-459c-a6f6-265efac7fa80",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_5",
+            "scope": "PUBLIC",
+            "x": 522,
+            "y": -475,
+            "scaleX": 0.12516612725544118,
+            "scaleY": 0.12516612725544118,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "aa205e9e-09a1-4806-96f0-485897fdb42c",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_6",
+            "scope": "PUBLIC",
+            "x": 653,
+            "y": 13,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "91738d6c-5a66-4b4e-8057-3d12a755b75f",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_7",
+            "scope": "PUBLIC",
+            "x": 482,
+            "y": -113,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "Image",
+            "id": "7a5da622-592f-433b-8131-d2a1f2cbeb46",
+            "label": "foreground_piece_5",
+            "texture": {
+                "key": "foreground_piece_03"
+            },
+            "x": 1488,
+            "y": 653,
+            "scaleX": 0.435660119678413,
+            "scaleY": 0.435660119678413,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "52e6016d-966e-41de-94b5-444e8ed735b7",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_8",
+            "scope": "PUBLIC",
+            "x": 389,
+            "y": 131,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "Image",
+            "id": "027155be-319d-4a7d-ac37-668ec30e442a",
+            "label": "background_piece",
+            "texture": {
+                "key": "background_piece_07"
+            },
+            "x": 1971,
+            "y": 601,
+            "scaleX": 0.7175042291588758,
+            "scaleY": 0.7175042291588758,
+            "visible": false,
+            "alpha": 0.4,
+            "alphaTopLeft": 0.4,
+            "alphaTopRight": 0.4,
+            "alphaBottomLeft": 0.4,
+            "alphaBottomRight": 0.4
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "c1db98c6-1655-449c-aca4-974088bf9353",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electriceel_2",
+            "scope": "PUBLIC",
+            "Speed": 210,
+            "distance": 1200,
+            "x": 1057,
+            "y": 327,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "146717d6-432a-49d7-9e22-ab2c346903ff",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_9",
+            "scope": "PUBLIC",
+            "x": 136,
+            "y": 160,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0d6268b4-9f7f-46c5-bea4-6562f104d82d",
+            "label": "bottom",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "skirting_dark"
+            },
+            "x": 981,
+            "y": 696,
+            "scaleX": 5.382613563663951,
+            "scaleY": 0.5272402423947588,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 500,
+            "body.height": 32
+        },
+        {
+            "type": "Image",
+            "id": "0df36ded-738a-4e7f-96b9-7f1fecfb34de",
+            "label": "foreground_piece_6",
+            "texture": {
+                "key": "foreground_piece_05"
+            },
+            "x": 1790,
+            "y": 664,
+            "scaleX": 0.3744427756006714,
+            "scaleY": 0.3744427756006714,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f9750d0b-a217-4730-98cf-4c54330e896a",
+            "label": "pillar2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "pillar"
+            },
+            "x": 1700,
+            "y": 570,
+            "scaleX": 0.35943323620172746,
+            "scaleY": 0.35943323620172746,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 100,
+            "body.height": 600,
+            "body.offset.x": 100
+        },
+        {
+            "type": "Image",
+            "id": "199c05a7-bc49-41dc-87ad-48019c010aa3",
+            "label": "foreground_piece_9",
+            "texture": {
+                "key": "foreground_piece_05"
+            },
+            "x": 2143,
+            "y": 668,
+            "scaleX": 0.4868846056533288,
+            "scaleY": 0.4868846056533288,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "prefabId": "f97944df-b631-4ec8-b3b9-6f9735b38ee4",
+            "id": "92193688-a078-4d7a-8279-5bd3a0928a69",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "catPlayer",
+            "scope": "PUBLIC",
+            "x": 121,
+            "y": -543,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "Image",
+            "id": "2aaf90bb-586d-4cf8-be77-5a958991f79f",
+            "label": "foreground_piece_3",
+            "texture": {
+                "key": "foreground_piece_01"
+            },
+            "x": 346,
+            "y": 689,
+            "scaleX": 0.2452858430064414,
+            "scaleY": 0.2452858430064414
+        },
+        {
+            "prefabId": "030ef5ce-7a2a-4fb2-9795-d3284bf95428",
+            "id": "011fc78e-0406-4666-b6c3-dd575d22c570",
+            "unlock": [
+                "x",
+                "y",
+                "body.velocity.x",
+                "body.velocity.y"
+            ],
+            "label": "lionfish1",
+            "scope": "PUBLIC",
+            "x": 1604,
+            "y": 625,
+            "body.velocity.x": -100,
+            "body.velocity.y": 0
+        },
+        {
+            "type": "Image",
+            "id": "a82b0ae9-0805-4d61-8496-f58e9d885b93",
+            "label": "foreground_piece",
+            "texture": {
+                "key": "foreground_piece_03"
+            },
+            "x": 54,
+            "y": 691,
+            "scaleX": 0.49512369428590813,
+            "scaleY": 0.49512369428590813
+        },
+        {
+            "type": "Image",
+            "id": "b6f71976-95a6-48fb-858e-b17b2292172d",
+            "label": "foreground_piece_1",
+            "texture": {
+                "key": "foreground_piece_04"
+            },
+            "x": 652,
+            "y": 690,
+            "scaleX": 0.44962537324938584,
+            "scaleY": 0.44962537324938584
+        },
+        {
+            "type": "Image",
+            "id": "1d46a41b-4215-44f8-8460-35a7c7a556a9",
+            "label": "foreground_piece_2",
+            "texture": {
+                "key": "foreground_piece_05"
+            },
+            "x": 1091,
+            "y": 711,
+            "scaleX": 0.4868846056533288,
+            "scaleY": 0.4868846056533288
+        },
+        {
+            "type": "Image",
+            "id": "bcd6ff74-108c-4b79-9688-5f774cf23f4b",
+            "label": "foreground_piece_4",
+            "texture": {
+                "key": "foreground_piece_04"
+            },
+            "x": 1536,
+            "y": 690,
+            "scaleX": 0.44962537324938584,
+            "scaleY": 0.44962537324938584
+        },
+        {
+            "type": "Image",
+            "id": "e07e5a48-103e-48b9-95d0-22440e615bc4",
+            "label": "foreground_piece_7",
+            "texture": {
+                "key": "foreground_piece_03"
+            },
+            "x": 1939,
+            "y": 699,
+            "scaleX": 0.49512369428590813,
+            "scaleY": 0.49512369428590813
+        },
+        {
+            "type": "Image",
+            "id": "9ce691cd-a49d-4195-9a0f-1ed36ef5b186",
+            "label": "foreground_piece_8",
+            "texture": {
+                "key": "foreground_piece_05"
+            },
+            "x": 2237,
+            "y": 721,
+            "scaleX": 0.4868846056533288,
+            "scaleY": 0.4868846056533288
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "c76d5bb0-f6fc-41a8-8dfc-6d082588e96a",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electriceel_3",
+            "scope": "PUBLIC",
+            "Speed": 411,
+            "distance": 840,
+            "x": 1702,
+            "y": -453,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "549de2f0-c105-4dcc-ac57-e950ae80e362",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electriceel_4",
+            "scope": "PUBLIC",
+            "Speed": 250,
+            "distance": 982,
+            "x": 1581,
+            "y": -66,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "2d8364f1-63f9-42f5-8ff2-320122424cc2",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electriceel_5",
+            "scope": "PUBLIC",
+            "Speed": 352,
+            "distance": 1000,
+            "x": 2213,
+            "y": -60,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "e41fafd6-c2c5-462a-9e7f-3c2d0d51d558",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electriceel_6",
+            "scope": "PUBLIC",
+            "Speed": 410,
+            "distance": 4000,
+            "x": 2247,
+            "y": 360,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "73a8c265-7d7d-469e-811c-f4de929a4dc4",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_10",
+            "scope": "PUBLIC",
+            "x": 1848,
+            "y": -497,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "7fa2967c-5710-4d20-a7e6-d68d35ba4c1b",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_11",
+            "scope": "PUBLIC",
+            "x": 1620,
+            "y": 129,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "afefedd8-138a-4121-a859-6888aaadeb3a",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_12",
+            "scope": "PUBLIC",
+            "x": 1783,
+            "y": 480,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "7d9a5bc6-5cea-48b1-a293-6893184295b2",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_13",
+            "scope": "PUBLIC",
+            "x": 1880,
+            "y": -152,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "df14ca1c-4bb2-428a-a4e3-c5bf3e630b22",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_14",
+            "scope": "PUBLIC",
+            "x": 1089,
+            "y": 263,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "0dcec883-337a-4768-9355-6f1de8794f88",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_15",
+            "scope": "PUBLIC",
+            "x": 1200,
+            "y": 400,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "91393568-3ef0-42cb-a543-3e4e834c9f38",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_16",
+            "scope": "PUBLIC",
+            "x": 967,
+            "y": -167,
+            "scaleX": 0.1251661272554402,
+            "scaleY": 0.1251661272554402,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "7c13581d-fac3-4f52-b379-1b3e1774d0a5",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electriceel_7",
+            "scope": "PUBLIC",
+            "Speed": 548,
+            "distance": 1000,
+            "x": 1850,
+            "y": -223,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "7a480e7f-01d0-4a25-800b-d8022b8c9372",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish",
+            "x": 1964,
+            "y": -59
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "db4654af-9602-426b-b6dc-aeca31b7c003",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_1",
+            "x": 837,
+            "y": -383
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "c85b47dc-6676-4a17-bbbb-6ca53316767d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_2",
+            "x": 1000,
+            "y": 498
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "7bf5c3a3-214e-4ae2-a7fe-be3c0f52f859",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_3",
+            "x": 469,
+            "y": 12
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "afed3e37-b78d-4cbd-afa3-911ec8176014",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_4",
+            "x": 2084,
+            "y": 602
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "fe28e5d4-0d34-4d6a-8895-38ceccdb6951",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_5",
+            "x": 2186,
+            "y": 125
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "d67055fc-e463-471f-8c12-28a2d522df1c",
+            "label": "male1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1544,
+            "y": -225,
+            "scaleX": 0.06460691823225015,
+            "scaleY": 0.06460691823225015,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "a4702f36-6c61-4525-856a-36a0e9965604",
+                    "label": "shadowFx",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "823bbfb2-93c1-4056-80e6-8692a3db9040",
+            "label": "male2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1438,
+            "y": -284,
+            "scaleX": 0.06460691823225134,
+            "scaleY": 0.06460691823225134,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "ca8ab5ad-7916-4c3e-9170-268c15acb96f",
+                    "label": "shadowFx_1",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "7c044f86-b304-467e-b885-b5b4a3cec6d4",
+            "label": "male3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1507,
+            "y": -264,
+            "scaleX": 0.06460691823225015,
+            "scaleY": 0.06460691823225015,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "1681c835-ebba-4d5b-8b49-0d4c0719bb00",
+                    "label": "shadowFx_2",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "0c2a43a9-0955-4461-a560-b7caacac5bba",
+            "label": "male4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1569,
+            "y": -310,
+            "scaleX": 0.06460691823225015,
+            "scaleY": 0.06460691823225015,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "98d21191-53fe-45ff-b8a7-18949a79d752",
+                    "label": "shadowFx_3",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "232cfef1-be6f-412e-bf45-129c9961b3b0",
+            "label": "male5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1605,
+            "y": -261,
+            "scaleX": 0.06460691823225075,
+            "scaleY": 0.06460691823225075,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "5080f048-b4ed-42c1-ba43-023fea71cd94",
+                    "label": "shadowFx_4",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "67cc6b1f-4bc9-4835-a819-7ac72813de03",
+            "label": "male6",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1502,
+            "y": -323,
+            "scaleX": 0.06460691823225015,
+            "scaleY": 0.06460691823225015,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "e60e4a42-97bd-425a-928d-962bd7f44978",
+                    "label": "shadowFx_5",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "74d5446e-9407-41de-b8a2-db9b674f5806",
+            "label": "male7",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1612,
+            "y": -353,
+            "scaleX": 0.06460691823225015,
+            "scaleY": 0.06460691823225015,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "8e5e9c29-b563-4657-9a4f-cf24de87a499",
+                    "label": "shadowFx_6",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "840e8c28-eba9-451b-9a7b-caa79d731a5d",
+            "label": "male8",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1643,
+            "y": -300,
+            "scaleX": 0.06460691823225075,
+            "scaleY": 0.06460691823225075,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "9c311037-1854-4af5-b6af-8d4fdf031107",
+                    "label": "shadowFx_7",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "1c2a508f-2f3e-470f-9312-b3c6b15c3aee",
+            "label": "male9",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1714,
+            "y": -342,
+            "scaleX": 0.06460691823225075,
+            "scaleY": 0.06460691823225075,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "24099779-f672-404e-889c-660c0f3256dd",
+                    "label": "shadowFx_8",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6bcbc873-7da7-49e3-87d4-b2ec8d7f1794",
+            "label": "male10",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1737,
+            "y": -287,
+            "scaleX": 0.06460691823225075,
+            "scaleY": 0.06460691823225075,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "ab243710-6138-4cd1-882a-b812c323dbfb",
+                    "label": "shadowFx_9",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ed17656a-0969-4fd2-9801-b05c3dce6655",
+            "label": "male11",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__male_gambusia_swim_000"
+            },
+            "x": 1685,
+            "y": -244,
+            "scaleX": 0.06460691823225075,
+            "scaleY": 0.06460691823225075,
+            "alpha": 0.05,
+            "alphaTopLeft": 0.05,
+            "alphaTopRight": 0.05,
+            "alphaBottomLeft": 0.05,
+            "alphaBottomRight": 0.05,
+            "tintTopLeft": "#6259d8",
+            "tintTopRight": "#2a2cdf",
+            "tintBottomLeft": "#627bd8",
+            "tintBottomRight": "#4356cd",
+            "tintFill": true,
+            "body.velocity.x": -50,
+            "body.width": 498,
+            "body.height": 196,
+            "list": [
+                {
+                    "type": "Shadow",
+                    "id": "1ea3b43b-8f46-4082-9878-2b4c832df57c",
+                    "label": "shadowFx_10",
+                    "preFX": true
+                }
+            ]
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "b52adabb-e8ef-4261-8cb8-c9919f1e25ce",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_6",
+            "x": 1338,
+            "y": 0
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "50c35625-5c98-42bc-ae24-abe3f62b151c",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_7",
+            "x": 1588,
+            "y": 382
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "1153a411-e524-432f-acfd-f1b5a4b47794",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_8",
+            "x": 1584.7879749985527,
+            "y": -413.70475790227715
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "054c9c66-458f-49f0-b86b-4c5a873b3fdd",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_9",
+            "x": 2238.9972207970577,
+            "y": -356.2404322578139
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "c6da4603-93bc-40dc-9b08-5258bf2fcf06",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_10",
+            "x": 400,
+            "y": 515
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "118c4ab9-ea75-4f26-b39f-1171121e2961",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_11",
+            "x": 546,
+            "y": -440
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "84ced99b-0763-42e0-916d-3b7963bd6d7d",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "Speed",
+                "distance"
+            ],
+            "label": "electriceel_8",
+            "scope": "PUBLIC",
+            "Speed": 650,
+            "distance": 2100,
+            "x": 1368,
+            "y": 126,
+            "scaleX": 0.5656493044921761,
+            "scaleY": 0.5656493044921761
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "1d790f6c-54ef-446d-b5f6-6c7bc520de41",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_12",
+            "x": 238,
+            "y": 273
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "bd64fef7-b6ac-4c8d-aa55-3d3e340730a4",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "yellyFish_13",
+            "x": 1035,
+            "y": 37
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "2246c931-9173-44fe-8c43-8efcfa8159cd",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_18",
+            "scope": "PUBLIC",
+            "x": 153,
+            "y": -469,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "cfd7ab93-5ff6-4eaa-91f0-6ea52dc67a1c",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_19",
+            "scope": "PUBLIC",
+            "x": 345,
+            "y": -360,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "98534292-957d-487f-b123-f0a4575c92ef",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_20",
+            "scope": "PUBLIC",
+            "x": 1118,
+            "y": -402,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "fd497ca4-974d-40d5-96b5-28921d962f65",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_21",
+            "scope": "PUBLIC",
+            "x": 1347,
+            "y": -185,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "59f1e0f2-4b55-4ff4-8a4c-7decdd481a90",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_22",
+            "scope": "PUBLIC",
+            "x": 1381,
+            "y": 183,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "83bfe64c-bf92-4d77-9ca1-81874fd649c8",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_23",
+            "scope": "PUBLIC",
+            "x": 1603,
+            "y": 274,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "2ea8b3ae-92d6-4ab5-be01-80a22c88ad80",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_24",
+            "scope": "PUBLIC",
+            "x": 1084,
+            "y": 41,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "8c5f9c9b-8311-45e3-af6a-3b6b5569bfd1",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_25",
+            "scope": "PUBLIC",
+            "x": 951,
+            "y": 537,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "7533fc57-fa52-419a-8344-53879b1cf4fc",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_26",
+            "scope": "PUBLIC",
+            "x": 1264,
+            "y": 558,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "304ff9c0-1fa6-4a4e-a851-3af15b266627",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_27",
+            "scope": "PUBLIC",
+            "x": 228.3360575005806,
+            "y": 529.0716786481938,
+            "scaleX": 0.12516612725544016,
+            "scaleY": 0.12516612725544016,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "Rectangle",
+            "id": "df425e03-ee8f-47cb-9832-060bf0bcc867",
+            "label": "rectangle",
+            "x": 1141,
+            "y": 53,
+            "scaleX": 21.255856371952316,
+            "scaleY": 11.248640899811708,
+            "visible": false,
+            "alpha": 0.2,
+            "isFilled": true,
+            "fillColor": "#1c2f96",
+            "strokeColor": "#c32020",
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

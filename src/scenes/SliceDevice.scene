@@ -1,0 +1,92 @@
+{
+    "id": "6b37f1ba-f587-4eae-8f74-ea2f1c8c3885",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "72bb43ce-e494-46bf-a044-7b2f4fa00696",
+            "label": "container_1",
+            "x": 193.6895988437318,
+            "y": 2.0649418566283595,
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "dba29360-0d33-459f-ace1-34e5aa95cd69",
+                    "label": "ellipse_1",
+                    "x": 0.310401156268199,
+                    "y": -1.0649418566283595,
+                    "scaleX": 0.32036764500616594,
+                    "scaleY": 0.32036764500616594,
+                    "isFilled": true,
+                    "fillColor": "#100e0e",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "da55f2c5-2da5-45fc-b4bd-4143e79665f3",
+                    "label": "chain",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "long_chain_piece"
+                    },
+                    "x": 1.310401156268199,
+                    "y": -2.0649418566283595,
+                    "scaleX": 0.24603159885332043,
+                    "scaleY": 0.24603159885332043,
+                    "angle": 68,
+                    "originX": 0.48982229381009734,
+                    "originY": 0.05748368981320933,
+                    "body.width": 105,
+                    "body.height": 200
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "b2ef7c86-8947-40fb-948a-fa20fdb965bc",
+                    "label": "swingblade",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "swinging_blade"
+                    },
+                    "x": -193.6895988437318,
+                    "y": 84.93505814337163,
+                    "scaleX": 0.11739109441378799,
+                    "scaleY": 0.11739109441378799,
+                    "angle": 64,
+                    "originX": 0.5317156246806957,
+                    "originY": 0.364398246650568,
+                    "body.width": 600,
+                    "body.height": 400,
+                    "body.offset.x": 300,
+                    "body.offset.y": 150
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "circle",
+            "label": "circle",
+            "tooltip": "circle",
+            "defValue": 1,
+            "customDefinition": true,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

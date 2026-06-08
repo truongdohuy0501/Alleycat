@@ -1,0 +1,38 @@
+{
+    "id": "063418db-c32a-4a7d-9f7d-9c02d801f872",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "e22cc01a-52df-4558-b4d5-5197e0465ec8",
+            "label": "dogbad",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__bad_dog_brown_bite_000"
+            },
+            "scaleX": 0.6128554480409794,
+            "scaleY": 0.6128554480409794,
+            "collideWorldBounds": true,
+            "onWorldBounds": true,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 100,
+            "body.height": 100,
+            "body.offset.y": 150
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

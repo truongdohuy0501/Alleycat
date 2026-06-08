@@ -1,0 +1,100 @@
+{
+    "id": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0b72a378-154e-4529-9a0e-cf2bb9111ad2",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "ArcadeSprite",
+                    "id": "ed52e8d4-b26c-4a75-a1da-37a075cf1e2c",
+                    "label": "electriceelinside",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "__electric_eel_swimming_000"
+                    },
+                    "scaleX": 0.4355370492586864,
+                    "scaleY": 0.4355370492586864,
+                    "collideWorldBounds": true,
+                    "onWorldBounds": true,
+                    "body.width": 450,
+                    "body.height": 50,
+                    "body.offset.y": 150
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "2515ef7c-d5e7-4cbd-9e91-e7a19b4d48c3",
+                    "label": "spark2",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "large_spark_04"
+                    },
+                    "x": -8,
+                    "y": 49,
+                    "scaleX": -0.10391480115514963,
+                    "scaleY": -0.10391480115514963,
+                    "angle": -2,
+                    "visible": false,
+                    "body.width": 779,
+                    "body.height": 299
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "fac5cac5-19ce-4319-a8e1-ab9346c81280",
+                    "label": "spark1",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "large_spark_02"
+                    },
+                    "x": -4,
+                    "y": -34,
+                    "scaleX": 0.12957014567667574,
+                    "scaleY": 0.12957014567667574,
+                    "angle": 2,
+                    "visible": false,
+                    "body.width": 779,
+                    "body.height": 293
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "Speed",
+            "label": "Speed",
+            "tooltip": "Speed",
+            "defValue": 300,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "distance",
+            "label": "distance",
+            "tooltip": "distance",
+            "defValue": 200,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

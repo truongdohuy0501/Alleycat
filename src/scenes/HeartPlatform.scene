@@ -1,0 +1,56 @@
+{
+    "id": "219a899a-5baf-4aca-9a69-fac37927fd40",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7234f27d-6b22-4b2a-9fb4-b923f346523e",
+            "label": "container_2",
+            "y": 7.988902553971524,
+            "scaleX": 0.6859590093117656,
+            "scaleY": 0.6859590093117656,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "084cae2e-d319-4980-9546-6ea08dbd149c",
+                    "label": "rectangle_1",
+                    "x": 1157,
+                    "y": 2,
+                    "scaleX": 20.37821546699635,
+                    "scaleY": 0.6780277062421887,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "AllHearts",
+            "label": "AllHearts",
+            "tooltip": "AllHearts",
+            "defValue": false,
+            "customDefinition": true,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

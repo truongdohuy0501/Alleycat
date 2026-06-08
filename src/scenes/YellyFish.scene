@@ -1,0 +1,76 @@
+{
+    "id": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "6a5d0d8d-2307-4e60-81a4-271978dd54e1",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "ArcadeSprite",
+                    "id": "36a91437-260d-49ad-8223-25a455ff1ddf",
+                    "label": "jellybob",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "jellyfish_01"
+                    },
+                    "scaleX": 0.21788923192433768,
+                    "scaleY": 0.21788923192433768,
+                    "body.velocity.x": 10,
+                    "collideWorldBounds": true,
+                    "onWorldBounds": true,
+                    "down": false,
+                    "body.width": 250,
+                    "body.height": 500
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "2a8e8822-ad56-440c-8469-5fef3ebe50d7",
+                    "label": "head",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "__black_cat_yellow_eyes_walk_000"
+                    },
+                    "x": 3,
+                    "y": -127,
+                    "scaleX": 0.06593406706446267,
+                    "scaleY": 0.06593406706446267,
+                    "visible": false,
+                    "body.width": 637,
+                    "body.height": 581
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "15d8560c-991a-4855-8794-5c442c8f652a",
+                    "label": "tentacles",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "__black_cat_yellow_eyes_walk_000"
+                    },
+                    "x": 2,
+                    "y": -33,
+                    "scaleX": 0.06593406706446267,
+                    "scaleY": 0.06593406706446267,
+                    "visible": false,
+                    "body.width": 637,
+                    "body.height": 581
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

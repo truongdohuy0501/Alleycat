@@ -1,0 +1,49 @@
+{
+    "id": "073a3979-ae87-4e39-9746-90ffdf548790",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "60872536-3082-4b2c-b9d1-bbe1ec573842",
+            "label": "enemycat3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__black_cat_yellow_eyes_walk_000"
+            },
+            "scaleX": 0.19521756568400234,
+            "scaleY": 0.19521756568400234,
+            "flipX": true,
+            "body.width": 250,
+            "body.height": 300,
+            "body.offset.x": 150,
+            "body.offset.y": 100
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "speed",
+            "label": "speed",
+            "tooltip": "speed",
+            "defValue": 175,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

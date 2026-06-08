@@ -1,0 +1,368 @@
+{
+    "id": "cd99c3d8-7bfd-4d4a-a3af-06d8f8e02455",
+    "sceneType": "SCENE",
+    "settings": {
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LoveRoom1",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "d80768d7-b98c-42f0-8994-4f10b0060ae6",
+            "label": "sky",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "sky"
+            },
+            "x": 616,
+            "y": 352,
+            "scaleX": 1.1740323876454892,
+            "scaleY": 1.398181638785071,
+            "tintTopLeft": "#da1212",
+            "tintTopRight": "#e41111",
+            "tintBottomLeft": "#cbafaf",
+            "tintBottomRight": "#c7d7d8"
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "b74a1fe1-1a63-4a33-ba44-54d1aaf7e7d5",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "heartPlatform4",
+            "scope": "PUBLIC",
+            "x": -132,
+            "y": 152,
+            "visible": true
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "db621e29-d96d-409b-878e-d8e5f0b15817",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "heartPlatform3",
+            "scope": "PUBLIC",
+            "x": -141,
+            "y": 339,
+            "visible": true
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "9d7febc1-5560-4664-8f48-969deabbde4f",
+            "unlock": [
+                "x",
+                "y",
+                "AllHearts",
+                "visible"
+            ],
+            "label": "heartPlatform2",
+            "scope": "PUBLIC",
+            "AllHearts": false,
+            "x": -141,
+            "y": 526,
+            "visible": true
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "b1621713-14c6-41e1-9cdb-30c72d97428e",
+            "unlock": [
+                "x",
+                "y",
+                "AllHearts",
+                "visible"
+            ],
+            "label": "heartPlatform1",
+            "scope": "PUBLIC",
+            "AllHearts": true,
+            "x": -125,
+            "y": 704,
+            "visible": true,
+            "showChildrenInOutline": false
+        },
+        {
+            "prefabId": "219a899a-5baf-4aca-9a69-fac37927fd40",
+            "id": "4ef3a7f5-5048-46e5-850b-be39fb84e428",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "heartPlatform5",
+            "scope": "PUBLIC",
+            "x": -132,
+            "y": -12,
+            "visible": true
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c601b3c5-fb7e-4a95-835b-25b957747a8c",
+            "label": "bottom",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 586,
+            "y": 771,
+            "scaleX": 5.504107162267043,
+            "scaleY": -0.716376328720798,
+            "flipY": true,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 695,
+            "body.height": 40
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "75a87357-d416-4cad-ad77-4f1d2869b291",
+            "label": "awougaheart",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "100-percent"
+            },
+            "x": 164,
+            "y": -56,
+            "scaleX": 1.0683576286637164,
+            "scaleY": 0.7096208157108833,
+            "visible": false,
+            "body.width": 256,
+            "body.height": 256
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "79799c42-c0bd-4e9c-8c6a-52f3ce113348",
+            "label": "blockright",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "bubble-128px"
+            },
+            "x": 1302,
+            "y": -53,
+            "scaleX": 0.7728989318174695,
+            "scaleY": 0.7728989318174695,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 128,
+            "body.height": 128
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "5f53006f-741c-473a-b657-69e9091567a9",
+            "label": "blockleft",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "bubble-128px"
+            },
+            "x": -142,
+            "y": -57,
+            "scaleX": 0.7728989318174695,
+            "scaleY": 0.7728989318174695,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 128,
+            "body.height": 128
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a1bbe70b-46d4-4d27-8ad1-ac4df2a086bd",
+            "label": "blockcatleft",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": -195,
+            "y": 299,
+            "scaleX": -0.028434271794876897,
+            "scaleY": 36.08925018644257,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 749,
+            "body.height": 29
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "520bbc26-2dcf-41e1-8447-20950a3e9120",
+            "label": "blockcatright",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_wall_top"
+            },
+            "x": 1198,
+            "y": 288,
+            "scaleX": -0.028434271794876897,
+            "scaleY": 36.08925018644257,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 749,
+            "body.height": 29
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "fecfae7d-d5b0-428d-a216-e06bfb8b2f71",
+            "label": "boxwhite",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Box white"
+            },
+            "x": 1043,
+            "y": 655,
+            "scaleX": 0.43263200065643936,
+            "scaleY": 0.43263200065643936,
+            "body.width": 135,
+            "body.height": 127
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "2d5a66b7-d995-4120-bec6-b9920dc422f8",
+            "label": "healthpresent",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "health"
+            },
+            "x": 1044,
+            "y": 663,
+            "scaleX": 0.11764599051269731,
+            "scaleY": 0.10138635796759601,
+            "body.width": 274,
+            "body.height": 236
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "932fe1f0-cfbe-4d78-8522-f9a61016d8be",
+            "label": "enemycat2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__black_cat_yellow_eyes_walk_000"
+            },
+            "x": 609,
+            "y": 291,
+            "scaleX": 0.19521756568400234,
+            "scaleY": 0.19521756568400234,
+            "flipX": true,
+            "body.width": 250,
+            "body.height": 300,
+            "body.offset.x": 150,
+            "body.offset.y": 100
+        },
+        {
+            "prefabId": "f97944df-b631-4ec8-b3b9-6f9735b38ee4",
+            "id": "5de863fb-d2c9-4f79-9e24-0d62c0d9c03f",
+            "unlock": [
+                "x",
+                "y",
+                "body.width",
+                "body.height",
+                "body.offset.x",
+                "body.offset.y",
+                "collideWorldBounds",
+                "onWorldBounds",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "catPlayer",
+            "scope": "PUBLIC",
+            "x": 58,
+            "y": 537,
+            "scaleX": 0.17053438618233513,
+            "scaleY": 0.17053438618233513,
+            "collideWorldBounds": false,
+            "onWorldBounds": false,
+            "body.width": 180,
+            "body.height": 260,
+            "body.offset.x": 180,
+            "body.offset.y": 250
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "7bb41d79-2690-469d-8b88-1ec223af4dab",
+            "label": "enemycat3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__black_cat_yellow_eyes_walk_000"
+            },
+            "x": 170,
+            "y": 465,
+            "scaleX": 0.19521756568400234,
+            "scaleY": 0.19521756568400234,
+            "flipX": true,
+            "body.width": 250,
+            "body.height": 300,
+            "body.offset.x": 150,
+            "body.offset.y": 100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "193da226-909c-4435-886e-899dab1cf183",
+            "label": "enemycat1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__black_cat_yellow_eyes_walk_000"
+            },
+            "x": 888,
+            "y": 110,
+            "scaleX": 0.19521756568400234,
+            "scaleY": 0.19521756568400234,
+            "flipX": true,
+            "body.width": 250,
+            "body.height": 300,
+            "body.offset.x": 150,
+            "body.offset.y": 100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "31e7d604-4752-46f3-9b8a-15c1d916b7bf",
+            "label": "ladycat",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__white_cat_sitting_011"
+            },
+            "x": 131,
+            "y": -74,
+            "scaleX": 0.18090295099369608,
+            "scaleY": 0.18090295099369608,
+            "flipX": true,
+            "body.velocity.x": 100,
+            "onWorldBounds": true,
+            "up": false,
+            "down": false,
+            "body.width": 636,
+            "body.height": 582
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bc4920f2-8bd3-44d5-bf04-6558794884b9",
+            "label": "feline2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__white_cat_sitting_011"
+            },
+            "x": 348,
+            "y": -69,
+            "scaleX": 0.18623933142280713,
+            "scaleY": 0.18623933142280713,
+            "visible": false,
+            "body.width": 636,
+            "body.height": 582
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

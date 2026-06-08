@@ -1,0 +1,64 @@
+{
+    "id": "ef49f3a2-db0a-4d42-a2d3-dc8ff0821409",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "28e482c7-1f68-46ea-b0d0-48f0a1627a2d",
+            "label": "container_1",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": -91.63518381537257,
+            "hitArea.y": -91.33050125924288,
+            "hitArea.width": 183.27036763074514,
+            "hitArea.height": 300.66100251848576,
+            "y": -59,
+            "list": [
+                {
+                    "type": "ArcadeSprite",
+                    "id": "6cf0d0a7-27a2-4753-8c1a-802c5e05d328",
+                    "label": "wardrobe",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "light_wardrobe"
+                    },
+                    "y": 59,
+                    "scaleX": 0.27111001128808454,
+                    "scaleY": 0.27111001128808454,
+                    "pushable": false,
+                    "immovable": true,
+                    "body.width": 676,
+                    "body.height": 1109
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "a5d687dd-9c0e-48d6-8b18-1029c37105ed",
+                    "label": "door",
+                    "scope": "PUBLIC",
+                    "x": 42,
+                    "y": 22,
+                    "scaleX": 0.635696207443256,
+                    "scaleY": 1.616066603887058,
+                    "visible": false,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,318 @@
+{
+    "id": "35d41231-f1f1-4b6b-b2d7-2a9b7efa1c3a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f55d8e6d-1ce7-4c62-95b6-f39d46e758ef",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "072c6ae1-b243-4f9f-9b57-97e951816e6c",
+                    "label": "rectangle_1",
+                    "y": 7,
+                    "scaleX": 1.026570945457059,
+                    "scaleY": 0.6016307300802258,
+                    "alpha": 0.6,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 131,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2c8bcbd1-b814-47d5-8c8d-96261c40c984",
+                    "label": "rectangle3",
+                    "scope": "PUBLIC",
+                    "y": 6,
+                    "scaleX": 1.0284694783813346,
+                    "scaleY": 0.5480917515853782,
+                    "alpha": 0.6,
+                    "isFilled": true,
+                    "fillColor": "#88d9d7",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "c6425a3e-f2b1-449e-bff3-24c010ec2ddd",
+                    "label": "sidelinel",
+                    "x": -56,
+                    "y": 6,
+                    "scaleX": -0.005096786481125297,
+                    "scaleY": 0.6114260056235311,
+                    "alpha": 0.8,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 140,
+                    "height": 113
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "40a898ed-ec0d-4eff-8a26-eec2e46d952c",
+                    "label": "rectangle_7",
+                    "y": 35,
+                    "scaleX": -0.008858498364227807,
+                    "scaleY": 0.6114260056235311,
+                    "angle": 90,
+                    "alpha": 0.8,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 125,
+                    "height": 185
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "2a09bbdf-5814-4cc0-bb2e-3514d9210cb1",
+                    "label": "fish",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "icon"
+                    },
+                    "x": 43,
+                    "y": 10,
+                    "scaleX": 0.009501330332101598,
+                    "scaleY": 0.009501330332101598,
+                    "body.width": 1653,
+                    "body.height": 1020
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "01c7614c-86a6-4eac-b653-d201afa50e1b",
+                    "label": "sideliner",
+                    "x": 56,
+                    "y": 7,
+                    "scaleX": -0.006220283757331753,
+                    "scaleY": 0.6114260056235311,
+                    "alpha": 0.8,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 140,
+                    "height": 113
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "0f242de4-d525-4dfe-ad55-0635c6ed1f65",
+                    "label": "rectangle_4",
+                    "scope": "PUBLIC",
+                    "y": 41,
+                    "scaleX": 1.0242874061445915,
+                    "scaleY": 0.08600572087667736,
+                    "alpha": 0.8,
+                    "isFilled": true,
+                    "fillColor": "#f0d262",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "a6897947-344b-4dc7-aeb7-af4b3534fd81",
+                    "label": "plants_10",
+                    "texture": {
+                        "key": "plants_10"
+                    },
+                    "x": 37,
+                    "y": 32,
+                    "scaleX": 0.027105638891757336,
+                    "scaleY": 0.027105638891757336
+                },
+                {
+                    "type": "Image",
+                    "id": "adbba0be-4595-4d9f-9f26-69e21d52ffa9",
+                    "label": "plants_07",
+                    "texture": {
+                        "key": "plants_07"
+                    },
+                    "x": -13,
+                    "y": 28,
+                    "scaleX": 0.0324764687468173,
+                    "scaleY": 0.0324764687468173
+                },
+                {
+                    "type": "Image",
+                    "id": "31afb376-d4e5-44a5-8161-266e576417d1",
+                    "label": "plants_03",
+                    "texture": {
+                        "key": "plants_03"
+                    },
+                    "x": -49,
+                    "y": 36,
+                    "scaleX": 0.022590577930203488,
+                    "scaleY": 0.022590577930203488
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "a8b5bfc7-e8b9-4296-b5c6-beb9d7395dac",
+                    "label": "rectangleblue",
+                    "scope": "PUBLIC",
+                    "y": 7,
+                    "scaleX": 1.0284694783813346,
+                    "scaleY": 0.539252644471795,
+                    "alpha": 0.5,
+                    "isFilled": true,
+                    "fillColor": "#27d9d5",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "7cd04859-f3fb-4b14-b08c-c0ac7352e105",
+                    "label": "rectangle_10",
+                    "x": 78,
+                    "y": 40,
+                    "scaleX": 0.16173527888027803,
+                    "scaleY": -0.015515562238204769,
+                    "angle": -8,
+                    "visible": false,
+                    "alpha": 0.4,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 131,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "e29946ef-d94d-440a-bb54-95b1f286cd16",
+                    "label": "rectangle1",
+                    "y": 44,
+                    "scaleX": 1.1344310940158382,
+                    "scaleY": 0.04062105274822691,
+                    "isFilled": true,
+                    "fillColor": "#050505",
+                    "width": 120,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "fb23d56d-e014-4953-8b0a-5efe2a394499",
+                    "label": "ceilaquarium",
+                    "scope": "PUBLIC",
+                    "y": -31,
+                    "scaleX": 1.0607603208075833,
+                    "scaleY": 0.0530680123906009,
+                    "isFilled": true,
+                    "fillColor": "#2a3337",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "8e80f912-c358-42cc-a8ba-1abba33a2e69",
+                    "label": "triggerl",
+                    "x": -61,
+                    "y": 38,
+                    "scaleX": -0.006220283757331753,
+                    "scaleY": 0.6114260056235311,
+                    "angle": 57,
+                    "alpha": 0.5,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 140,
+                    "height": 20
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "c374249a-c1e9-4da1-9859-313c4875208f",
+                    "label": "rectangle13",
+                    "scope": "PUBLIC",
+                    "x": -49,
+                    "y": -30.4,
+                    "scaleX": 0.39517509378442084,
+                    "scaleY": 0.022273335196634967,
+                    "isFilled": true,
+                    "fillColor": "#d7a986",
+                    "width": 90,
+                    "height": 180
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "1717722b-6cd1-4354-b19a-2ecbd79fbb37",
+                    "label": "rectangle6",
+                    "scope": "PUBLIC",
+                    "x": 48,
+                    "y": -30.4,
+                    "scaleX": 0.4093592570169673,
+                    "scaleY": 0.021455439843921186,
+                    "isFilled": true,
+                    "fillColor": "#d7a986",
+                    "width": 90,
+                    "height": 180
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "f98064ba-39e7-488d-8b9e-81c39cea42d8",
+                    "label": "rectangle9",
+                    "scope": "PUBLIC",
+                    "y": 44,
+                    "scaleX": -0.03842239776553005,
+                    "scaleY": 0.6114260056235311,
+                    "angle": -90,
+                    "alpha": 0.6,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 131,
+                    "height": 215
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "5ca1139f-ebec-4119-b360-5fa8ad28beb5",
+                    "label": "triggerr",
+                    "x": 61,
+                    "y": 38,
+                    "scaleX": -0.006220283757331753,
+                    "scaleY": 0.6114260056235311,
+                    "angle": -56,
+                    "alpha": 0.5,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 140,
+                    "height": 20
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "b137cb26-4924-4460-9d9b-ab166a6993c0",
+                    "label": "rectangle8",
+                    "scope": "PUBLIC",
+                    "y": 44,
+                    "scaleX": 1.1171434102563587,
+                    "scaleY": 0.026106951001271837,
+                    "isFilled": true,
+                    "fillColor": "#d7a986",
+                    "width": 120,
+                    "height": 128
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "447f5a1d-7ee5-470c-abce-4b98e0cff972",
+                    "label": "can",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "big_can_closed"
+                    },
+                    "x": -3,
+                    "y": -36,
+                    "scaleX": 0.12149532710280375,
+                    "scaleY": 0.12149532710280375,
+                    "visible": false,
+                    "body.width": 214,
+                    "body.height": 299
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,984 @@
+{
+    "id": "5d82e4e4-f33d-4ea3-a6ba-1ca5f21102ea",
+    "sceneType": "SCENE",
+    "settings": {
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "MouseLevel2",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "466e90b9-ae54-4889-becf-5afaebe2ab4a",
+            "label": "red_large_stripe",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "green_large_stripe"
+            },
+            "x": 675,
+            "y": 249,
+            "scaleX": 1.1,
+            "scaleY": 0.6,
+            "tintTopLeft": "#444444",
+            "tintTopRight": "#444444",
+            "width": 5000,
+            "height": 1382,
+            "tileScaleX": 0.1
+        },
+        {
+            "type": "Image",
+            "id": "51381264-67f5-4234-9e07-9e8775242e6c",
+            "label": "redstripeabove",
+            "texture": {
+                "key": "green_plain"
+            },
+            "x": 836,
+            "y": -87,
+            "scaleX": 0.6153678486624686,
+            "scaleY": 5.132801232728735,
+            "angle": 90,
+            "tintTopRight": "#262626",
+            "tintBottomRight": "#141313"
+        },
+        {
+            "type": "TileSprite",
+            "id": "1c24295e-5f5d-4cdb-b76d-f98939ae3be3",
+            "label": "skirting_light",
+            "texture": {
+                "key": "skirting_light"
+            },
+            "x": 600,
+            "y": 634,
+            "scaleX": 0.58,
+            "scaleY": 0.2528690000816929,
+            "width": 10000,
+            "height": 63
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "42060520-4d00-44c5-b566-dc3acc6f25e8",
+            "label": "bottom",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "block_separator_01"
+            },
+            "x": 993,
+            "y": 661,
+            "scaleX": 8.016925762653134,
+            "scaleY": -0.5941844224800856,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 695,
+            "body.height": 40
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "564c4d9d-bdbf-4358-88be-fe13462307e5",
+            "label": "holebottom",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Mousehole"
+            },
+            "x": -1755,
+            "y": 654,
+            "scaleX": 0.4732652666964938,
+            "scaleY": 0.6246098807160967,
+            "body.width": 112,
+            "body.height": 169,
+            "body.offset.x": -100
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "f6f66ff4-b8d6-4d85-ba09-2928765196fa",
+            "label": "green",
+            "texture": {
+                "key": "green_plain"
+            },
+            "x": 660,
+            "y": 713,
+            "scaleX": 41.31119914757326,
+            "scaleY": 0.10155142306574311,
+            "flipY": true,
+            "tintBottomLeft": "#c4c4c8",
+            "tintBottomRight": "#cecece",
+            "body.width": 437,
+            "body.height": 1232
+        },
+        {
+            "type": "TileSprite",
+            "id": "c3409d87-4216-416f-be82-db3bad8adea4",
+            "label": "ceiling",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "skirting_light"
+            },
+            "x": 898,
+            "y": -55,
+            "scaleX": 0.6,
+            "scaleY": 0.09317645979579199,
+            "tintTopLeft": "#7d7171",
+            "tintBottomLeft": "#888181",
+            "width": 10000,
+            "height": 78
+        },
+        {
+            "type": "Image",
+            "id": "aeab069d-23d2-4cf1-b6d6-d0878ccded7c",
+            "label": "rug_05",
+            "texture": {
+                "key": "rug_05"
+            },
+            "x": 1220,
+            "y": 678,
+            "scaleX": 0.2844883154260839,
+            "scaleY": 0.09484011155831167
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "b45e88c6-3f9f-4956-b289-28b36aea3f79",
+            "label": "littletable",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_table_round"
+            },
+            "x": 175,
+            "y": 623,
+            "scaleX": 0.5549606181280825,
+            "scaleY": 0.5549606181280825,
+            "body.width": 210,
+            "body.height": 200,
+            "body.offset.y": 20
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f4a945c2-cf27-433d-9647-d89d25fa9b48",
+            "label": "bookcase",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_5_shelves"
+            },
+            "x": 782,
+            "y": 537,
+            "scaleX": 0.2338714695689558,
+            "scaleY": 0.2338714695689558,
+            "body.width": 676,
+            "body.height": 1109
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "ea095950-df89-4eab-9a45-b5787455ded9",
+            "label": "holetrap1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Mousehole"
+            },
+            "x": 2449,
+            "y": 174,
+            "scaleX": 0.5379835964993452,
+            "scaleY": 0.6086488859421559,
+            "body.width": 112,
+            "body.height": 169
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f5afc2cc-7404-45df-965a-052ea49c8fc8",
+            "label": "painting2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "painting_05_gold"
+            },
+            "x": 1004,
+            "y": 230,
+            "scaleX": 0.1870448774346486,
+            "scaleY": 0.1870448774346486,
+            "body.width": 263,
+            "body.height": 320
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8c6b3a46-f21f-492f-897b-d14747e19980",
+            "label": "lamp3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "lamp_21"
+            },
+            "x": 2743,
+            "y": -33,
+            "scaleX": 0.21266918165598211,
+            "scaleY": 0.21266918165598211,
+            "body.width": 300,
+            "body.height": 300,
+            "body.offset.y": 400
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "af9742b6-9dd6-46f5-b6be-551cdaff0cb0",
+            "label": "blockmouse2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wood_chair_front"
+            },
+            "x": -1583,
+            "y": 43,
+            "scaleX": 0.12602794693078379,
+            "scaleY": 0.12602794693078379,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 429,
+            "body.height": 843
+        },
+        {
+            "type": "Image",
+            "id": "04d7056f-cefa-428d-a200-bd47fcb806ee",
+            "label": "green_1",
+            "texture": {
+                "key": "green"
+            },
+            "x": 1484,
+            "y": 671,
+            "scaleX": 0.729519085378914,
+            "scaleY": 0.0461082363152181,
+            "visible": false
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "c96b91d0-d6f7-49ca-8614-f5f282cbda08",
+            "label": "shelf",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wall_shelf"
+            },
+            "x": 1781,
+            "y": 123,
+            "scaleX": 0.12,
+            "scaleY": 0.1,
+            "originY": 0.8,
+            "body.width": 1007,
+            "body.height": 85
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "9e048d02-7308-40fb-9e52-164713d14cd9",
+            "label": "shelf5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wall_shelf"
+            },
+            "x": 2405,
+            "y": 176,
+            "scaleX": 0.18,
+            "scaleY": 0.1,
+            "originY": 0.8,
+            "collideWorldBounds": true,
+            "body.width": 1007,
+            "body.height": 85
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "a838a67d-71d7-4547-b8c8-a7164ed0392f",
+            "label": "holeceiling",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Mousehole"
+            },
+            "x": -1736,
+            "y": 98,
+            "scaleX": 0.44231670379339616,
+            "scaleY": 0.5599480860866577,
+            "body.width": 112,
+            "body.height": 169,
+            "body.offset.x": -100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "73f652e9-361e-4283-b791-e6edc423e625",
+            "label": "shelf3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wall_shelf"
+            },
+            "x": -1691,
+            "y": 97,
+            "scaleX": 0.17,
+            "scaleY": 0.1,
+            "originY": 0.8,
+            "body.width": 1007,
+            "body.height": 85
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "536b17cc-3a36-42f9-9240-8b9c8868c671",
+            "label": "paint1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "painting_07_light"
+            },
+            "x": -1546,
+            "y": 369,
+            "scaleX": 0.19724542105470913,
+            "scaleY": 0.19724542105470913,
+            "body.width": 363,
+            "body.height": 428
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4946e1ea-e77d-4496-b8ee-02443f7b41ad",
+            "label": "painting4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "painting_06_light"
+            },
+            "x": 2858,
+            "y": 266,
+            "scaleX": 0.17599063588930186,
+            "scaleY": 0.17599063588930186,
+            "body.width": 263,
+            "body.height": 320
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "9c32de4e-3bd4-4b01-b29f-3668a6d7cff4",
+            "label": "shelf4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wall_shelf"
+            },
+            "x": -1110,
+            "y": 250,
+            "scaleX": 0.12,
+            "scaleY": 0.1,
+            "originY": 0.8,
+            "body.width": 1007,
+            "body.height": 85
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "e183e5c2-f04c-4643-b088-3c1d72884516",
+            "label": "blockmouse3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wood_chair_front"
+            },
+            "x": -803,
+            "y": 610,
+            "scaleX": 0.12602794693078379,
+            "scaleY": 0.12602794693078379,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 429,
+            "body.height": 843
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "be8b5adb-1c3c-4936-98ef-eb66dc4d020c",
+            "label": "shelf7",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wall_shelf"
+            },
+            "x": 447,
+            "y": 279,
+            "scaleX": 0.12,
+            "scaleY": 0.1,
+            "originY": 0.8,
+            "body.width": 1007,
+            "body.height": 85
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "756a3a79-608e-4e2d-9efe-4bca4cb1744e",
+            "label": "shelf1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wall_shelf"
+            },
+            "x": -229,
+            "y": 174,
+            "scaleX": 0.12,
+            "scaleY": 0.1,
+            "originY": 0.8,
+            "body.width": 1007,
+            "body.height": 85
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "60bfce35-e4f3-4c6d-b15d-966c0f55247a",
+            "label": "lamp2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "lamp_21"
+            },
+            "x": 687,
+            "y": -26,
+            "scaleX": 0.2250417666048226,
+            "scaleY": 0.2250417666048226,
+            "body.width": 300,
+            "body.height": 300,
+            "body.offset.y": 200
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bbae0b0a-2013-4e61-b25c-4ba8fdcfe8e4",
+            "label": "lamp1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "lamp_21"
+            },
+            "x": -1365,
+            "y": -31,
+            "scaleX": 0.20467343775387892,
+            "scaleY": 0.20467343775387892,
+            "body.width": 300,
+            "body.height": 300,
+            "body.offset.y": 200
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6db0d58f-0a48-45a3-bd89-54ef10795806",
+            "label": "shelf10",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wall_shelf"
+            },
+            "x": 1269,
+            "y": 101,
+            "scaleX": 0.12,
+            "scaleY": 0.1,
+            "originY": 0.8,
+            "body.width": 1007,
+            "body.height": 85
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "f7eb6301-009e-4df7-a909-c3acffa9850d",
+            "label": "mouserun",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "mouse"
+            },
+            "x": -1611,
+            "y": 632,
+            "scaleX": 0.16526838545201133,
+            "scaleY": 0.16526838545201133,
+            "animationPlayMethod": 1,
+            "animationKey": "mousewalk",
+            "collideWorldBounds": true,
+            "body.width": 200,
+            "body.height": 160,
+            "body.offset.x": 50,
+            "body.offset.y": 100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "6f80d659-b1d7-4e0f-8cc3-87413b9045b0",
+            "label": "blockmouse1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wood_chair_front"
+            },
+            "x": -1273,
+            "y": 536,
+            "scaleX": 0.12602794693078379,
+            "scaleY": 0.12602794693078379,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 429,
+            "body.height": 843
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "be6586d6-3083-42ed-bcaf-f1fb09796b76",
+            "label": "bookcase2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wardrobe"
+            },
+            "x": -886,
+            "y": 541,
+            "scaleX": 0.23987346181279254,
+            "scaleY": 0.23987346181279254,
+            "body.width": 676,
+            "body.height": 1109
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "66d68848-8eb2-4c1a-95c9-671f496fd3a8",
+            "label": "plant1",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "house_plant_example_09"
+            },
+            "x": -1144,
+            "y": 199,
+            "scaleX": 0.08722327998526791,
+            "scaleY": 0.08722327998526791,
+            "body.gravity.y": 1000,
+            "body.bounce.y": 0.3,
+            "up": false,
+            "body.width": 524,
+            "body.height": 875
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "5f01d3bc-ea1d-4f1f-a51f-d8080d1a1439",
+            "label": "brownseat",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_1_seat"
+            },
+            "x": -322,
+            "y": 603,
+            "scaleX": 0.18656155057028545,
+            "scaleY": 0.18656155057028545,
+            "body.width": 1070,
+            "body.height": 858
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "8c17f0ca-eb1d-41eb-ba2a-7b2a3a4728be",
+            "label": "paintingwhite",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "painting_05_light"
+            },
+            "x": -123,
+            "y": 378,
+            "scaleX": 0.1988717799780143,
+            "scaleY": 0.1988717799780143,
+            "body.width": 263,
+            "body.height": 320
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "71ce676b-c967-456c-999e-786558b6793f",
+            "label": "plant3",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "house_plant_example_02"
+            },
+            "x": 444,
+            "y": 217,
+            "scaleX": 0.07910692657200113,
+            "scaleY": 0.07910692657200113,
+            "body.gravity.y": 1000,
+            "body.bounce.y": 0.3,
+            "up": false,
+            "body.width": 300,
+            "body.height": 1131,
+            "body.offset.x": 100
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "3464af7c-9470-4caf-bb41-c726d589d227",
+            "label": "shelflast",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "light_wall_shelf"
+            },
+            "x": 3029,
+            "y": 124,
+            "scaleX": 0.13844377470891467,
+            "scaleY": 0.1,
+            "originY": 0.8,
+            "body.width": 1007,
+            "body.height": 85
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "e346f4ae-a7e7-4976-9912-b3717ddca67b",
+            "label": "painting",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "painting_06_light"
+            },
+            "x": 1481,
+            "y": 342,
+            "scaleX": 0.1870448774346486,
+            "scaleY": 0.1870448774346486,
+            "body.width": 263,
+            "body.height": 320
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "5b750afb-eb2f-4127-8137-579b375a981f",
+            "label": "painting12",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "painting_02_dark"
+            },
+            "x": 2129,
+            "y": 354,
+            "scaleX": 0.1472205206225461,
+            "scaleY": 0.1472205206225461,
+            "body.width": 263,
+            "body.height": 320,
+            "body.offset.y": 150
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "85a833cf-6748-47a7-a6a7-4e3e8f1af12e",
+            "label": "holetrap2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "Mousehole"
+            },
+            "x": 3158,
+            "y": 640,
+            "scaleX": 0.620963956110377,
+            "scaleY": 0.5617100076777349,
+            "body.width": 112,
+            "body.height": 169
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "4967ae70-6a5b-49eb-bd34-a2fec4e444ae",
+            "label": "stoneblock",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "square_block_100_percent"
+            },
+            "x": 2364,
+            "y": 138,
+            "scaleX": 0.100540340802773,
+            "scaleY": 0.100540340802773,
+            "originY": 0.8,
+            "body.gravity.y": 1000,
+            "body.bounce.y": 0.3,
+            "collideWorldBounds": true,
+            "onWorldBounds": true,
+            "up": false,
+            "body.width": 512,
+            "body.height": 512
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "589eae89-7933-41f0-9435-0658c0a456e2",
+            "label": "mouse2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__grey_mouse_walk_001"
+            },
+            "x": 2446,
+            "y": 150,
+            "scaleX": 0.14765939847775184,
+            "scaleY": 0.14765939847775184,
+            "body.width": 442,
+            "body.height": 292
+        },
+        {
+            "prefabId": "9e2a4dc9-1cee-4fd7-bef5-d382131c8687",
+            "id": "36c5712a-66f3-490e-9316-4a1d74af1447",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "fallpainting1",
+            "scope": "PUBLIC",
+            "x": -597,
+            "y": 235,
+            "scaleX": 0.9612549275114929,
+            "scaleY": 0.9612549275114929
+        },
+        {
+            "prefabId": "111a7fe7-982b-41e4-b689-29e4aee1c2f0",
+            "id": "5cdfafbb-8c77-4386-9501-3a76ae040219",
+            "unlock": [
+                "x",
+                "y",
+                "Speed",
+                "Time",
+                "visible",
+                "body.velocity.x",
+                "body.velocity.y"
+            ],
+            "label": "mouse3",
+            "scope": "PUBLIC",
+            "Speed": "-150",
+            "Time": 3000,
+            "x": 1467,
+            "y": 632,
+            "visible": true,
+            "body.velocity.x": -50,
+            "body.velocity.y": 0
+        },
+        {
+            "prefabId": "b7ec07ee-9561-429c-be3a-4d57639afb81",
+            "id": "7dcf1fa4-c5e7-44c5-9a41-4888a05a30d6",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "bookcased1",
+            "scope": "PUBLIC",
+            "x": 1765,
+            "y": 426,
+            "scaleX": 0.6595757982533058,
+            "scaleY": 0.6595757982533058
+        },
+        {
+            "prefabId": "111a7fe7-982b-41e4-b689-29e4aee1c2f0",
+            "id": "3efac76b-f474-4ecf-92ed-f736d169d24c",
+            "unlock": [
+                "x",
+                "y",
+                "Speed",
+                "Time",
+                "body.velocity.x",
+                "body.velocity.y"
+            ],
+            "label": "mouse4",
+            "scope": "PUBLIC",
+            "Speed": "-48",
+            "Time": 2000,
+            "x": -185,
+            "y": 150,
+            "body.velocity.x": -50,
+            "body.velocity.y": 0
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "094b5ebb-46b0-4088-a151-f098d98ed6a1",
+            "label": "brownseat2",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "brown_1_seat"
+            },
+            "x": 2640,
+            "y": 594,
+            "scaleX": 0.18167172853204533,
+            "scaleY": 0.18167172853204533,
+            "body.width": 1070,
+            "body.height": 858
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bd4cfd70-1b6e-4697-a228-bdbbe2db7c6f",
+            "label": "plant4",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "house_plant_example_12"
+            },
+            "x": 1260,
+            "y": 54,
+            "scaleX": 0.08728869809836298,
+            "scaleY": 0.08728869809836298,
+            "body.gravity.y": 1000,
+            "body.bounce.y": 0.3,
+            "up": false,
+            "body.width": 300,
+            "body.height": 755
+        },
+        {
+            "prefabId": "821d4cbe-0b9b-47be-ba73-720270e75cc7",
+            "id": "bd98a99e-5682-4716-aaf4-902f20a9a547",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "dogInterior3",
+            "scope": "PUBLIC",
+            "x": 1210,
+            "y": 560,
+            "scaleX": 0.8426402817717425,
+            "scaleY": 0.8426402817717425
+        },
+        {
+            "prefabId": "2c6a581b-8f62-463d-8ecb-056b7bc0d4f8",
+            "id": "9d9ac44d-389a-4c51-b356-7ea6748af5b4",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "broom",
+            "scope": "PUBLIC",
+            "x": 1917,
+            "y": 513
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "bfb942ac-6a25-4afe-beae-10908b64d1d1",
+            "label": "plant6",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "house_plant_example_14"
+            },
+            "x": 2997,
+            "y": 82,
+            "scaleX": 0.14360666621789864,
+            "scaleY": 0.14360666621789864,
+            "body.gravity.y": 1000,
+            "body.bounce.y": 0.3,
+            "up": false,
+            "body.width": 200,
+            "body.height": 410
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "de2910fb-3f91-4a22-9ffa-02946c516e79",
+            "label": "plant5",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "house_plant_example_02"
+            },
+            "x": 1772,
+            "y": 72,
+            "scaleX": 0.06638332389425652,
+            "scaleY": 0.06638332389425652,
+            "body.gravity.y": 1000,
+            "body.bounce.y": 0.3,
+            "up": false,
+            "body.width": 400,
+            "body.height": 1131
+        },
+        {
+            "prefabId": "973a1556-f9f2-4e9b-bb8b-02f230b245ed",
+            "id": "8cfc58cd-787a-4ecb-bb7f-b71c8ec5aff0",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "spider2",
+            "scope": "PUBLIC",
+            "x": -429,
+            "y": 35,
+            "scaleX": 0.22041154292377588,
+            "scaleY": 0.22041154292377588
+        },
+        {
+            "prefabId": "973a1556-f9f2-4e9b-bb8b-02f230b245ed",
+            "id": "37b12a4f-37d8-4827-96b1-7a068a1e91fd",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "spider",
+            "scope": "PUBLIC",
+            "x": 2179,
+            "y": 44,
+            "scaleX": 0.22041154292377588,
+            "scaleY": 0.22041154292377588
+        },
+        {
+            "prefabId": "f97944df-b631-4ec8-b3b9-6f9735b38ee4",
+            "id": "c5d52cfb-21a5-4c17-9098-64e98a0dfc94",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "maxAngular"
+            ],
+            "label": "catPlayer",
+            "scope": "PUBLIC",
+            "x": 147,
+            "y": 454,
+            "collideWorldBounds": true,
+            "maxAngular": 2000
+        },
+        {
+            "prefabId": "36551579-4bdd-4581-afb3-331464c8cc9e",
+            "id": "96556306-ddff-43eb-b4cf-0d8b8eda3edb",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "indoorwindow1",
+            "scope": "PUBLIC",
+            "x": 154,
+            "y": 280,
+            "scaleX": 0.8221541225951747,
+            "scaleY": 0.8221541225951747
+        },
+        {
+            "type": "Ellipse",
+            "id": "3db3a2e4-18d4-4065-a5e4-6abc5d178a67",
+            "label": "ellipse_5",
+            "x": 687,
+            "y": -90,
+            "scaleX": 0.21103183736432507,
+            "scaleY": 0.04495267968083329,
+            "alpha": 0.4,
+            "isFilled": true,
+            "fillColor": "#0a0909",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Ellipse",
+            "id": "4549e5c8-d564-4926-9e43-e0c6aa87fbbe",
+            "label": "ellipse",
+            "x": 2743,
+            "y": -94,
+            "scaleX": 0.3916825343304212,
+            "scaleY": 0.07463723645206587,
+            "alpha": 0.4,
+            "isFilled": true,
+            "fillColor": "#0a0909",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Ellipse",
+            "id": "0f58eaf9-6319-4ec5-864b-b404532b3e14",
+            "label": "ellipse_1",
+            "x": -1364,
+            "y": -89,
+            "scaleX": 0.3090245740926937,
+            "scaleY": 0.0909006337769499,
+            "alpha": 0.4,
+            "isFilled": true,
+            "fillColor": "#0a0909",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "da3af736-d077-48f5-8984-955cd11a0d82",
+            "label": "rectangle_1",
+            "x": 905,
+            "y": 356,
+            "scaleX": 52.01406204840832,
+            "scaleY": 8.762757423095326,
+            "visible": false,
+            "alpha": 0.15,
+            "isFilled": true,
+            "fillColor": "#034a48",
+            "width": 128,
+            "height": 128,
+            "list": [
+                {
+                    "type": "ColorMatrix",
+                    "id": "cb94b4d7-a984-49b7-8009-9c589074cd99",
+                    "label": "saturateFx",
+                    "operationType": 3,
+                    "saturate": 1
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "id": "36551579-4bdd-4581-afb3-331464c8cc9e",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "afc2fc96-0226-49b8-8219-506dca58df60",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "ArcadeSprite",
+                    "id": "d22f6db8-61d0-469e-ba88-781c6f21a244",
+                    "label": "windowout",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "window_06"
+                    },
+                    "y": 34,
+                    "scaleX": 0.22587207017263713,
+                    "scaleY": 0.22587207017263713,
+                    "body.width": 200,
+                    "body.height": 100,
+                    "body.offset.y": 350,
+                    "list": [
+                        {
+                            "type": "Shadow",
+                            "id": "03edf472-8255-4011-8c21-0bb698d30546",
+                            "label": "shadowFx",
+                            "samples": 1,
+                            "preFX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "5c490932-27fe-41cd-84df-f863840a01ac",
+                    "label": "openwindow",
+                    "scope": "PUBLIC",
+                    "y": 71,
+                    "scaleX": 0.5098027253782933,
+                    "scaleY": 0.46821661403081694,
+                    "alpha": 0.5,
+                    "isFilled": true,
+                    "fillColor": "#466dc7",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "eb53b427-f693-47ba-8bf0-d701e94969f8",
+                    "label": "openwindow2",
+                    "scope": "PUBLIC",
+                    "scaleX": 0.5098027253782933,
+                    "scaleY": 0.46821661403081694,
+                    "alpha": 0.5,
+                    "isFilled": true,
+                    "fillColor": "#466dc7",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "549615d1-0507-4807-853c-3299c420a166",
+                    "label": "waythrough",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "block_wall_top"
+                    },
+                    "x": 1,
+                    "y": 37,
+                    "scaleX": 0.13084112124340164,
+                    "scaleY": -0.27586206843436334,
+                    "visible": false,
+                    "body.width": 749,
+                    "body.height": 29
+                },
+                {
+                    "type": "Image",
+                    "id": "760bddd8-f202-42b8-a79b-5cbe897ad0b8",
+                    "label": "light",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "small_window_light"
+                    },
+                    "x": -3,
+                    "y": 234,
+                    "scaleX": 0.20809837601817574,
+                    "scaleY": 0.35592855457420625,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

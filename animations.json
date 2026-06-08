@@ -1,0 +1,2609 @@
+{
+    "anims": [
+        {
+            "key": "CatWalk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__black_cat_walk_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_walk_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_walk_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_walk_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_walk_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_walk_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_walk_006",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "CatIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__black_cat_idle_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_idle_019",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "catUpi",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__black_cat_jump_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "randomFrame": false
+        },
+        {
+            "key": "dogwalk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__bad_dog_brown_walk_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_walk_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_walk_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_walk_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_walk_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_walk_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_walk_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_walk_007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "DogIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__bad_dog_brown_idle_019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_idle_018",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "DogRun",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__bad_dog_brown_run_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_run_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_run_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_run_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_run_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_run_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_run_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__bad_dog_brown_run_007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "blackbirdfly",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "blackbirdfly",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "blackbirdfly",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "swim",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__black_cat_jump_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_jump_010",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 5,
+            "skipMissedFrames": true,
+            "randomFrame": false
+        },
+        {
+            "key": "mousewalk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__grey_mouse_walk_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_walk_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_walk_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_walk_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_walk_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_walk_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_walk_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_walk_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_walk_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_walk_009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "SpiderIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__brown_spider_base standing_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__brown_spider_idle_019",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RatWalk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__grey_yellow_eyes_walk_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_walk_011",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RatStand",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_yellow_eyes_idle_standing_019",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "explosion",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "explosion_01",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion_02",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion_03",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion_04",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion_05",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion_06",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion_07",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion_08",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "explosion_09",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "randomFrame": false,
+            "hideOnComplete": true
+        },
+        {
+            "key": "BatFly",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__purple_bat_fly_mouth_closed_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__purple_bat_fly_mouth_closed_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__purple_bat_fly_mouth_closed_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__purple_bat_fly_mouth_closed_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__purple_bat_fly_mouth_closed_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__purple_bat_fly_mouth_closed_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__purple_bat_fly_mouth_closed_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__purple_bat_fly_mouth_closed_007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "GhostIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__four_directional_ghost_right_idle_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__four_directional_ghost_right_idle_019",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 18,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showOnStart": true,
+            "randomFrame": false
+        },
+        {
+            "key": "SwimEel",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__electric_eel_swimming_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__electric_eel_swimming_011",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "PiranaSwim",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__piranha_swim_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__piranha_swim_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__piranha_swim_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__piranha_swim_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__piranha_swim_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__piranha_swim_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__piranha_swim_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__piranha_swim_007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "catScratch",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__black_cat_scratch_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_scratch_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_scratch_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_scratch_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_scratch_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_scratch_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_scratch_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_scratch_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_scratch_009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 19,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "CannonShoot",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "animcannon2",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "animcannon2",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "animcannon2",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "animcannon2",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "animcannon2",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "animcannon2",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "animcannon2",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "randomFrame": false
+        },
+        {
+            "key": "wielding",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "rotating_saw_01",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "rotating_saw_02",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "rotating_saw_03",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "rotating_saw_04",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "rotating_saw_05",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "rotating_saw_06",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "femmosswim",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__female_gambusia_swim_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__female_gambusia_swim_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__female_gambusia_swim_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__female_gambusia_swim_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__female_gambusia_swim_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__female_gambusia_swim_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__female_gambusia_swim_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__female_gambusia_swim_007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "WhiteCatWalk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__white_cat_walk_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__white_cat_walk_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__white_cat_walk_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__white_cat_walk_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__white_cat_walk_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__white_cat_walk_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__white_cat_walk_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__white_cat_walk_007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "YellowEyeCatWalk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__black_cat_yellow_eyes_walk_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_yellow_eyes_walk_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_yellow_eyes_walk_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_yellow_eyes_walk_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_yellow_eyes_walk_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_yellow_eyes_walk_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_yellow_eyes_walk_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_yellow_eyes_walk_007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "greycatwalk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__tan_cat_walk_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_walk_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_walk_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_walk_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_walk_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_walk_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_walk_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_walk_007",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "CatScratchGrey",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__tan_cat_scratch_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_scratch_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_scratch_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_scratch_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_scratch_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_scratch_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__tan_cat_scratch_008",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "CatStunned",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__black_cat_dizzy_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_cat_dizzy_015",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 18,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "mousesniff",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__grey_mouse_sniff_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_sniff_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_sniff_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_sniff_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_sniff_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_sniff_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_sniff_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_sniff_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_sniff_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_sniff_009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "JellyFish",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "jellyfish_spritesheet_small",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 18,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 2200,
+            "randomFrame": false
+        },
+        {
+            "key": "EnemyBirdFly",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__black_bird_01_fly_straight_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_bird_01_fly_straight_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_bird_01_fly_straight_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_bird_01_fly_straight_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_bird_01_fly_straight_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_bird_01_fly_straight_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_bird_01_fly_straight_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_bird_01_fly_straight_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_bird_01_fly_straight_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__black_bird_01_fly_straight_009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FlyRedBird",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__red_bird_02_fly_straight_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__red_bird_02_fly_straight_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__red_bird_02_fly_straight_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__red_bird_02_fly_straight_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__red_bird_02_fly_straight_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__red_bird_02_fly_straight_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__red_bird_02_fly_straight_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__red_bird_02_fly_straight_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__red_bird_02_fly_straight_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__red_bird_02_fly_straight_009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "mousestunned",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__grey_mouse_whacked_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_whacked_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_whacked_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_whacked_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_whacked_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_whacked_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_whacked_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_whacked_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_whacked_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__grey_mouse_whacked_009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "LionFishIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__lion_fish_pink_idle_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__lion_fish_pink_idle_019",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "lavaballsturning",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "lavaball_line_x4_01",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "lavaball_line_x4_02",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "lavaball_line_x4_03",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "lavaball_line_x4_04",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 15,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "Fireball6",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "lavaball_line_x6_01",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "lavaball_line_x6_02",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "lavaball_line_x6_03",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "lavaball_line_x6_04",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 18,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "LavaBubble",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "bubble_01",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bubble_02",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bubble_03",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bubble_04",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bubble_05",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bubble_06",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bubble_07",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bubble_08",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bubble_09",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bubble_10",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 1200,
+            "randomFrame": false,
+            "hideOnComplete": true
+        },
+        {
+            "key": "SpinLavaBall",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "lavaball_line_x_1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "lavaball_line_x_2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "lavaball_line_x_3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "lavaball_line_x_4",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "AnglerFish",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 17,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_idle",
+                    "frame": 19,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 13,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "anglerswim",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__angler_fish_swim",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "Eaglefly",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "__eagle_flying_000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__eagle_flying_001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__eagle_flying_002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__eagle_flying_003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__eagle_flying_004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__eagle_flying_005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__eagle_flying_006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__eagle_flying_007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__eagle_flying_008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "__eagle_flying_009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

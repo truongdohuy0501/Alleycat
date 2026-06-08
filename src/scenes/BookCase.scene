@@ -1,0 +1,136 @@
+{
+    "id": "b7ec07ee-9561-429c-be3a-4d57639afb81",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "42c7981c-0fd3-452f-bb1b-b0da544f02e1",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "ArcadeSprite",
+                    "id": "d9b8ffad-d6c0-4855-9c04-24eb280f1403",
+                    "label": "shell",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "emptyshelllight"
+                    },
+                    "x": 65,
+                    "y": 148,
+                    "scaleX": 0.3548730286845223,
+                    "scaleY": 0.3548730286845223,
+                    "body.width": 676,
+                    "body.height": 1109
+                },
+                {
+                    "type": "Image",
+                    "id": "0f902605-aba9-495a-86dd-35aa55d8dd07",
+                    "label": "top_row_small",
+                    "texture": {
+                        "key": "top_row_small"
+                    },
+                    "x": 105,
+                    "scaleX": 0.3133359562384878,
+                    "scaleY": 0.3133359562384878
+                },
+                {
+                    "type": "Image",
+                    "id": "589e79c7-b261-4f79-a106-65de165dfefa",
+                    "label": "top_row_small_1",
+                    "texture": {
+                        "key": "top_row_small_02"
+                    },
+                    "x": 22,
+                    "y": 152,
+                    "scaleX": 0.3492312525572575,
+                    "scaleY": 0.3492312525572575
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "cb617b74-475a-4e6a-8056-098c6fa29ce2",
+                    "label": "toprowbook",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "top_row_small"
+                    },
+                    "y": 299,
+                    "scaleX": 0.32617504893141924,
+                    "scaleY": 0.32617504893141924,
+                    "body.width": 263,
+                    "body.height": 171
+                },
+                {
+                    "type": "Image",
+                    "id": "40140c6a-a2eb-4a9c-92a6-a73a30415ffc",
+                    "label": "top_row",
+                    "texture": {
+                        "key": "top_row"
+                    },
+                    "x": 64,
+                    "y": 74,
+                    "scaleX": 0.3463433958248828,
+                    "scaleY": 0.3463433958248828
+                },
+                {
+                    "type": "Image",
+                    "id": "b1057741-8d04-47bc-93a4-05808f5c89fb",
+                    "label": "top_row_1",
+                    "texture": {
+                        "key": "top_row"
+                    },
+                    "x": 63,
+                    "y": 226,
+                    "scaleX": 0.3463433958248828,
+                    "scaleY": 0.3463433958248828,
+                    "flipX": true
+                },
+                {
+                    "prefabId": "111a7fe7-982b-41e4-b689-29e4aee1c2f0",
+                    "id": "76716dcf-0dc2-4373-9e4f-a7a6e4440bf6",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "bookmouse",
+                    "scope": "PUBLIC",
+                    "x": 8,
+                    "y": 0,
+                    "scaleX": 0.11676515267991026,
+                    "scaleY": 0.11676515267991026
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "02302c23-f7d7-488c-8743-5721bb3e0f87",
+                    "label": "mouserow",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "top_row_small_02"
+                    },
+                    "x": 12,
+                    "y": 2,
+                    "scaleX": 0.3169484021321285,
+                    "scaleY": 0.3169484021321285,
+                    "body.bounce.y": 0.4,
+                    "body.width": 333,
+                    "body.height": 170
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

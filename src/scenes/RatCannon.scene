@@ -1,0 +1,101 @@
+{
+    "id": "41e09260-e910-4253-98a8-05fd345a5b58",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "d7fea0dc-3d89-4722-8588-f3c3a296ca91",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "TileSprite",
+                    "id": "46f75e66-a5d0-4600-84f1-0958fdba1342",
+                    "label": "ropebomber",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "long_rope_piece"
+                    },
+                    "x": -5,
+                    "y": -313,
+                    "scaleX": 0.2,
+                    "width": 63,
+                    "height": 1042,
+                    "tileScaleY": 0.2
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "45c44928-b388-48ab-8b35-3b21d8890400",
+                    "label": "rat",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "__rat_idle_standing_000"
+                    },
+                    "x": 1,
+                    "y": 207,
+                    "scaleX": 0.25370399879201794,
+                    "scaleY": 0.25370399879201794,
+                    "flipX": true,
+                    "body.width": 536,
+                    "body.height": 268
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "66aa63c1-cb77-41b9-a7db-a4cb09bf02f8",
+                    "label": "base",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "base"
+                    },
+                    "x": 1,
+                    "y": 262,
+                    "scaleX": 0.2416764762182544,
+                    "scaleY": 0.2416764762182544,
+                    "body.width": 441,
+                    "body.height": 276
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "651f70ff-081c-4dc7-8b2e-e550c2c3141e",
+                    "label": "cannon",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "cannon"
+                    },
+                    "x": 6,
+                    "y": 236,
+                    "scaleX": 0.2291102800493393,
+                    "scaleY": 0.2291102800493393,
+                    "body.width": 465,
+                    "body.height": 235
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "flipRat",
+            "label": "flipRat",
+            "tooltip": "flipRat",
+            "defValue": false,
+            "customDefinition": true,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

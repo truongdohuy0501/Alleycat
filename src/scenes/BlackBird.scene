@@ -1,0 +1,37 @@
+{
+    "id": "b4552f0f-b016-439c-9640-0fcb3333c52e",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "c2541366-2ff3-4a23-9984-43520f539af2",
+            "label": "blackbird",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "__black_bird_01_fly_straight_000"
+            },
+            "scaleX": 0.1766805885285664,
+            "scaleY": 0.1766805885285664,
+            "collideWorldBounds": true,
+            "onWorldBounds": true,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 546,
+            "body.height": 464
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

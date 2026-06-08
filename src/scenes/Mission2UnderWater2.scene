@@ -1,0 +1,855 @@
+{
+    "id": "290cdefc-fd2b-424c-8182-02d447318ad2",
+    "sceneType": "SCENE",
+    "settings": {
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Mission2UnderWater2",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "NineSlice",
+            "id": "c0b1a59d-9356-41da-b5c1-883fa6fe76a6",
+            "label": "seabed",
+            "texture": {
+                "key": "seabed"
+            },
+            "x": 626,
+            "y": 307,
+            "scaleX": 0.688764177657498,
+            "scaleY": 0.581901685798214,
+            "leftWidth": -6,
+            "rightWidth": 1,
+            "topHeight": 59,
+            "bottomHeight": 445,
+            "width": 2381,
+            "height": 1592
+        },
+        {
+            "type": "Rectangle",
+            "id": "7a47aebd-4ef2-44a4-b85b-b9ab27c006d1",
+            "label": "rectangle3",
+            "scope": "PUBLIC",
+            "x": 690,
+            "y": 644,
+            "scaleX": 11.19455188188234,
+            "scaleY": 0.16124814136254448,
+            "visible": false,
+            "isFilled": true,
+            "fillColor": "#b3b379",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "f5404eef-042c-49df-b8e1-abfcc04a5156",
+            "label": "background_piece_04",
+            "texture": {
+                "key": "background_piece_04"
+            },
+            "x": 761,
+            "y": 561,
+            "scaleX": 0.7032001329507295,
+            "scaleY": 0.7032001329507295,
+            "alpha": 0.4,
+            "alphaTopLeft": 0.4,
+            "alphaTopRight": 0.4,
+            "alphaBottomLeft": 0.4,
+            "alphaBottomRight": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "aa02534f-8ac2-40ee-8dbb-65370c7fdf45",
+            "label": "background_piece_06",
+            "texture": {
+                "key": "background_piece_06"
+            },
+            "x": 1211,
+            "y": 533,
+            "scaleX": 0.35882011898718014,
+            "scaleY": 0.35882011898718014,
+            "alpha": 0.4,
+            "alphaTopLeft": 0.4,
+            "alphaTopRight": 0.4,
+            "alphaBottomLeft": 0.4,
+            "alphaBottomRight": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "eae760d9-ac63-4494-a411-26e385e2c4d8",
+            "label": "background_piece_07",
+            "texture": {
+                "key": "background_piece_07"
+            },
+            "x": 232,
+            "y": 575,
+            "scaleX": 0.7175042291588758,
+            "scaleY": 0.7175042291588758,
+            "alpha": 0.4,
+            "alphaTopLeft": 0.4,
+            "alphaTopRight": 0.4,
+            "alphaBottomLeft": 0.4,
+            "alphaBottomRight": 0.4
+        },
+        {
+            "type": "Image",
+            "id": "5074b547-b4aa-4e6a-82af-adaa101b128f",
+            "label": "pillar",
+            "texture": {
+                "key": "pillar"
+            },
+            "x": 52,
+            "y": 480,
+            "scaleX": 0.5889929424641701,
+            "scaleY": 0.5889929424641701,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "700b2941-cc2f-4ad3-a770-904950d98f26",
+            "label": "pillar_1",
+            "texture": {
+                "key": "pillar"
+            },
+            "x": 1138,
+            "y": 530,
+            "scaleX": 0.4236100329827226,
+            "scaleY": 0.4236100329827226,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "18ea7b0d-aab1-4aea-8bff-795085898ced",
+            "label": "rectangle_1",
+            "x": 682,
+            "y": -62,
+            "scaleY": 0.058959080772305605,
+            "visible": false,
+            "isFilled": true,
+            "width": 1400,
+            "height": 20
+        },
+        {
+            "type": "Image",
+            "id": "120b4ba5-e16c-4a2e-9d2b-43f3f268e280",
+            "label": "foreground_piece_01",
+            "texture": {
+                "key": "foreground_piece_01"
+            },
+            "x": -103,
+            "y": 605,
+            "scaleX": 0.27497139796304504,
+            "scaleY": 0.27497139796304504
+        },
+        {
+            "type": "Image",
+            "id": "8e0ab75c-3b96-47d0-8eef-22123e36976c",
+            "label": "foreground_piece_02",
+            "texture": {
+                "key": "foreground_piece_02"
+            },
+            "x": 156,
+            "y": 623,
+            "scaleX": 0.3376959723010384,
+            "scaleY": 0.3376959723010384
+        },
+        {
+            "type": "Image",
+            "id": "95326d4c-65ca-4185-89e8-299fd0623593",
+            "label": "foreground_piece_03",
+            "texture": {
+                "key": "foreground_piece_03"
+            },
+            "x": 494,
+            "y": 632,
+            "scaleX": 0.435660119678413,
+            "scaleY": 0.435660119678413
+        },
+        {
+            "type": "Image",
+            "id": "729f4e1f-3463-4b5a-8904-4491e3b65772",
+            "label": "foreground_piece_04",
+            "texture": {
+                "key": "foreground_piece_04"
+            },
+            "x": 1241,
+            "y": 622,
+            "scaleX": 0.39405248053410225,
+            "scaleY": 0.39405248053410225
+        },
+        {
+            "type": "Image",
+            "id": "1f30b873-f21e-4e0f-87d9-35af42ba77ee",
+            "label": "foreground_piece_05",
+            "texture": {
+                "key": "foreground_piece_05"
+            },
+            "x": 884,
+            "y": 645,
+            "scaleX": 0.3744427756006714,
+            "scaleY": 0.3744427756006714
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "3cbeccb5-f6c8-44f1-be8f-38f8164ddc59",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish",
+            "scope": "PUBLIC",
+            "x": 179,
+            "y": 539,
+            "scaleX": 0.13758702920787746,
+            "scaleY": 0.13758702920787746,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "ba1e858a-e88e-422d-983c-8a802492bbab",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_1",
+            "scope": "PUBLIC",
+            "x": 754,
+            "y": 434,
+            "scaleX": 0.13758702920787746,
+            "scaleY": 0.13758702920787746,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "b84fd44c-918f-4959-94c9-be5fd8132ea2",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_2",
+            "scope": "PUBLIC",
+            "x": 229,
+            "y": 134,
+            "scaleX": 0.1375870292078774,
+            "scaleY": 0.1375870292078774,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "26288e08-43aa-4bb4-8a1c-aa2d822cc5dc",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_3",
+            "scope": "PUBLIC",
+            "x": 294,
+            "y": 468,
+            "scaleX": 0.13758702920787746,
+            "scaleY": 0.13758702920787746,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "db581b2b-542d-4c8e-8943-6aa4fcf966ca",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_4",
+            "scope": "PUBLIC",
+            "x": 573,
+            "y": 526,
+            "scaleX": 0.13758702920787746,
+            "scaleY": 0.13758702920787746,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "5d3a5112-5d78-44a3-aaa7-dbd276d59916",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_5",
+            "scope": "PUBLIC",
+            "x": 282,
+            "y": 159,
+            "scaleX": 0.13758702920787855,
+            "scaleY": 0.13758702920787855,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "ce445403-57d6-48e8-81bb-aa7648b675e2",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_6",
+            "scope": "PUBLIC",
+            "x": 708,
+            "y": 348,
+            "scaleX": 0.13758702920787746,
+            "scaleY": 0.13758702920787746,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "31eecdba-da87-4949-bf32-3b0962fe2400",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_7",
+            "scope": "PUBLIC",
+            "x": 537,
+            "y": 222,
+            "scaleX": 0.13758702920787746,
+            "scaleY": 0.13758702920787746,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "fa9c734a-20ce-49fe-9d7d-4d4e6e62bcbf",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_8",
+            "scope": "PUBLIC",
+            "x": 276,
+            "y": 191,
+            "scaleX": 0.13758702920787746,
+            "scaleY": 0.13758702920787746,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "9324249c-362e-4717-aab8-ec15c3730804",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish_9",
+            "scope": "PUBLIC",
+            "x": 202,
+            "y": 337,
+            "scaleX": 0.1375870292078774,
+            "scaleY": 0.1375870292078774,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "ArcadeSprite",
+            "id": "065d0c6c-2c7d-47ee-a481-9268477f56cb",
+            "label": "bottom",
+            "scope": "PUBLIC",
+            "texture": {
+                "key": "skirting_dark"
+            },
+            "x": 700,
+            "y": 687,
+            "scaleX": 5.382613563663951,
+            "scaleY": 0.5272402423947588,
+            "visible": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 500,
+            "body.height": 32
+        },
+        {
+            "prefabId": "f97944df-b631-4ec8-b3b9-6f9735b38ee4",
+            "id": "e03caa23-3952-4c35-8dcd-ae63e46fe1ae",
+            "unlock": [
+                "x",
+                "y",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "catPlayer",
+            "scope": "PUBLIC",
+            "x": 99,
+            "y": 91,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "type": "Image",
+            "id": "1da94b61-76d5-4560-9a40-adf50e0731d6",
+            "label": "foreground_piece_2",
+            "texture": {
+                "key": "foreground_piece_05"
+            },
+            "x": 1191,
+            "y": 685,
+            "scaleX": 0.4868846056533288,
+            "scaleY": 0.4868846056533288
+        },
+        {
+            "type": "Image",
+            "id": "cf5ee569-4d68-4d87-8dd8-a346404887a4",
+            "label": "foreground_piece_3",
+            "texture": {
+                "key": "foreground_piece_01"
+            },
+            "x": 45,
+            "y": 652,
+            "scaleX": 0.2452858430064414,
+            "scaleY": 0.2452858430064414
+        },
+        {
+            "type": "Image",
+            "id": "2b8f342f-022c-4e04-ad8c-6b21543922cf",
+            "label": "foreground_piece",
+            "texture": {
+                "key": "foreground_piece_03"
+            },
+            "x": 323,
+            "y": 668,
+            "scaleX": 0.49512369428590813,
+            "scaleY": 0.49512369428590813
+        },
+        {
+            "type": "Image",
+            "id": "eb8169d7-7e40-4f8c-9cd8-62c0f69485ae",
+            "label": "foreground_piece_1",
+            "texture": {
+                "key": "foreground_piece_04"
+            },
+            "x": 752,
+            "y": 664,
+            "scaleX": 0.44962537324938584,
+            "scaleY": 0.44962537324938584
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "e0e616f8-9b7d-452d-bd78-586359a89c82",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish",
+            "x": 333,
+            "y": 243,
+            "scaleX": 0.9374012845760028,
+            "scaleY": 0.9374012845760028
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "af85bde5-6e9c-4253-9520-a8f7deaaf197",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_1",
+            "x": 849,
+            "y": 120,
+            "scaleX": 0.937401284578668,
+            "scaleY": 0.937401284578668
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "7beceb81-739d-4dde-bd2b-79b3d675c459",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_2",
+            "x": 207,
+            "y": 368,
+            "scaleX": 0.9374012845770918,
+            "scaleY": 0.9374012845770918
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "a34a5422-0098-4644-b35b-663a8fa43113",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_3",
+            "x": 476,
+            "y": 130,
+            "scaleX": 0.9374012845790758,
+            "scaleY": 0.9374012845790758
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "d76004d2-275a-4ea3-b5ca-c451ec38974d",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_4",
+            "x": 537,
+            "y": 397,
+            "scaleX": 0.9374012845808952,
+            "scaleY": 0.9374012845808952
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "73f5d254-66e0-419c-baf8-7818b4878c4e",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_5",
+            "x": 382,
+            "y": 527,
+            "scaleX": 0.9374012845807078,
+            "scaleY": 0.9374012845807078
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "615f2fcf-5602-4ba6-a8cc-a871aaa77be7",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_6",
+            "x": 1060,
+            "y": 421,
+            "scaleX": 0.9374012845778539,
+            "scaleY": 0.9374012845778539
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "bb046d94-5d36-410a-b025-e3e1ba834786",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_7",
+            "x": 685,
+            "y": 433,
+            "scaleX": 0.9374012845766853,
+            "scaleY": 0.9374012845766853
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "12bad49e-57fc-428b-b25f-757cf64fc551",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_8",
+            "x": 848,
+            "y": 540,
+            "scaleX": 0.9374012845780011,
+            "scaleY": 0.9374012845780011
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "80b15908-2fc8-480a-90d2-0741fc75be7c",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_9",
+            "x": 907,
+            "y": 305,
+            "scaleX": 0.9374012845766575,
+            "scaleY": 0.9374012845766575
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "f6dd9c36-8363-4770-90c2-3e6cd8673a22",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_10",
+            "x": 206,
+            "y": 588,
+            "scaleX": 0.9374012845769757,
+            "scaleY": 0.9374012845769757
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "82c48008-f2de-44d7-910a-b8200aac8a26",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_11",
+            "x": 165,
+            "y": 138,
+            "scaleX": 0.9374012845805878,
+            "scaleY": 0.9374012845805878
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "4eae959c-5a77-4b9f-8104-3b90c9f4ca86",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_12",
+            "x": 1146,
+            "y": 568,
+            "scaleX": 0.9374012845760709,
+            "scaleY": 0.9374012845760709
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "de804d21-d828-4f4c-bc0c-a5df1b94c016",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_13",
+            "x": 1195,
+            "y": 169,
+            "scaleX": 0.9374012845769615,
+            "scaleY": 0.9374012845769615
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "842fc5dc-e340-4e32-9af1-5956123b4ac8",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_14",
+            "x": 1212,
+            "y": 400,
+            "scaleX": 0.9374012845781199,
+            "scaleY": 0.9374012845781199
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "fc4604ca-9cbc-40af-9f9c-53133d220645",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_15",
+            "x": 1199,
+            "y": 252,
+            "scaleX": 0.9374012845775024,
+            "scaleY": 0.9374012845775024
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "cebfd798-bfe1-4488-afed-352f55440aa5",
+            "unlock": [
+                "x",
+                "y",
+                "Speed",
+                "distance",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "electricEel",
+            "scope": "PUBLIC",
+            "Speed": 400,
+            "distance": 4000,
+            "x": 960,
+            "y": 505,
+            "scaleX": 0.5731742305944492,
+            "scaleY": 0.5731742305944492
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "a305e144-813e-41be-8b33-366bf6d59885",
+            "unlock": [
+                "x",
+                "y",
+                "Speed",
+                "distance",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "electricEel_1",
+            "scope": "PUBLIC",
+            "Speed": 420,
+            "distance": 3900,
+            "x": 987,
+            "y": 110,
+            "scaleX": 0.5731742305944492,
+            "scaleY": 0.5731742305944492
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "ac6c2e61-b816-4fe2-b3ac-412d9536e1bb",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_16",
+            "x": 732,
+            "y": 232,
+            "scaleX": 0.9374012845781168,
+            "scaleY": 0.9374012845781168
+        },
+        {
+            "prefabId": "d28d5634-52c1-45fa-9245-63a141b6b8fa",
+            "id": "910dfe08-a969-4eea-a24b-f75df147752e",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "yellyFish_17",
+            "x": 965,
+            "y": 621,
+            "scaleX": 0.9374012845762181,
+            "scaleY": 0.9374012845762181
+        },
+        {
+            "prefabId": "bb32a92e-3dc8-4856-807a-0debbe789b39",
+            "id": "7f606b6a-382d-4739-9f98-81ab6bfe98e2",
+            "unlock": [
+                "x",
+                "y",
+                "Speed",
+                "distance",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "electricEel_2",
+            "scope": "PUBLIC",
+            "Speed": 500,
+            "distance": 3000,
+            "x": 1075,
+            "y": 313,
+            "scaleX": 0.5731742305944492,
+            "scaleY": 0.5731742305944492
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "632f1ac9-067b-4320-a08f-098547cc269a",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish10",
+            "scope": "PUBLIC",
+            "x": 248,
+            "y": 263,
+            "scaleX": 0.13758702920787746,
+            "scaleY": 0.13758702920787746,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        },
+        {
+            "prefabId": "1aaa1090-6a3a-431f-8428-456d52d7967a",
+            "id": "075c06c5-1620-4236-a0cc-14e7f89c78c4",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY",
+                "collideWorldBounds",
+                "onWorldBounds"
+            ],
+            "label": "fish11",
+            "scope": "PUBLIC",
+            "x": 858.5538441095468,
+            "y": 567.7338566925399,
+            "scaleX": 0.13758702920787746,
+            "scaleY": 0.13758702920787746,
+            "collideWorldBounds": true,
+            "onWorldBounds": true
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

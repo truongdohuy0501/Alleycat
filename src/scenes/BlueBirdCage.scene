@@ -1,0 +1,64 @@
+{
+    "id": "a9c5d175-0489-4cab-82aa-ff7ae4f7384b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "010feee8-b6b6-42a0-9b1d-9d8db2f81149",
+            "label": "container_1",
+            "x": -208,
+            "y": -162,
+            "list": [
+                {
+                    "type": "ArcadeSprite",
+                    "id": "8c9902af-e244-4e41-a543-bc0b397bd803",
+                    "label": "iconbird",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "iconbird"
+                    },
+                    "x": 202,
+                    "y": 167,
+                    "scaleX": 0.04571428446744645,
+                    "scaleY": 0.04571428446744645,
+                    "collideWorldBounds": true,
+                    "onWorldBounds": true,
+                    "body.width": 200,
+                    "body.height": 200,
+                    "body.offset.x": 200,
+                    "body.offset.y": 500
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "094d3d9f-f2d6-4f23-aaf1-f7b6f9c062e8",
+                    "label": "cage",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "metal_bird_cage_closed"
+                    },
+                    "x": 208,
+                    "y": 159,
+                    "scaleX": 0.20971051759752188,
+                    "scaleY": 0.20971051759752188,
+                    "up": false,
+                    "body.width": 300,
+                    "body.height": 500
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

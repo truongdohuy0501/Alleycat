@@ -1,0 +1,22 @@
+{
+  "name": "robust-conversation-forego-0nia9",
+  "productName": "robust-conversation-forego-0nia9",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "dries",
+  "scripts": {
+    "dev": "npx --yes serve .",
+    "start": "electron .",
+    "editor": "phasereditor2d-launcher -project . -port 1959",
+    "editor-remote": "phasereditor2d-launcher -project . -disable-open-browser -public -port 1959"
+  },
+  "dependencies": {
+    "phaser3-rex-plugins": "^1.80.20",
+    "phasereditor2d-launcher": "3.67.0"
+  },
+  "devDependencies": {
+    "electron": "37.0.0-alpha.3"
+  }
+}

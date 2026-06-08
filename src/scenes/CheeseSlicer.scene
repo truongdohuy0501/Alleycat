@@ -1,0 +1,68 @@
+{
+    "id": "44bb333d-adbd-41b1-b929-8ef8d7dddfed",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "6f6fa0da-9895-4f2e-b903-6a75bf757b87",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "ArcadeSprite",
+                    "id": "7c5bb790-b518-4093-95f2-f345fda9677c",
+                    "label": "cheese_knife",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "cheese_knife_01"
+                    },
+                    "y": 1,
+                    "scaleX": 0.37501520831135293,
+                    "scaleY": 0.37501520831135293,
+                    "angle": 60,
+                    "originX": 0.5000000000000002,
+                    "originY": 0.10257868276105114,
+                    "body.width": 507,
+                    "body.height": 576
+                },
+                {
+                    "type": "ArcadeSprite",
+                    "id": "7eaad3ed-449f-469e-bbac-b7ed2745d3bd",
+                    "label": "holeslice",
+                    "scope": "PUBLIC",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.x": -50,
+                    "hitArea.width": 300,
+                    "hitArea.height": 300,
+                    "texture": {
+                        "key": "ball"
+                    },
+                    "x": -126.99999999999999,
+                    "y": 87.99999999999997,
+                    "scaleX": 0.4260179189796247,
+                    "scaleY": 0.4260179189796247,
+                    "angle": -41,
+                    "originX": 0.4972804407358764,
+                    "originY": 0.5390724978063921,
+                    "visible": false,
+                    "alpha": 0.4,
+                    "body.width": 160,
+                    "body.height": 100
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

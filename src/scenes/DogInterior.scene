@@ -1,0 +1,58 @@
+{
+    "id": "821d4cbe-0b9b-47be-ba73-720270e75cc7",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "6d10fef5-6751-42f5-81de-89282f50bbe1",
+            "label": "container_1",
+            "y": -50,
+            "list": [
+                {
+                    "type": "ArcadeSprite",
+                    "id": "84a6ee1c-5512-49bd-8d90-2c50516d82d4",
+                    "label": "dog",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "__bad_dog_brown_die_005"
+                    },
+                    "y": 50,
+                    "scaleX": 0.2415730350491839,
+                    "scaleY": 0.2415730350491839,
+                    "collideWorldBounds": true,
+                    "body.width": 300,
+                    "body.height": 300,
+                    "body.offset.x": 150,
+                    "body.offset.y": 300
+                },
+                {
+                    "type": "Text",
+                    "id": "bddcb452-abe3-4acb-8216-e59ae790bc54",
+                    "label": "textz",
+                    "scope": "PUBLIC",
+                    "x": -74,
+                    "y": 72,
+                    "scaleX": 1.0588235212503805,
+                    "scaleY": 1.0588235212503805,
+                    "tintTopLeft": "#f6f6f6",
+                    "text": "Zzz",
+                    "fontSize": "75px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

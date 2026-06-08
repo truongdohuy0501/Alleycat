@@ -1,0 +1,59 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/__black_cat_beg_000.png",
+                "type": "image",
+                "key": "__black_cat_beg_000"
+            },
+            {
+                "url": "assets/building_09.png",
+                "type": "image",
+                "key": "building_09"
+            },
+            {
+                "url": "assets/dark_wood_fence.png",
+                "type": "image",
+                "key": "dark_wood_fence"
+            },
+            {
+                "url": "assets/far_buildings_layer.png",
+                "type": "image",
+                "key": "far_buildings_layer"
+            },
+            {
+                "url": "assets/light_wood_fence.png",
+                "type": "image",
+                "key": "light_wood_fence"
+            },
+            {
+                "url": "assets/near_buildings_layer.png",
+                "type": "image",
+                "key": "near_buildings_layer"
+            },
+            {
+                "url": "assets/pavement_narrow_repeating.png",
+                "type": "image",
+                "key": "pavement_narrow_repeating"
+            },
+            {
+                "url": "assets/sky.png",
+                "type": "image",
+                "key": "sky"
+            },
+            {
+                "url": "assets/sun.png",
+                "type": "image",
+                "key": "sun"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false,
+        "visible": true
+    }
+}
