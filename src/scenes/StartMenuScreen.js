@@ -227,6 +227,10 @@ class StartMenuScreen extends Phaser.Scene {
 
 		this.OnlyOnce=true;
 
+		if (window.MobileConfig?.isMobile && this.title?.preFX?.list?.length) {
+			this.title.preFX.clear();
+		}
+
 //this.cat.play('CatIdle');
 
 this.startButton.setInteractive();
@@ -236,19 +240,13 @@ this.startButton.setInteractive();
 if(this.OnlyOnce){
 	this.OnlyOnce=false;
 	console.log('enter scene');
-	this.meowtheme=this.sound.add('miauw');
-	this.meowtheme.play();
-this.cameras.main.fadeOut(3000, 0, 0, 0);
 
-		this.cameras.main.on('camerafadeoutcomplete', function (camera) {
+	if (window.MobileConfig?.useLightLoading && !window.gameAssetsLoaded) {
+		this.startMobileAssetLoad();
+		return;
+	}
 
-	//this.scene.load.pack("asset-pack4", "assets/asset-pack4.json");
-this.scene.scene.stop();
-			this.scene.scene.start("Level");
-
-
-});
-
+	this.enterLevel();
 }
 
 });
@@ -266,6 +264,42 @@ this.startButton.setStyle({"fontSize":110});
 this.startButton.setStyle({"fontSize":100});
 
 				});
+	}
+
+	enterLevel() {
+		this.meowtheme=this.sound.add('miauw');
+		this.meowtheme.play();
+		this.cameras.main.fadeOut(3000, 0, 0, 0);
+
+		this.cameras.main.once('camerafadeoutcomplete', () => {
+			this.scene.stop();
+			this.scene.start("Level");
+		});
+	}
+
+	startMobileAssetLoad() {
+		this.startButton.setText("Loading...");
+		this.startButton.disableInteractive();
+
+		const progressBg = this.add.rectangle(400, 360, 280, 18, 0x333333);
+		const progressBar = this.add.rectangle(262, 351, 4, 18, 0x88ccff).setOrigin(0, 0);
+
+		MobileAssetLoader.loadFullGameAssets(
+			this,
+			(progress) => {
+				progressBar.width = 256 * progress;
+			},
+			() => {
+				window.gameAssetsLoaded = true;
+				this.enterLevel();
+			}
+		).catch(() => {
+			this.startButton.setText("Load failed - tap retry");
+			this.startButton.setInteractive();
+			this.OnlyOnce = true;
+			progressBg.destroy();
+			progressBar.destroy();
+		});
 	}
 
 	update(){

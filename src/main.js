@@ -2,17 +2,15 @@
 
 
 window.addEventListener('load', function () {
-
-
-//import CrtFilterPlugin from '/lib/camera-filter.js';
-
+	const mobile = window.MobileConfig || {};
+	const renderer = mobile.rendererType === "CANVAS" ? Phaser.CANVAS : Phaser.AUTO;
 
 	var game = new Phaser.Game({
-		type: Phaser.AUTO,
-		width: 1031,
-		height: 580,
+		type: renderer,
+		width: mobile.gameWidth || 1031,
+		height: mobile.gameHeight || 580,
 		fixedTimestep: true,
-		antialias: true,
+		antialias: !mobile.isMobile,
 		roundPixels: true,
 		backgroundColor: "#242424",
 		physics: {
@@ -25,6 +23,14 @@ window.addEventListener('load', function () {
 		scale: {
 			mode: Phaser.Scale.FIT,
 			autoCenter: Phaser.Scale.CENTER_BOTH,
+		},
+		render: {
+			powerPreference: mobile.isMobile ? "low-power" : "default",
+			batchSize: mobile.isMobile ? 512 : 4096,
+		},
+		fps: {
+			target: mobile.targetFps || 60,
+			forceSetTimeOut: !!mobile.isPhone,
 		},
 		input: {
 			activePointers: 3,
@@ -104,7 +110,10 @@ window.addEventListener('load', function () {
 class Boot extends Phaser.Scene {
 
 	preload() {
-		
+		if (window.MobileConfig?.isMobile) {
+			this.load.maxParallelDownloads = 2;
+		}
+
 		this.load.pack("pack", "assets/preload-asset-pack.json");
 	}
 

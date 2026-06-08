@@ -191,21 +191,29 @@ class Preload extends Phaser.Scene {
 	// Write your code here
 
 	preload() {
+		const mobile = window.MobileConfig;
 
+		if (mobile?.useLightLoading) {
+			this.load.maxParallelDownloads = 2;
+			this.editorCreate();
+			this.load.pack("menu-extra", "assets/menu-asset-pack.json");
+			this.load.on(Phaser.Loader.Events.COMPLETE, () => {
+				window.gameAssetsLoaded = false;
+				this.scene.start("StartMenuScreen");
+			});
+			return;
+		}
 
 		this.load.plugin(
-            'rexcrtpipelineplugin',
-            'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexcrtpipelineplugin.min.js',
-            true // true to make it a global plugin
-        );
+			"rexcrtpipelineplugin",
+			"https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexcrtpipelineplugin.min.js",
+			true
+		);
 
 		this.editorCreate();
-//Mission1FreeTheBirds
 		this.editorPreload();
 
 		this.load.on(Phaser.Loader.Events.COMPLETE, () => this.scene.start("StartMenuScreen"));
-
-
 	}
 
 	/* END-USER-CODE */
